@@ -1,0 +1,9 @@
+{
+  "name": "FedRAMP homepage critical links",
+  "links": [
+    { "id": "marketplace", "role": "link", "nameRegex": "Marketplace" },
+    { "id": "fedramp20x", "role": "link", "nameRegex": "2\\.0|20x|Security" },
+    { "id": "updates", "role": "link", "nameRegex": "Updates? & Changelog|Changelog" }
+  ]
+}
+

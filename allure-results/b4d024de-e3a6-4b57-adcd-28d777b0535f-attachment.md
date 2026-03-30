@@ -1,0 +1,371 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Skip links":
+    - list:
+      - listitem:
+        - link "Skip to main content" [ref=e3] [cursor=pointer]:
+          - /url: "#main-content"
+  - region "Official government website" [ref=e4]:
+    - generic [ref=e7]:
+      - img "U.S. flag" [ref=e9]
+      - paragraph [ref=e11]: An official website of the United States government
+      - button "Here's how you know" [ref=e12] [cursor=pointer]
+  - generic [ref=e13]:
+    - generic [ref=e18]:
+      - link "FedRAMP home page" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img "FedRAMP.gov logo" [ref=e22]
+      - navigation "Primary navigation" [ref=e23]:
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - button "Updates & Priorities Expand menu" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28]: Updates & Priorities
+              - img "Expand menu" [ref=e29]
+          - listitem [ref=e31]:
+            - button "FedRAMP 20x Expand menu" [ref=e33] [cursor=pointer]:
+              - generic [ref=e34]: FedRAMP 20x
+              - img "Expand menu" [ref=e35]
+          - listitem [ref=e37]:
+            - button "FedRAMP Rev 5 Expand menu" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: FedRAMP Rev 5
+              - img "Expand menu" [ref=e41]
+          - listitem [ref=e43]:
+            - link "Docs" [ref=e45] [cursor=pointer]:
+              - /url: /docs/
+              - generic [ref=e46]: Docs
+          - listitem [ref=e47]:
+            - link "Join" [ref=e49] [cursor=pointer]:
+              - /url: /join/
+              - generic [ref=e50]: Join
+          - listitem [ref=e51]:
+            - link "Marketplace" [ref=e53] [cursor=pointer]:
+              - /url: /marketplace
+              - generic [ref=e54]: Marketplace
+        - search [ref=e56]:
+          - generic [ref=e57]: Search
+          - searchbox "Search" [ref=e58]
+          - button [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+    - generic [ref=e62]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - 'heading "FedRAMP Marketplace: Your Fast Track to FedRAMP Authorized Cloud Solutions." [level=1] [ref=e67]'
+          - paragraph [ref=e68]: The FedRAMP Marketplace is a searchable database of FedRAMP authorized cloud services, authorizing agencies, and FedRAMP recognized assessors.
+          - generic [ref=e69]:
+            - link "Learn More" [ref=e71] [cursor=pointer]:
+              - /url: /marketplace/guide
+            - link "Browse Marketplace" [ref=e73] [cursor=pointer]:
+              - /url: /marketplace
+        - generic [ref=e74]:
+          - heading "Total FedRAMP Authorized Services" [level=2] [ref=e75]
+          - paragraph [ref=e76]: "502"
+        - generic [ref=e77]:
+          - heading "Total FedRAMP 20x Authorized Services" [level=2] [ref=e78]
+          - paragraph [ref=e79]: "23"
+      - region "Added in the last 30 days" [ref=e81]:
+        - heading "Added in the last 30 days:" [level=2] [ref=e83]
+        - marquee "Horizontally scrolling ticker of logos of latest products on FedRAMP Marketplace" [ref=e85]:
+          - link "Visit Caveonix" [ref=e87] [cursor=pointer]:
+            - /url: /marketplace/products/FR2530025267/
+            - img "Caveonix" [ref=e88]
+          - link "Visit H2O.AI" [ref=e90] [cursor=pointer]:
+            - /url: /marketplace/products/FR2521554684/
+            - img "H2O.AI" [ref=e91]
+          - link "Visit GSS One - AWS" [ref=e93] [cursor=pointer]:
+            - /url: /marketplace/products/FR2300457485/
+            - img "GSS One - AWS" [ref=e94]
+          - link "Visit Third-Party Risk Intelligence System (TRIS)'s" [ref=e96] [cursor=pointer]:
+            - /url: /marketplace/products/FR2434074613/
+            - img "Third-Party Risk Intelligence System (TRIS)'s" [ref=e97]
+          - link "Visit Ontic for Government" [ref=e99] [cursor=pointer]:
+            - /url: /marketplace/products/FR2526948870/
+            - img "Ontic for Government" [ref=e100]
+          - link "Visit Elastic Cloud Hosted - High" [ref=e102] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523939103/
+            - img "Elastic Cloud Hosted - High" [ref=e103]
+          - link "Visit Forescout for Government" [ref=e105] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523857656/
+            - img "Forescout for Government" [ref=e106]
+          - link "Visit LCPtracker Pro" [ref=e108] [cursor=pointer]:
+            - /url: /marketplace/products/FR2420341612/
+            - img "LCPtracker Pro" [ref=e109]
+          - link "Visit GSS One - Azure" [ref=e111] [cursor=pointer]:
+            - /url: /marketplace/products/F1403283529A/
+            - img "GSS One - Azure" [ref=e112]
+          - link "Visit RQI1Stop" [ref=e114] [cursor=pointer]:
+            - /url: /marketplace/products/FR2211452029/
+            - img "RQI1Stop" [ref=e115]
+          - link "Visit Confluent Cloud for Government (CCG)" [ref=e117] [cursor=pointer]:
+            - /url: /marketplace/products/FR2409863458XL/
+            - img "Confluent Cloud for Government (CCG)" [ref=e118]
+          - link "Visit Kiteworks Secure Gov Cloud" [ref=e120] [cursor=pointer]:
+            - /url: /marketplace/products/FR2435353186/
+            - img "Kiteworks Secure Gov Cloud" [ref=e121]
+          - link "Visit Meridian LMS" [ref=e123] [cursor=pointer]:
+            - /url: /marketplace/products/FR2527956755/
+            - img "Meridian LMS" [ref=e124]
+          - link "Visit Paramify Cloud" [ref=e126] [cursor=pointer]:
+            - /url: /marketplace/products/FR2428769635XL/
+            - img "Paramify Cloud" [ref=e127]
+          - link "Visit Aeroplicity" [ref=e129] [cursor=pointer]:
+            - /url: /marketplace/products/FR2615451803/
+            - img "Aeroplicity" [ref=e130]
+          - link "Visit Artera Harmony Federal Edition" [ref=e132] [cursor=pointer]:
+            - /url: /marketplace/products/FR2503350987/
+            - img "Artera Harmony Federal Edition" [ref=e133]
+          - link "Visit Cisco ThousandEyes for Government" [ref=e135] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523656707/
+            - img "Cisco ThousandEyes for Government" [ref=e136]
+          - link "Visit Intrepid Networks Government Platform (INGP)" [ref=e138] [cursor=pointer]:
+            - /url: /marketplace/products/FR2124663764/
+            - img "Intrepid Networks Government Platform (INGP)" [ref=e139]
+          - generic [ref=e140]:
+            - link "Visit Koniag Government Services Electronic Health Record System (KGS EHRS)":
+              - /url: /marketplace/products/FR2526240411/
+              - img "Koniag Government Services Electronic Health Record System (KGS EHRS)"
+          - generic [ref=e141]:
+            - link "Visit OneScan":
+              - /url: /marketplace/products/FR2533751675/
+              - img "OneScan"
+          - generic [ref=e142]:
+            - link "Visit Caveonix":
+              - /url: /marketplace/products/FR2530025267/
+              - img "Caveonix"
+          - link "Visit H2O.AI" [ref=e144] [cursor=pointer]:
+            - /url: /marketplace/products/FR2521554684/
+            - img "H2O.AI" [ref=e145]
+          - link "Visit GSS One - AWS" [ref=e147] [cursor=pointer]:
+            - /url: /marketplace/products/FR2300457485/
+            - img "GSS One - AWS" [ref=e148]
+          - link "Visit Third-Party Risk Intelligence System (TRIS)'s" [ref=e150] [cursor=pointer]:
+            - /url: /marketplace/products/FR2434074613/
+            - img "Third-Party Risk Intelligence System (TRIS)'s" [ref=e151]
+          - link "Visit Ontic for Government" [ref=e153] [cursor=pointer]:
+            - /url: /marketplace/products/FR2526948870/
+            - img "Ontic for Government" [ref=e154]
+          - link "Visit Elastic Cloud Hosted - High" [ref=e156] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523939103/
+            - img "Elastic Cloud Hosted - High" [ref=e157]
+          - link "Visit Forescout for Government" [ref=e159] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523857656/
+            - img "Forescout for Government" [ref=e160]
+          - link "Visit LCPtracker Pro" [ref=e162] [cursor=pointer]:
+            - /url: /marketplace/products/FR2420341612/
+            - img "LCPtracker Pro" [ref=e163]
+          - link "Visit GSS One - Azure" [ref=e165] [cursor=pointer]:
+            - /url: /marketplace/products/F1403283529A/
+            - img "GSS One - Azure" [ref=e166]
+          - link "Visit RQI1Stop" [ref=e168] [cursor=pointer]:
+            - /url: /marketplace/products/FR2211452029/
+            - img "RQI1Stop" [ref=e169]
+          - link "Visit Confluent Cloud for Government (CCG)" [ref=e171] [cursor=pointer]:
+            - /url: /marketplace/products/FR2409863458XL/
+            - img "Confluent Cloud for Government (CCG)" [ref=e172]
+          - link "Visit Kiteworks Secure Gov Cloud" [ref=e174] [cursor=pointer]:
+            - /url: /marketplace/products/FR2435353186/
+            - img "Kiteworks Secure Gov Cloud" [ref=e175]
+          - link "Visit Meridian LMS" [ref=e177] [cursor=pointer]:
+            - /url: /marketplace/products/FR2527956755/
+            - img "Meridian LMS" [ref=e178]
+          - link "Visit Paramify Cloud" [ref=e180] [cursor=pointer]:
+            - /url: /marketplace/products/FR2428769635XL/
+            - img "Paramify Cloud" [ref=e181]
+          - link "Visit Aeroplicity" [ref=e183] [cursor=pointer]:
+            - /url: /marketplace/products/FR2615451803/
+            - img "Aeroplicity" [ref=e184]
+          - link "Visit Artera Harmony Federal Edition" [ref=e186] [cursor=pointer]:
+            - /url: /marketplace/products/FR2503350987/
+            - img "Artera Harmony Federal Edition" [ref=e187]
+          - link "Visit Cisco ThousandEyes for Government" [ref=e189] [cursor=pointer]:
+            - /url: /marketplace/products/FR2523656707/
+            - img "Cisco ThousandEyes for Government" [ref=e190]
+          - link "Visit Intrepid Networks Government Platform (INGP)" [ref=e192] [cursor=pointer]:
+            - /url: /marketplace/products/FR2124663764/
+            - img "Intrepid Networks Government Platform (INGP)" [ref=e193]
+          - link "Visit Koniag Government Services Electronic Health Record System (KGS EHRS)" [ref=e195] [cursor=pointer]:
+            - /url: /marketplace/products/FR2526240411/
+            - img "Koniag Government Services Electronic Health Record System (KGS EHRS)" [ref=e196]
+          - generic [ref=e197]:
+            - link "Visit OneScan":
+              - /url: /marketplace/products/FR2533751675/
+              - img "OneScan"
+    - main [ref=e198]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - heading "What's New at FedRAMP" [level=2] [ref=e202]
+          - generic [ref=e203]:
+            - heading "Latest Updates and Changelog" [level=3] [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: March 25th, 2026
+                - generic [ref=e208]: Notices
+              - heading "Added NOTICE-0009 with the initial outcome of RFC-0024 FedRAMP Rev5 Machine-Readable Packages and added information on the FedRAMP Cybersecurity Service!" [level=4] [ref=e209]
+              - list [ref=e210]:
+                - listitem [ref=e211]:
+                  - link "NOTICE-0009 Initial Outcome of RFC-0024 FedRAMP Rev5 Machine-Readable Packages" [ref=e212] [cursor=pointer]:
+                    - /url: /notices/0009
+                - listitem [ref=e213]:
+                  - link "Join the FedRAMP Cybersecurity Service!" [ref=e214] [cursor=pointer]:
+                    - /url: /join
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - paragraph [ref=e217]: March 19th, 2026
+                - generic [ref=e218]: RFCs
+              - heading "Added RFCs 0026-0030 related to Rev5 updates and improvements." [level=4] [ref=e219]
+              - list [ref=e220]:
+                - listitem [ref=e221]:
+                  - link "RFC 0026 Clarifying CA-7 Continuous Monitoring Expectations for Rev5 Providers" [ref=e222] [cursor=pointer]:
+                    - /url: /rfcs/0026
+                - listitem [ref=e223]:
+                  - link "RFC 0027 FedRAMP Rev5 Security Controls Baseline Update for AC, AT, AU, CA, and CM Control Families" [ref=e224] [cursor=pointer]:
+                    - /url: /rfcs/0027
+                - listitem [ref=e225]:
+                  - link "RFC 0028 FedRAMP Rev5 Security Controls Baseline Update for CP, IA, IR, MA, and MP Control Families" [ref=e226] [cursor=pointer]:
+                    - /url: /rfcs/0028
+                - listitem [ref=e227]:
+                  - link "RFC 0029 FedRAMP Rev5 Security Controls Baseline Update for PE, PL, PM, PS, and PT Control Families" [ref=e228] [cursor=pointer]:
+                    - /url: /rfcs/0029
+                - listitem [ref=e229]:
+                  - link "RFC 0030 FedRAMP Rev5 Security Controls Baseline Update for RA, SA, SC, SI, and SR Control Families" [ref=e230] [cursor=pointer]:
+                    - /url: /rfcs/0030
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - paragraph [ref=e233]: March 18th, 2026
+                - generic [ref=e234]: RFCs
+              - heading "Added RFC-0025" [level=4] [ref=e235]
+              - list [ref=e236]:
+                - listitem [ref=e237]:
+                  - link "RFC 0025 Retrospective on the Public Comment Process" [ref=e238] [cursor=pointer]:
+                    - /url: /rfcs/0025
+          - link "View the full changelog" [ref=e239] [cursor=pointer]:
+            - /url: /changelog
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - heading "Upcoming Events" [level=3] [ref=e244]
+            - article [ref=e245]:
+              - generic [ref=e246]:
+                - generic [ref=e247]: APR
+                - generic [ref=e248]: "1"
+              - generic [ref=e249]:
+                - heading "Rev5 CWG Meeting" [level=4] [ref=e250]
+                - generic [ref=e251]:
+                  - time [ref=e252]: 01:00 PM - 02:00 PM ET
+                  - link "View details for Rev5 CWG Meeting" [ref=e253] [cursor=pointer]:
+                    - /url: /event/rev5-cwg-2026-04-01
+                    - text: Event Details
+                    - img [ref=e254]
+            - article [ref=e256]:
+              - generic [ref=e257]:
+                - generic [ref=e258]: APR
+                - generic [ref=e259]: "8"
+              - generic [ref=e260]:
+                - heading "20x CWG Meeting" [level=4] [ref=e261]
+                - generic [ref=e262]:
+                  - time [ref=e263]: 01:00 PM - 02:00 PM ET
+                  - link "View details for 20x CWG Meeting" [ref=e264] [cursor=pointer]:
+                    - /url: /event/20x-cwg-2026-04-08
+                    - text: Event Details
+                    - img [ref=e265]
+            - article [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]: MAY
+                - generic [ref=e270]: "6"
+              - generic [ref=e271]:
+                - heading "Rev5 CWG Meeting" [level=4] [ref=e272]
+                - generic [ref=e273]:
+                  - time [ref=e274]: 01:00 PM - 02:00 PM ET
+                  - link "View details for Rev5 CWG Meeting" [ref=e275] [cursor=pointer]:
+                    - /url: /event/rev5-cwg-2026-05-06
+                    - text: Event Details
+                    - img [ref=e276]
+          - link "See All Events" [ref=e278] [cursor=pointer]:
+            - /url: /events
+  - contentinfo [ref=e279]:
+    - generic [ref=e282]:
+      - generic [ref=e284]:
+        - paragraph [ref=e285]: To receive news and updates, join the GSA’s subscriber list.
+        - paragraph [ref=e286]: The FedRAMP name and the FedRAMP logo are the property of the General Services Administration (GSA).
+        - paragraph [ref=e287]:
+          - text: For more information, please see
+          - link "FedRAMP Disclaimers" [ref=e288] [cursor=pointer]:
+            - /url: /disclaimers
+          - text: .
+      - generic [ref=e289]:
+        - heading "Interact with FedRAMP" [level=4] [ref=e292]
+        - list [ref=e294]:
+          - listitem [ref=e295]:
+            - link "FedRAMP on LinkedIn LinkedIn" [ref=e296] [cursor=pointer]:
+              - /url: https://www.linkedin.com/showcase/gsa-fedramp/about/
+              - img "FedRAMP on LinkedIn" [ref=e297]
+              - generic [ref=e298]: LinkedIn
+          - listitem [ref=e299]:
+            - link "FedRAMP on X X" [ref=e300] [cursor=pointer]:
+              - /url: https://x.com/fedramp?lang=en
+              - img "FedRAMP on X" [ref=e301]
+              - generic [ref=e303]: X
+          - listitem [ref=e304]:
+            - link "FedRAMP on YouTube YouTube" [ref=e305] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/FedRAMP?lang=en
+              - img "FedRAMP on YouTube" [ref=e306]
+              - generic [ref=e308]: YouTube
+          - listitem [ref=e309]:
+            - link "FedRAMP on GitHub GitHub" [ref=e310] [cursor=pointer]:
+              - /url: https://github.com/FedRAMP/community/discussions
+              - img "FedRAMP on GitHub" [ref=e311]
+              - generic [ref=e313]: GitHub
+          - listitem [ref=e314]:
+            - link "FedRAMP Email Address info@FedRAMP.gov" [ref=e315] [cursor=pointer]:
+              - /url: mailto:info@FedRAMP.gov
+              - img "FedRAMP Email Address" [ref=e316]
+              - generic [ref=e318]: info@FedRAMP.gov
+            - text: (monitored by real humans who care)
+      - generic [ref=e319]:
+        - heading "Keep Up To Date" [level=4] [ref=e322]
+        - paragraph [ref=e324]: To receive news and updates, join the GSA's subscriber list.
+        - button "Subscribe" [ref=e328] [cursor=pointer]
+    - generic [ref=e329]:
+      - generic "Agency identifier" [ref=e330]:
+        - generic [ref=e332]:
+          - link "GSA logo" [ref=e334] [cursor=pointer]:
+            - /url: https://www.gsa.gov/
+            - img "GSA logo" [ref=e335]
+          - generic "Agency description" [ref=e336]:
+            - paragraph [ref=e337]: FedRAMP.gov
+            - paragraph [ref=e338]:
+              - text: An official website of the GSA’s
+              - link "Technology Transformation Services" [ref=e339] [cursor=pointer]:
+                - /url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services
+      - navigation "Important links," [ref=e341]:
+        - list [ref=e343]:
+          - listitem [ref=e344]:
+            - link "About GSA" [ref=e345] [cursor=pointer]:
+              - /url: https://www.gsa.gov/about-us
+          - listitem [ref=e346]:
+            - link "Accessibility statement" [ref=e347] [cursor=pointer]:
+              - /url: https://www.gsa.gov/website-information/accessibility-statement
+          - listitem [ref=e348]:
+            - link "GSA FOIA" [ref=e349] [cursor=pointer]:
+              - /url: https://www.gsa.gov/reference/freedom-of-information-act-foia
+          - listitem [ref=e350]:
+            - link "No FEAR Act data" [ref=e351] [cursor=pointer]:
+              - /url: https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002
+          - listitem [ref=e352]:
+            - link "Office of the Inspector General" [ref=e353] [cursor=pointer]:
+              - /url: https://www.gsaig.gov/
+          - listitem [ref=e354]:
+            - link "Performance reports" [ref=e355] [cursor=pointer]:
+              - /url: https://www.gsa.gov/reference/reports
+          - listitem [ref=e356]:
+            - link "GSA privacy policy" [ref=e357] [cursor=pointer]:
+              - /url: https://www.gsa.gov/website-information/website-policies#privacy
+          - listitem [ref=e358]:
+            - link "Vulnerability disclosure policy" [ref=e359] [cursor=pointer]:
+              - /url: https://www.gsa.gov/vulnerability-disclosure-policy
+      - generic "U.S. government information and services," [ref=e360]:
+        - generic [ref=e362]:
+          - generic [ref=e363]: Looking for U.S. government information and services?
+          - link "Visit USA.gov" [ref=e364] [cursor=pointer]:
+            - /url: https://www.usa.gov/
+```
