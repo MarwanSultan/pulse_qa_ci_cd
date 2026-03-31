@@ -37,4 +37,3 @@ export class HomePage extends BasePage {
     await this.updates.verifyViewFullChangelogOk(request);
   }
 }
-

@@ -10,7 +10,9 @@ type DebugPayload = {
 
 // Lightweight debug logger for this session.
 // IMPORTANT: Do not log secrets/PII.
-export function debugLog(payload: Omit<DebugPayload, 'sessionId' | 'timestamp'> & { timestamp?: number }) {
+export function debugLog(
+  payload: Omit<DebugPayload, 'sessionId' | 'timestamp'> & { timestamp?: number },
+) {
   // #region agent log
   fetch('http://127.0.0.1:7250/ingest/5caea2f0-08f2-458f-aa2e-39116a061d27', {
     method: 'POST',
@@ -27,4 +29,3 @@ export function debugLog(payload: Omit<DebugPayload, 'sessionId' | 'timestamp'> 
   }).catch(() => {});
   // #endregion
 }
-

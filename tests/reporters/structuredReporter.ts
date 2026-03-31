@@ -1,8 +1,22 @@
-import fs from 'fs';
-import path from 'path';
-import type { FullConfig, Reporter, Suite, TestCase, TestResult } from '@playwright/test/reporter';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import type {
+  FullConfig,
+  Reporter,
+  Suite,
+  TestCase,
+  TestResult,
+  FullResult,
+} from '@playwright/test/reporter';
 
-type AnyRecord = Record<string, unknown>;
+interface StructuredTestPayload {
+  test: string;
+  status: TestResult['status'];
+  durationMs: number;
+  configuredRetries: number;
+  retryAttempt: number;
+  timestamp: string;
+}
 
 export default class StructuredReporter implements Reporter {
   private stream: fs.WriteStream | null = null;
@@ -11,15 +25,21 @@ export default class StructuredReporter implements Reporter {
     void config;
     void suite;
     const logDir = path.resolve(process.cwd(), 'test-results', 'logs');
-    fs.mkdirSync(logDir, { recursive: true });
+    if (!fs.existsSync(logDir)) {
+      fs.mkdirSync(logDir, { recursive: true });
+    }
     const logPath = path.join(logDir, 'playwright-tests.ndjson');
     this.stream = fs.createWriteStream(logPath, { flags: 'a' });
+
+    this.stream.on('error', (error) => {
+      console.error('❌ StructuredReporter stream error:', error);
+    });
   }
 
   onTestEnd(test: TestCase, result: TestResult): void {
     if (!this.stream) return;
 
-    const payload: AnyRecord = {
+    const payload: StructuredTestPayload = {
       test: test.titlePath().join(' > '),
       status: result.status,
       durationMs: result.duration,
@@ -28,12 +48,22 @@ export default class StructuredReporter implements Reporter {
       timestamp: new Date().toISOString(),
     };
 
-    this.stream.write(`${JSON.stringify(payload)}\n`);
+    try {
+      this.stream.write(`${JSON.stringify(payload)}\n`);
+    } catch (error) {
+      console.error('❌ Failed to write to structured log:', error);
+    }
   }
 
-  onEnd(): void {
-    this.stream?.end();
-    this.stream = null;
+  async onEnd(result: FullResult): Promise<void> {
+    void result;
+    if (this.stream) {
+      return new Promise((resolve) => {
+        this.stream?.end(() => {
+          this.stream = null;
+          resolve();
+        });
+      });
+    }
   }
 }
-

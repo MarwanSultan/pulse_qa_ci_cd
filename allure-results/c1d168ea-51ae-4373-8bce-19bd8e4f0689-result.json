@@ -1,1 +1,224 @@
-{"uuid":"c1d168ea-51ae-4373-8bce-19bd8e4f0689","name":"JSON-driven UI checks","historyId":"4e66e0d5c1806b254916b33c98f1ea28:84e28e814b821ed013329cc8dbc467e0","status":"failed","statusDetails":{"message":"Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n","trace":"Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/01_data_driven_navigation.spec.ts:26:77"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774625323967,"uuid":"7ca0b79e-4cc6-4b2b-9be9-485136582612","stop":1774625324461}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774625323967,"uuid":"0ffd11e7-32b0-4091-b5c6-b7d1ef90708f","stop":1774625324461},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774625324462,"uuid":"29ed906e-e052-4400-a934-818d82a31019","stop":1774625324540}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625324461,"uuid":"13151907-9e5e-46d2-85a1-f6fc9d53e80a","stop":1774625324540},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774625324540,"uuid":"76a18cb0-73d3-450d-931c-4b6b8f478a31","stop":1774625324957}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625324540,"uuid":"f39f5a4c-126a-40a6-9619-59303be18f6d","stop":1774625324957}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774625323963,"uuid":"88d6eb5a-356e-4ffd-aee0-91e7be1897a2","stop":1774625324957},{"status":"failed","statusDetails":{"message":"Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n","trace":"Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/01_data_driven_navigation.spec.ts:26:77"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625324959,"name":"Missing critical control: marketplace getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()","uuid":"bc32b845-c104-46fb-b2a0-6c38c7d7e1fb","stop":1774625339960},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"a2037f24-b8f9-48cb-abf9-913b24923c74-attachment.png","type":"image/png"}],"parameters":[],"start":1774625340387,"name":"screenshot","stop":1774625340387},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"52f5975d-a25f-4776-823b-2b880acc74e2-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774625340387,"name":"video","stop":1774625340387},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625339987,"uuid":"65e8dcd7-2eaf-4bd4-a073-876995e60efb","stop":1774625339987},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774625339991,"uuid":"cbebb8df-7065-4094-8c78-55c524be90f9","stop":1774625340374}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625339987,"uuid":"0e7e0595-f98d-405e-af64-d76e40472bce","stop":1774625340375}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774625339961,"uuid":"ccdf2d0c-a9e1-40e4-8d14-588e6d4807d8","stop":1774625340378}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"data.01_data_driven_navigation.spec.ts"},{"name":"titlePath","value":" > webkit > data/01_data_driven_navigation.spec.ts > Data-driven: critical homepage links are visible"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-28648-worker-3"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"data/01_data_driven_navigation.spec.ts"},{"name":"subSuite","value":"Data-driven: critical homepage links are visible"}],"links":[],"start":1774625323963,"testCaseId":"4e66e0d5c1806b254916b33c98f1ea28","fullName":"data/01_data_driven_navigation.spec.ts:17:7","titlePath":["data","01_data_driven_navigation.spec.ts","Data-driven: critical homepage links are visible"],"stop":1774625339876}
+{
+  "uuid": "c1d168ea-51ae-4373-8bce-19bd8e4f0689",
+  "name": "JSON-driven UI checks",
+  "historyId": "4e66e0d5c1806b254916b33c98f1ea28:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n",
+    "trace": "Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/01_data_driven_navigation.spec.ts:26:77"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774625323967,
+              "uuid": "7ca0b79e-4cc6-4b2b-9be9-485136582612",
+              "stop": 1774625324461
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774625323967,
+          "uuid": "0ffd11e7-32b0-4091-b5c6-b7d1ef90708f",
+          "stop": 1774625324461
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774625324462,
+              "uuid": "29ed906e-e052-4400-a934-818d82a31019",
+              "stop": 1774625324540
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625324461,
+          "uuid": "13151907-9e5e-46d2-85a1-f6fc9d53e80a",
+          "stop": 1774625324540
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774625324540,
+              "uuid": "76a18cb0-73d3-450d-931c-4b6b8f478a31",
+              "stop": 1774625324957
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625324540,
+          "uuid": "f39f5a4c-126a-40a6-9619-59303be18f6d",
+          "stop": 1774625324957
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774625323963,
+      "uuid": "88d6eb5a-356e-4ffd-aee0-91e7be1897a2",
+      "stop": 1774625324957
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n",
+        "trace": "Error: Missing critical control: marketplace\n\nexpect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Missing critical control: marketplace with timeout 15000ms\n  - waiting for getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/01_data_driven_navigation.spec.ts:26:77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625324959,
+      "name": "Missing critical control: marketplace getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i }).first()",
+      "uuid": "bc32b845-c104-46fb-b2a0-6c38c7d7e1fb",
+      "stop": 1774625339960
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "a2037f24-b8f9-48cb-abf9-913b24923c74-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774625340387,
+      "name": "screenshot",
+      "stop": 1774625340387
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "52f5975d-a25f-4776-823b-2b880acc74e2-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774625340387,
+      "name": "video",
+      "stop": 1774625340387
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625339987,
+          "uuid": "65e8dcd7-2eaf-4bd4-a073-876995e60efb",
+          "stop": 1774625339987
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774625339991,
+              "uuid": "cbebb8df-7065-4094-8c78-55c524be90f9",
+              "stop": 1774625340374
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625339987,
+          "uuid": "0e7e0595-f98d-405e-af64-d76e40472bce",
+          "stop": 1774625340375
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774625339961,
+      "uuid": "ccdf2d0c-a9e1-40e4-8d14-588e6d4807d8",
+      "stop": 1774625340378
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "data.01_data_driven_navigation.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > webkit > data/01_data_driven_navigation.spec.ts > Data-driven: critical homepage links are visible"
+    },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-28648-worker-3" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "data/01_data_driven_navigation.spec.ts" },
+    { "name": "subSuite", "value": "Data-driven: critical homepage links are visible" }
+  ],
+  "links": [],
+  "start": 1774625323963,
+  "testCaseId": "4e66e0d5c1806b254916b33c98f1ea28",
+  "fullName": "data/01_data_driven_navigation.spec.ts:17:7",
+  "titlePath": [
+    "data",
+    "01_data_driven_navigation.spec.ts",
+    "Data-driven: critical homepage links are visible"
+  ],
+  "stop": 1774625339876
+}

@@ -1,1 +1,351 @@
-{"uuid":"edff7985-395f-46b6-8792-70814981561a","name":"UI + API: clicking \"View full changelog\" resolves via HTTP","historyId":"eb1a831f255f4bc26baf827120110856:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:7:22"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774879267534,"uuid":"623ae48a-fdfb-4eb8-851d-80e947a00857","stop":1774879267879}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774879267534,"uuid":"a3d90d1f-e9f2-4715-8633-22562c3f9fd1","stop":1774879267879},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774879267880,"uuid":"5f6cb517-929c-40cf-a949-868dabe082a5","stop":1774879267961}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774879267880,"uuid":"fa549d81-e894-4626-b8bc-c43a70053b9d","stop":1774879267961},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774879267962,"uuid":"457ffe1e-a357-487b-8441-12defc86e2d7","stop":1774879268250}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774879267961,"uuid":"c4d1f01a-17ae-43f9-a9d5-e03ce5d856a7","stop":1774879268251},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774879268251,"uuid":"81227c86-fc43-453c-b880-b631f1589cc4","stop":1774879268251},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774879268258,"uuid":"40170c1c-87e3-41b3-94a2-b8589e9c2b7b","stop":1774879268341}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774879268251,"uuid":"cf698136-0679-4913-8598-3cd837a57d71","stop":1774879268342},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774879268342,"uuid":"50744fc2-cd83-448c-84aa-e8429f349d0c","stop":1774879268343}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774879268342,"uuid":"5073e2f6-96b0-4965-b5f2-0cd25c908e44","stop":1774879268343},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774879268343,"uuid":"2a34af47-9d5d-4761-95c2-900324acdae4","stop":1774879268343}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774879267533,"uuid":"7c68752b-c382-428e-8cda-6fdbfdb4d24c","stop":1774879268343},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:7:22"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774879268345,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"bac7bb88-3537-4871-a7f4-fda730c5dac8","stop":1774879283350},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"6cf43a4d-e8f7-4fa3-9b71-618f4abdb37e-attachment.png","type":"image/png"}],"parameters":[],"start":1774879283671,"name":"screenshot","stop":1774879283671},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"6360bfd4-96a8-4b63-93bf-4ef716e3cf7e-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774879283672,"name":"video","stop":1774879283672},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774879283383,"uuid":"ea8d33b8-0911-4e75-9a85-d6a926906b8d","stop":1774879283383},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774879283383,"uuid":"e639a5c9-322d-4ddc-9f5d-c0df04b0b04f","stop":1774879283384},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1774879283385,"uuid":"a1f49703-46fe-44af-9fa2-c46864a055ed","stop":1774879283390}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774879283384,"uuid":"4a52bad3-6566-402c-a0bc-c545fc1b511b","stop":1774879283390},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774879283390,"uuid":"6bf371fa-deec-4504-bec4-538a3291419d","stop":1774879283390},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774879283390,"uuid":"a461b1ae-7792-4229-9bea-3c5172c2d65d","stop":1774879283390},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774879283391,"uuid":"2c7e4574-046c-4999-af37-c8ff62d5f8cd","stop":1774879283415}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774879283390,"uuid":"076deee4-80ab-4dcc-bcb4-ec664f60aace","stop":1774879283416}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774879283351,"uuid":"bf41edf6-ac1d-4a0e-abc7-8bca19db33e4","stop":1774879283417}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"example.spec.ts"},{"name":"titlePath","value":" > firefox > example.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-33255-worker-0"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"example.spec.ts"}],"links":[],"start":1774879267533,"testCaseId":"eb1a831f255f4bc26baf827120110856","fullName":"example.spec.ts:4:5","titlePath":["example.spec.ts"],"stop":1774879283067}
+{
+  "uuid": "edff7985-395f-46b6-8792-70814981561a",
+  "name": "UI + API: clicking \"View full changelog\" resolves via HTTP",
+  "historyId": "eb1a831f255f4bc26baf827120110856:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:7:22"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774879267534,
+              "uuid": "623ae48a-fdfb-4eb8-851d-80e947a00857",
+              "stop": 1774879267879
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774879267534,
+          "uuid": "a3d90d1f-e9f2-4715-8633-22562c3f9fd1",
+          "stop": 1774879267879
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774879267880,
+              "uuid": "5f6cb517-929c-40cf-a949-868dabe082a5",
+              "stop": 1774879267961
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774879267880,
+          "uuid": "fa549d81-e894-4626-b8bc-c43a70053b9d",
+          "stop": 1774879267961
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774879267962,
+              "uuid": "457ffe1e-a357-487b-8441-12defc86e2d7",
+              "stop": 1774879268250
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774879267961,
+          "uuid": "c4d1f01a-17ae-43f9-a9d5-e03ce5d856a7",
+          "stop": 1774879268251
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774879268251,
+          "uuid": "81227c86-fc43-453c-b880-b631f1589cc4",
+          "stop": 1774879268251
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774879268258,
+              "uuid": "40170c1c-87e3-41b3-94a2-b8589e9c2b7b",
+              "stop": 1774879268341
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774879268251,
+          "uuid": "cf698136-0679-4913-8598-3cd837a57d71",
+          "stop": 1774879268342
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774879268342,
+              "uuid": "50744fc2-cd83-448c-84aa-e8429f349d0c",
+              "stop": 1774879268343
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774879268342,
+          "uuid": "5073e2f6-96b0-4965-b5f2-0cd25c908e44",
+          "stop": 1774879268343
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774879268343,
+          "uuid": "2a34af47-9d5d-4761-95c2-900324acdae4",
+          "stop": 1774879268343
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774879267533,
+      "uuid": "7c68752b-c382-428e-8cda-6fdbfdb4d24c",
+      "stop": 1774879268343
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:7:22"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774879268345,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "bac7bb88-3537-4871-a7f4-fda730c5dac8",
+      "stop": 1774879283350
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "6cf43a4d-e8f7-4fa3-9b71-618f4abdb37e-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774879283671,
+      "name": "screenshot",
+      "stop": 1774879283671
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "6360bfd4-96a8-4b63-93bf-4ef716e3cf7e-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774879283672,
+      "name": "video",
+      "stop": 1774879283672
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774879283383,
+          "uuid": "ea8d33b8-0911-4e75-9a85-d6a926906b8d",
+          "stop": 1774879283383
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774879283383,
+          "uuid": "e639a5c9-322d-4ddc-9f5d-c0df04b0b04f",
+          "stop": 1774879283384
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1774879283385,
+              "uuid": "a1f49703-46fe-44af-9fa2-c46864a055ed",
+              "stop": 1774879283390
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774879283384,
+          "uuid": "4a52bad3-6566-402c-a0bc-c545fc1b511b",
+          "stop": 1774879283390
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774879283390,
+          "uuid": "6bf371fa-deec-4504-bec4-538a3291419d",
+          "stop": 1774879283390
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774879283390,
+          "uuid": "a461b1ae-7792-4229-9bea-3c5172c2d65d",
+          "stop": 1774879283390
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774879283391,
+              "uuid": "2c7e4574-046c-4999-af37-c8ff62d5f8cd",
+              "stop": 1774879283415
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774879283390,
+          "uuid": "076deee4-80ab-4dcc-bcb4-ec664f60aace",
+          "stop": 1774879283416
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774879283351,
+      "uuid": "bf41edf6-ac1d-4a0e-abc7-8bca19db33e4",
+      "stop": 1774879283417
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > example.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-33255-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774879267533,
+  "testCaseId": "eb1a831f255f4bc26baf827120110856",
+  "fullName": "example.spec.ts:4:5",
+  "titlePath": ["example.spec.ts"],
+  "stop": 1774879283067
+}

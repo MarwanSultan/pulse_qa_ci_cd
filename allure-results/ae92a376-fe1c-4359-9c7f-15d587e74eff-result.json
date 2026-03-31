@@ -1,1 +1,82 @@
-{"uuid":"ae92a376-fe1c-4359-9c7f-15d587e74eff","name":"Performance: homepage navigation duration stays within budget","historyId":"2c7f42148f96fa89bbc72087b5434796:84e28e814b821ed013329cc8dbc467e0","status":"failed","statusDetails":{},"stage":"finished","steps":[{"statusDetails":{},"stage":"running","steps":[{"status":"failed","statusDetails":{"message":"Fixture \"browser\" timeout of 0ms exceeded during setup.","trace":"Fixture \"browser\" timeout of 0ms exceeded during setup."},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"Fixture \"browser\" timeout of 0ms exceeded during setup.","trace":"Fixture \"browser\" timeout of 0ms exceeded during setup."},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774876212456,"uuid":"9f486e07-35dc-4743-8fcb-039987676ea2","stop":1774876323889}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774876212454,"uuid":"96769421-078c-4e8c-b5d1-3ab42541aa94","stop":1774876323890}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774876212451,"uuid":"8ff2e676-7d26-4ccc-be92-c1596e936809"},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"After Hooks","start":1774876323888,"uuid":"b360baa5-2c21-4d48-a657-5e7eeb473609","stop":1774876323894}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"performance.01_homepage_budget.spec.ts"},{"name":"titlePath","value":" > webkit > performance/01_homepage_budget.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-4275-worker-1"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"performance/01_homepage_budget.spec.ts"}],"links":[],"start":1774876212450,"testCaseId":"2c7f42148f96fa89bbc72087b5434796","fullName":"performance/01_homepage_budget.spec.ts:5:5","titlePath":["performance","01_homepage_budget.spec.ts"],"stop":1774876212451}
+{
+  "uuid": "ae92a376-fe1c-4359-9c7f-15d587e74eff",
+  "name": "Performance: homepage navigation duration stays within budget",
+  "historyId": "2c7f42148f96fa89bbc72087b5434796:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Fixture \"browser\" timeout of 0ms exceeded during setup.",
+            "trace": "Fixture \"browser\" timeout of 0ms exceeded during setup."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Fixture \"browser\" timeout of 0ms exceeded during setup.",
+                "trace": "Fixture \"browser\" timeout of 0ms exceeded during setup."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774876212456,
+              "uuid": "9f486e07-35dc-4743-8fcb-039987676ea2",
+              "stop": 1774876323889
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774876212454,
+          "uuid": "96769421-078c-4e8c-b5d1-3ab42541aa94",
+          "stop": 1774876323890
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774876212451,
+      "uuid": "8ff2e676-7d26-4ccc-be92-c1596e936809"
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774876323888,
+      "uuid": "b360baa5-2c21-4d48-a657-5e7eeb473609",
+      "stop": 1774876323894
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "performance.01_homepage_budget.spec.ts" },
+    { "name": "titlePath", "value": " > webkit > performance/01_homepage_budget.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-4275-worker-1" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "performance/01_homepage_budget.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774876212450,
+  "testCaseId": "2c7f42148f96fa89bbc72087b5434796",
+  "fullName": "performance/01_homepage_budget.spec.ts:5:5",
+  "titlePath": ["performance", "01_homepage_budget.spec.ts"],
+  "stop": 1774876212451
+}

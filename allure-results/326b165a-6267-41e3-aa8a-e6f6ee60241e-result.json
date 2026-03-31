@@ -1,1 +1,267 @@
-{"uuid":"326b165a-6267-41e3-aa8a-e6f6ee60241e","name":"F10: Graceful 404 experience and baseline load performance","historyId":"369cad484b71b6dd27c049b6b504c922:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:23:5"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774633035945,"uuid":"56e4d7e6-0271-4f67-90ef-22eef3fb0464","stop":1774633035946}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774633035945,"uuid":"1e6beee8-24bc-4e82-9c76-e27f4cf8ebfa","stop":1774633035946},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774633035947,"uuid":"af5da2d5-a600-488a-9035-41e7ac5a1f68","stop":1774633035972}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774633035946,"uuid":"82d082fe-ba17-4b49-9606-d93a6b46b484","stop":1774633035973}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774633035944,"uuid":"a94f0820-6f3f-404b-82d4-9a9b9649d53f","stop":1774633035973},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633035973,"name":"Navigate to \"/\"","uuid":"7e2780ff-acd6-46a5-b722-668c5251ec70","stop":1774633037005},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633037007,"name":"Evaluate","uuid":"78a4e293-fc1e-4aba-9711-b57f21c6024a","stop":1774633037009},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633037010,"name":"Homepage navigation duration 1029.2999999988824ms exceeded MAX_PAGE_LOAD_MS=10000ms","uuid":"ac1bb416-5f46-46a1-a501-672a1003bb2c","stop":1774633037010},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633037010,"name":"Navigate to \"/__qa_non_existent_1774633037010__\"","uuid":"15485a42-4004-4eb7-9b9e-46a24027b09a","stop":1774633037482},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633037483,"name":"Expected 4xx for bogus path /__qa_non_existent_1774633037010__","uuid":"c68ef929-7432-4e65-ac42-1b99ac52770b","stop":1774633037483},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:23:5"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633037484,"name":"Expect \"toBeVisible\" getByText(/404|not found|page not found/i)","uuid":"681df51d-e032-4bf2-91f1-c0ee5220e21d","stop":1774633037856},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"2bf3a39a-c2be-450f-98a6-b8a51f66eebc-attachment.png","type":"image/png"}],"parameters":[],"start":1774633038046,"name":"screenshot","stop":1774633038046},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"35326ea4-473f-4571-9f60-43712acd05cc-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774633038046,"name":"video","stop":1774633038046},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"1bea6576-b2bb-4f1e-a06f-f4ae5597363a-attachment.md","type":"text/markdown"}],"parameters":[],"start":1774633038046,"name":"error-context","stop":1774633038046},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774633037988,"uuid":"5bff1cb7-1935-46db-a280-858698fe0236","stop":1774633037988},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774633037995,"uuid":"43b24328-84a4-40f1-a920-8a140e59318e","stop":1774633038030}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774633037988,"uuid":"4b3a559a-4807-43f0-8525-a76a24109649","stop":1774633038031}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774633037857,"uuid":"33c19572-3947-41f1-9887-f0b1b057ceea","stop":1774633038032}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.09_404_and_performance_smoke.spec.ts"},{"name":"titlePath","value":" > chromium > ui/09_404_and_performance_smoke.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-97129-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"ui/09_404_and_performance_smoke.spec.ts"}],"links":[],"start":1774633035944,"testCaseId":"369cad484b71b6dd27c049b6b504c922","fullName":"ui/09_404_and_performance_smoke.spec.ts:5:5","titlePath":["ui","09_404_and_performance_smoke.spec.ts"],"stop":1774633038029}
+{
+  "uuid": "326b165a-6267-41e3-aa8a-e6f6ee60241e",
+  "name": "F10: Graceful 404 experience and baseline load performance",
+  "historyId": "369cad484b71b6dd27c049b6b504c922:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:23:5"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774633035945,
+              "uuid": "56e4d7e6-0271-4f67-90ef-22eef3fb0464",
+              "stop": 1774633035946
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774633035945,
+          "uuid": "1e6beee8-24bc-4e82-9c76-e27f4cf8ebfa",
+          "stop": 1774633035946
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774633035947,
+              "uuid": "af5da2d5-a600-488a-9035-41e7ac5a1f68",
+              "stop": 1774633035972
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774633035946,
+          "uuid": "82d082fe-ba17-4b49-9606-d93a6b46b484",
+          "stop": 1774633035973
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774633035944,
+      "uuid": "a94f0820-6f3f-404b-82d4-9a9b9649d53f",
+      "stop": 1774633035973
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633035973,
+      "name": "Navigate to \"/\"",
+      "uuid": "7e2780ff-acd6-46a5-b722-668c5251ec70",
+      "stop": 1774633037005
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633037007,
+      "name": "Evaluate",
+      "uuid": "78a4e293-fc1e-4aba-9711-b57f21c6024a",
+      "stop": 1774633037009
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633037010,
+      "name": "Homepage navigation duration 1029.2999999988824ms exceeded MAX_PAGE_LOAD_MS=10000ms",
+      "uuid": "ac1bb416-5f46-46a1-a501-672a1003bb2c",
+      "stop": 1774633037010
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633037010,
+      "name": "Navigate to \"/__qa_non_existent_1774633037010__\"",
+      "uuid": "15485a42-4004-4eb7-9b9e-46a24027b09a",
+      "stop": 1774633037482
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633037483,
+      "name": "Expected 4xx for bogus path /__qa_non_existent_1774633037010__",
+      "uuid": "c68ef929-7432-4e65-ac42-1b99ac52770b",
+      "stop": 1774633037483
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByText(/404|not found|page not found/i)\nExpected: visible\nError: strict mode violation: getByText(/404|not found|page not found/i) resolved to 2 elements:\n    1) <h1 class=\"text-red\">Page not found</h1> aka getByRole('heading', { name: 'Page not found' })\n    2) <p class=\"text-base text-black\">…</p> aka getByText('Error code: 404')\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByText(/404|not found|page not found/i)\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:23:5"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633037484,
+      "name": "Expect \"toBeVisible\" getByText(/404|not found|page not found/i)",
+      "uuid": "681df51d-e032-4bf2-91f1-c0ee5220e21d",
+      "stop": 1774633037856
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "2bf3a39a-c2be-450f-98a6-b8a51f66eebc-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633038046,
+      "name": "screenshot",
+      "stop": 1774633038046
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "35326ea4-473f-4571-9f60-43712acd05cc-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633038046,
+      "name": "video",
+      "stop": 1774633038046
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "1bea6576-b2bb-4f1e-a06f-f4ae5597363a-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633038046,
+      "name": "error-context",
+      "stop": 1774633038046
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774633037988,
+          "uuid": "5bff1cb7-1935-46db-a280-858698fe0236",
+          "stop": 1774633037988
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774633037995,
+              "uuid": "43b24328-84a4-40f1-a920-8a140e59318e",
+              "stop": 1774633038030
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774633037988,
+          "uuid": "4b3a559a-4807-43f0-8525-a76a24109649",
+          "stop": 1774633038031
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774633037857,
+      "uuid": "33c19572-3947-41f1-9887-f0b1b057ceea",
+      "stop": 1774633038032
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.09_404_and_performance_smoke.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > ui/09_404_and_performance_smoke.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-97129-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "ui/09_404_and_performance_smoke.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774633035944,
+  "testCaseId": "369cad484b71b6dd27c049b6b504c922",
+  "fullName": "ui/09_404_and_performance_smoke.spec.ts:5:5",
+  "titlePath": ["ui", "09_404_and_performance_smoke.spec.ts"],
+  "stop": 1774633038029
+}

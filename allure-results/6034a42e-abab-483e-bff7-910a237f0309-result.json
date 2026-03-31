@@ -1,1 +1,402 @@
-{"uuid":"6034a42e-abab-483e-bff7-910a237f0309","name":"UI + API: clicking \"View full changelog\" resolves via HTTP","historyId":"eb1a831f255f4bc26baf827120110856:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:18:77"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774727286120,"uuid":"d3890354-f797-46d1-a97e-49d2bc549f4c","stop":1774727286649}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774727286117,"uuid":"61ac07c5-0c77-4788-8072-ff48446949a6","stop":1774727286650},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774727286651,"uuid":"37cf1968-44c3-437d-ba3f-b8a4e0a0f883","stop":1774727286658}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774727286650,"uuid":"3ab46764-0bd9-4e45-8e5d-d38868dfbe63","stop":1774727286658},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774727286659,"uuid":"ffd7a35d-3555-40f6-b44c-fdff9054b948","stop":1774727286884}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774727286658,"uuid":"03d1919d-8bc6-419d-9446-46633203bce0","stop":1774727286884},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774727286900,"uuid":"3d900e5b-9e17-47d7-b746-31477ac34e37","stop":1774727287840}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774727286884,"uuid":"85381845-bddd-4a7b-9dec-03cd4effbc85","stop":1774727287842},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774727287844,"uuid":"b413b333-2b8e-4458-b213-8f21c4ff0b39","stop":1774727287845}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774727287843,"uuid":"74dee146-0a81-4fcf-80cf-39cd46f8c032","stop":1774727287846},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774727287846,"uuid":"17d333a7-40cc-4cd1-80a4-17f28d38f1bf","stop":1774727287847}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774727286112,"uuid":"fc680887-88f3-44de-bdb1-cfcd5ddd017a","stop":1774727287847},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727287851,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"40857c14-e733-468c-a424-7796256ae8b7","stop":1774727287867},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727287870,"name":"GET \"/changelog\"","uuid":"793f5105-a083-4c97-bbf1-aab33512a4d4","stop":1774727288116},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727288116,"name":"HTTP status for https://www.fedramp.gov/changelog","uuid":"6a415f74-a89c-47ad-97a4-ea27c49236d0","stop":1774727288117},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727288117,"name":"HTTP status for https://www.fedramp.gov/changelog","uuid":"b4a17971-1334-4cfb-a39a-89e22b5cb2f9","stop":1774727288117},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727288118,"name":"Wait for load state \"domcontentloaded\"","uuid":"23de2189-6549-4498-b703-19a563358ca7","stop":1774727288119},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727288119,"name":"Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"1d5e8043-3bc4-45b9-bb4a-1cd5c9e70cd1","stop":1774727288190},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:18:77"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774727288192,"name":"Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i })","uuid":"37008b40-3050-4818-8e4a-82ff44adf32a","stop":1774727288204},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"a6edc70c-c442-4e9e-8251-3c34441e4b59-attachment.png","type":"image/png"}],"parameters":[],"start":1774727288343,"name":"screenshot","stop":1774727288343},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"be7e6283-cb40-4166-8e4a-19a951858365-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774727288343,"name":"video","stop":1774727288343},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"bdb0117c-74ed-407f-be18-424a769538e0-attachment.md","type":"text/markdown"}],"parameters":[],"start":1774727288344,"name":"error-context","stop":1774727288344},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774727288266,"uuid":"77de1542-22aa-4c77-9293-ba0285928a33","stop":1774727288266},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774727288266,"uuid":"4fcdf874-2000-42e9-a1c9-14cf97f147cf","stop":1774727288267},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774727288267,"uuid":"a35b7241-1d44-4832-8ae0-7baa90737650","stop":1774727288267},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774727288267,"uuid":"c36c7f55-8a33-4d46-b326-e4e9bb0bbcc4","stop":1774727288267},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774727288281,"uuid":"8d70b72c-750d-4142-9938-6ec82876eb53","stop":1774727288316}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774727288267,"uuid":"9d64c1c2-2d38-4855-993d-4ed402dfe550","stop":1774727288317}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774727288205,"uuid":"cfed21ea-d5fb-4e91-827c-5f7d0d53d5dc","stop":1774727288323}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"example.spec.ts"},{"name":"titlePath","value":" > chromium > example.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-6409-worker-4"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"example.spec.ts"}],"links":[],"start":1774727286113,"testCaseId":"eb1a831f255f4bc26baf827120110856","fullName":"example.spec.ts:4:5","titlePath":["example.spec.ts"],"stop":1774727287778}
+{
+  "uuid": "6034a42e-abab-483e-bff7-910a237f0309",
+  "name": "UI + API: clicking \"View full changelog\" resolves via HTTP",
+  "historyId": "eb1a831f255f4bc26baf827120110856:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:18:77"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774727286120,
+              "uuid": "d3890354-f797-46d1-a97e-49d2bc549f4c",
+              "stop": 1774727286649
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774727286117,
+          "uuid": "61ac07c5-0c77-4788-8072-ff48446949a6",
+          "stop": 1774727286650
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774727286651,
+              "uuid": "37cf1968-44c3-437d-ba3f-b8a4e0a0f883",
+              "stop": 1774727286658
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774727286650,
+          "uuid": "3ab46764-0bd9-4e45-8e5d-d38868dfbe63",
+          "stop": 1774727286658
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774727286659,
+              "uuid": "ffd7a35d-3555-40f6-b44c-fdff9054b948",
+              "stop": 1774727286884
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774727286658,
+          "uuid": "03d1919d-8bc6-419d-9446-46633203bce0",
+          "stop": 1774727286884
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774727286900,
+              "uuid": "3d900e5b-9e17-47d7-b746-31477ac34e37",
+              "stop": 1774727287840
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774727286884,
+          "uuid": "85381845-bddd-4a7b-9dec-03cd4effbc85",
+          "stop": 1774727287842
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774727287844,
+              "uuid": "b413b333-2b8e-4458-b213-8f21c4ff0b39",
+              "stop": 1774727287845
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774727287843,
+          "uuid": "74dee146-0a81-4fcf-80cf-39cd46f8c032",
+          "stop": 1774727287846
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774727287846,
+          "uuid": "17d333a7-40cc-4cd1-80a4-17f28d38f1bf",
+          "stop": 1774727287847
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774727286112,
+      "uuid": "fc680887-88f3-44de-bdb1-cfcd5ddd017a",
+      "stop": 1774727287847
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727287851,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "40857c14-e733-468c-a424-7796256ae8b7",
+      "stop": 1774727287867
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727287870,
+      "name": "GET \"/changelog\"",
+      "uuid": "793f5105-a083-4c97-bbf1-aab33512a4d4",
+      "stop": 1774727288116
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727288116,
+      "name": "HTTP status for https://www.fedramp.gov/changelog",
+      "uuid": "6a415f74-a89c-47ad-97a4-ea27c49236d0",
+      "stop": 1774727288117
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727288117,
+      "name": "HTTP status for https://www.fedramp.gov/changelog",
+      "uuid": "b4a17971-1334-4cfb-a39a-89e22b5cb2f9",
+      "stop": 1774727288117
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727288118,
+      "name": "Wait for load state \"domcontentloaded\"",
+      "uuid": "23de2189-6549-4498-b703-19a563358ca7",
+      "stop": 1774727288119
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727288119,
+      "name": "Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "1d5e8043-3bc4-45b9-bb4a-1cd5c9e70cd1",
+      "stop": 1774727288190
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/example.spec.ts:18:77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774727288192,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i })",
+      "uuid": "37008b40-3050-4818-8e4a-82ff44adf32a",
+      "stop": 1774727288204
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "a6edc70c-c442-4e9e-8251-3c34441e4b59-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774727288343,
+      "name": "screenshot",
+      "stop": 1774727288343
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "be7e6283-cb40-4166-8e4a-19a951858365-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774727288343,
+      "name": "video",
+      "stop": 1774727288343
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "bdb0117c-74ed-407f-be18-424a769538e0-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1774727288344,
+      "name": "error-context",
+      "stop": 1774727288344
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774727288266,
+          "uuid": "77de1542-22aa-4c77-9293-ba0285928a33",
+          "stop": 1774727288266
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774727288266,
+          "uuid": "4fcdf874-2000-42e9-a1c9-14cf97f147cf",
+          "stop": 1774727288267
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774727288267,
+          "uuid": "a35b7241-1d44-4832-8ae0-7baa90737650",
+          "stop": 1774727288267
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774727288267,
+          "uuid": "c36c7f55-8a33-4d46-b326-e4e9bb0bbcc4",
+          "stop": 1774727288267
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774727288281,
+              "uuid": "8d70b72c-750d-4142-9938-6ec82876eb53",
+              "stop": 1774727288316
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774727288267,
+          "uuid": "9d64c1c2-2d38-4855-993d-4ed402dfe550",
+          "stop": 1774727288317
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774727288205,
+      "uuid": "cfed21ea-d5fb-4e91-827c-5f7d0d53d5dc",
+      "stop": 1774727288323
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > example.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-6409-worker-4" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774727286113,
+  "testCaseId": "eb1a831f255f4bc26baf827120110856",
+  "fullName": "example.spec.ts:4:5",
+  "titlePath": ["example.spec.ts"],
+  "stop": 1774727287778
+}

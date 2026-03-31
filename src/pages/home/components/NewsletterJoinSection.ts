@@ -20,7 +20,9 @@ export class NewsletterJoinSection extends BasePage {
 
   emailInput(): Locator {
     // Generic email field selectors.
-    return this.page.locator('input[type="email"], input[name="email"], input[aria-label*="email" i]').first();
+    return this.page
+      .locator('input[type="email"], input[name="email"], input[aria-label*="email" i]')
+      .first();
   }
 
   submitButton(): Locator {
@@ -28,11 +30,12 @@ export class NewsletterJoinSection extends BasePage {
   }
 
   validationOrStatusMessage(): Locator {
-    return this.page.locator('[role="alert"], .error, .validation, text=/success|subscribed/i').first();
+    return this.page
+      .locator('[role="alert"], .error, .validation, text=/success|subscribed/i')
+      .first();
   }
 
   async isJoinFormPresent(): Promise<boolean> {
     return (await this.emailInput().count()) > 0;
   }
 }
-

@@ -1,1 +1,239 @@
-{"uuid":"67cc8bed-9ffe-430f-8f95-7ce709da6460","name":"F10: Graceful 404 experience and baseline load performance","historyId":"369cad484b71b6dd27c049b6b504c922:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202","trace":"Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:18:75"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774625321712,"uuid":"ebbc0d1a-62f4-44a0-ad02-ff4f6cf0a66c","stop":1774625321713}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625321712,"uuid":"3fed902c-0797-45de-bc3e-1ecb05eb286f","stop":1774625321713},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774625321713,"uuid":"a58dd073-e2a4-4c19-9b65-ec3f658ed8f4","stop":1774625321825}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625321713,"uuid":"6718ca7f-9851-4f77-a562-2cd746b5b8a7","stop":1774625321825}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774625321710,"uuid":"6f04c7e6-8bfe-40bb-90ee-fc1125e7fd3a","stop":1774625321825},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625321825,"name":"Navigate to \"/\"","uuid":"dc9afb7e-d355-4a9f-84b3-f7e603f5c1da","stop":1774625322557},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625322558,"name":"Evaluate","uuid":"f5d6c671-ea80-4143-83b6-2f4953ea9e8c","stop":1774625322562},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625322562,"name":"Homepage navigation duration 731ms exceeded MAX_PAGE_LOAD_MS=10000ms","uuid":"273a5554-acb6-43fc-b986-fd9622c527f4","stop":1774625322562},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625322563,"name":"Navigate to \"/__qa_non_existent_1774625322562__\"","uuid":"395cc87f-b76a-4232-9562-ddffbc6f3566","stop":1774625323005},{"status":"failed","statusDetails":{"message":"Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202","trace":"Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:18:75"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625323006,"name":"Expected 4xx for bogus path /__qa_non_existent_1774625322562__","uuid":"cf48a450-f916-43f2-a5cf-e89ce985f325","stop":1774625323006},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"c24e0220-bea7-4fc5-aa8a-22e17cebbf90-attachment.png","type":"image/png"}],"parameters":[],"start":1774625323402,"name":"screenshot","stop":1774625323402},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"2f59e9af-c379-4bb1-b7bd-386dc26accfe-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774625323402,"name":"video","stop":1774625323402},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625323026,"uuid":"a6c8cc19-beff-46a1-92bc-b67fe734fe9e","stop":1774625323026},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774625323029,"uuid":"0824de78-2de0-4e6d-ae1b-ce91099fcf91","stop":1774625323055}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625323026,"uuid":"936aecf5-328a-491c-b2e7-4b21af942683","stop":1774625323056}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774625323006,"uuid":"e1c04fd8-1a88-4b3f-a877-d714a9ed8d9a","stop":1774625323057}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.09_404_and_performance_smoke.spec.ts"},{"name":"titlePath","value":" > firefox > ui/09_404_and_performance_smoke.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-28648-worker-3"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/09_404_and_performance_smoke.spec.ts"}],"links":[],"start":1774625321710,"testCaseId":"369cad484b71b6dd27c049b6b504c922","fullName":"ui/09_404_and_performance_smoke.spec.ts:5:5","titlePath":["ui","09_404_and_performance_smoke.spec.ts"],"stop":1774625323053}
+{
+  "uuid": "67cc8bed-9ffe-430f-8f95-7ce709da6460",
+  "name": "F10: Graceful 404 experience and baseline load performance",
+  "historyId": "369cad484b71b6dd27c049b6b504c922:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202",
+    "trace": "Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:18:75"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774625321712,
+              "uuid": "ebbc0d1a-62f4-44a0-ad02-ff4f6cf0a66c",
+              "stop": 1774625321713
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625321712,
+          "uuid": "3fed902c-0797-45de-bc3e-1ecb05eb286f",
+          "stop": 1774625321713
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774625321713,
+              "uuid": "a58dd073-e2a4-4c19-9b65-ec3f658ed8f4",
+              "stop": 1774625321825
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625321713,
+          "uuid": "6718ca7f-9851-4f77-a562-2cd746b5b8a7",
+          "stop": 1774625321825
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774625321710,
+      "uuid": "6f04c7e6-8bfe-40bb-90ee-fc1125e7fd3a",
+      "stop": 1774625321825
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625321825,
+      "name": "Navigate to \"/\"",
+      "uuid": "dc9afb7e-d355-4a9f-84b3-f7e603f5c1da",
+      "stop": 1774625322557
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625322558,
+      "name": "Evaluate",
+      "uuid": "f5d6c671-ea80-4143-83b6-2f4953ea9e8c",
+      "stop": 1774625322562
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625322562,
+      "name": "Homepage navigation duration 731ms exceeded MAX_PAGE_LOAD_MS=10000ms",
+      "uuid": "273a5554-acb6-43fc-b986-fd9622c527f4",
+      "stop": 1774625322562
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625322563,
+      "name": "Navigate to \"/__qa_non_existent_1774625322562__\"",
+      "uuid": "395cc87f-b76a-4232-9562-ddffbc6f3566",
+      "stop": 1774625323005
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202",
+        "trace": "Error: Expected 4xx for bogus path /__qa_non_existent_1774625322562__\n\nexpect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: >= 400\nReceived:    202\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:18:75"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625323006,
+      "name": "Expected 4xx for bogus path /__qa_non_existent_1774625322562__",
+      "uuid": "cf48a450-f916-43f2-a5cf-e89ce985f325",
+      "stop": 1774625323006
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "c24e0220-bea7-4fc5-aa8a-22e17cebbf90-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774625323402,
+      "name": "screenshot",
+      "stop": 1774625323402
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "2f59e9af-c379-4bb1-b7bd-386dc26accfe-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774625323402,
+      "name": "video",
+      "stop": 1774625323402
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625323026,
+          "uuid": "a6c8cc19-beff-46a1-92bc-b67fe734fe9e",
+          "stop": 1774625323026
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774625323029,
+              "uuid": "0824de78-2de0-4e6d-ae1b-ce91099fcf91",
+              "stop": 1774625323055
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625323026,
+          "uuid": "936aecf5-328a-491c-b2e7-4b21af942683",
+          "stop": 1774625323056
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774625323006,
+      "uuid": "e1c04fd8-1a88-4b3f-a877-d714a9ed8d9a",
+      "stop": 1774625323057
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.09_404_and_performance_smoke.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/09_404_and_performance_smoke.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-28648-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/09_404_and_performance_smoke.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774625321710,
+  "testCaseId": "369cad484b71b6dd27c049b6b504c922",
+  "fullName": "ui/09_404_and_performance_smoke.spec.ts:5:5",
+  "titlePath": ["ui", "09_404_and_performance_smoke.spec.ts"],
+  "stop": 1774625323053
+}

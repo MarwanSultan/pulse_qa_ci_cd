@@ -1,1 +1,186 @@
-{"uuid":"3f0a0877-21e4-404a-aa49-8a5942cc98d0","name":"desktop","historyId":"47eceb217f138789e8a0d7d1cbd90eeb:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877481131,"uuid":"f9ff6063-4c3c-46f7-a340-2d3c06d8bcbe","stop":1774877481640}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877481130,"uuid":"e42968be-5892-4439-acb9-77e06881c388","stop":1774877481640},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877481643,"uuid":"0ba6a30a-abcc-403a-8774-f18e6e7b3d60","stop":1774877481817}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877481641,"uuid":"670946e6-f3a1-49df-b5ee-72345e922c75","stop":1774877481818},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877481819,"uuid":"acb10641-17c7-4f6e-b317-d531786a15bb","stop":1774877482145}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877481818,"uuid":"13f6c09e-c259-4c9a-a04a-39684c63fd88","stop":1774877482145}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877481125,"uuid":"e892b835-20f9-4cd3-acc5-7bfd4dbfaf51","stop":1774877482145},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877482146,"uuid":"972c119e-8e4a-4506-95b1-4729f0cae609","stop":1774877482146},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877482149,"uuid":"cb97641f-0fb7-48ba-99cd-89b975f5a68c","stop":1774877482190}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877482146,"uuid":"2c33eaaf-a367-48e1-9e32-654ad6c1c6d6","stop":1774877482193}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877482146,"uuid":"20156ef8-dd32-4fc1-8abf-33f84e3861ba","stop":1774877482196}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.08_responsive_layout_smoke.spec.ts"},{"name":"titlePath","value":" > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-13640-worker-4"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/08_responsive_layout_smoke.spec.ts"},{"name":"subSuite","value":"F9: Responsive layout preserves critical modules"}],"links":[],"start":1774877481123,"testCaseId":"47eceb217f138789e8a0d7d1cbd90eeb","fullName":"ui/08_responsive_layout_smoke.spec.ts:12:9","titlePath":["ui","08_responsive_layout_smoke.spec.ts","F9: Responsive layout preserves critical modules"],"stop":1774877481675}
+{
+  "uuid": "3f0a0877-21e4-404a-aa49-8a5942cc98d0",
+  "name": "desktop",
+  "historyId": "47eceb217f138789e8a0d7d1cbd90eeb:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877481131,
+              "uuid": "f9ff6063-4c3c-46f7-a340-2d3c06d8bcbe",
+              "stop": 1774877481640
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877481130,
+          "uuid": "e42968be-5892-4439-acb9-77e06881c388",
+          "stop": 1774877481640
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877481643,
+              "uuid": "0ba6a30a-abcc-403a-8774-f18e6e7b3d60",
+              "stop": 1774877481817
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877481641,
+          "uuid": "670946e6-f3a1-49df-b5ee-72345e922c75",
+          "stop": 1774877481818
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877481819,
+              "uuid": "acb10641-17c7-4f6e-b317-d531786a15bb",
+              "stop": 1774877482145
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877481818,
+          "uuid": "13f6c09e-c259-4c9a-a04a-39684c63fd88",
+          "stop": 1774877482145
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877481125,
+      "uuid": "e892b835-20f9-4cd3-acc5-7bfd4dbfaf51",
+      "stop": 1774877482145
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877482146,
+          "uuid": "972c119e-8e4a-4506-95b1-4729f0cae609",
+          "stop": 1774877482146
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877482149,
+              "uuid": "cb97641f-0fb7-48ba-99cd-89b975f5a68c",
+              "stop": 1774877482190
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877482146,
+          "uuid": "2c33eaaf-a367-48e1-9e32-654ad6c1c6d6",
+          "stop": 1774877482193
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877482146,
+      "uuid": "20156ef8-dd32-4fc1-8abf-33f84e3861ba",
+      "stop": 1774877482196
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.08_responsive_layout_smoke.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"
+    },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-13640-worker-4" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/08_responsive_layout_smoke.spec.ts" },
+    { "name": "subSuite", "value": "F9: Responsive layout preserves critical modules" }
+  ],
+  "links": [],
+  "start": 1774877481123,
+  "testCaseId": "47eceb217f138789e8a0d7d1cbd90eeb",
+  "fullName": "ui/08_responsive_layout_smoke.spec.ts:12:9",
+  "titlePath": [
+    "ui",
+    "08_responsive_layout_smoke.spec.ts",
+    "F9: Responsive layout preserves critical modules"
+  ],
+  "stop": 1774877481675
+}

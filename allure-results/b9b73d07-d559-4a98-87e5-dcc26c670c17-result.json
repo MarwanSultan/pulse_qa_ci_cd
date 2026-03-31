@@ -1,1 +1,178 @@
-{"uuid":"b9b73d07-d559-4a98-87e5-dcc26c670c17","name":"F2/F3: Marketplace CTA and summary metrics render","historyId":"df0de74d5d09297535343cf4896d0d62:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877477736,"uuid":"eee04305-3199-4d53-9f5a-34a68f2b46d4","stop":1774877478308}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877477734,"uuid":"cde58b73-8682-48db-8609-e6bda3bdee85","stop":1774877478309},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877478310,"uuid":"d4981d92-bd7a-4e33-856a-265f3fff7388","stop":1774877478455}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877478310,"uuid":"9f22a3ec-bf9d-443a-87a8-cb954a497ad5","stop":1774877478455},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877478457,"uuid":"1e990df2-85d6-4295-afb3-8ae7b437fa4f","stop":1774877478794}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877478456,"uuid":"61f9f74f-052e-48b4-9ff9-28bc0a2f6c10","stop":1774877478794}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877477731,"uuid":"cc2ff195-753f-40fb-a0ba-1d4c503451a3","stop":1774877478794},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877478794,"uuid":"1b73c41b-c96f-46ad-8f2c-76e4ed913577","stop":1774877478794},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877478796,"uuid":"2882e931-97b9-43e9-b8a8-753eeb7887f9","stop":1774877478835}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877478794,"uuid":"519e99ab-ff24-41b8-8de8-140883875a05","stop":1774877478837}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877478794,"uuid":"45838966-3b0c-4701-9ff1-885f528128df","stop":1774877478843}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.02_marketplace_module_and_metrics.spec.ts"},{"name":"titlePath","value":" > firefox > ui/02_marketplace_module_and_metrics.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-13640-worker-1"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/02_marketplace_module_and_metrics.spec.ts"}],"links":[],"start":1774877477729,"testCaseId":"df0de74d5d09297535343cf4896d0d62","fullName":"ui/02_marketplace_module_and_metrics.spec.ts:3:5","titlePath":["ui","02_marketplace_module_and_metrics.spec.ts"],"stop":1774877478256}
+{
+  "uuid": "b9b73d07-d559-4a98-87e5-dcc26c670c17",
+  "name": "F2/F3: Marketplace CTA and summary metrics render",
+  "historyId": "df0de74d5d09297535343cf4896d0d62:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877477736,
+              "uuid": "eee04305-3199-4d53-9f5a-34a68f2b46d4",
+              "stop": 1774877478308
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877477734,
+          "uuid": "cde58b73-8682-48db-8609-e6bda3bdee85",
+          "stop": 1774877478309
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877478310,
+              "uuid": "d4981d92-bd7a-4e33-856a-265f3fff7388",
+              "stop": 1774877478455
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877478310,
+          "uuid": "9f22a3ec-bf9d-443a-87a8-cb954a497ad5",
+          "stop": 1774877478455
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877478457,
+              "uuid": "1e990df2-85d6-4295-afb3-8ae7b437fa4f",
+              "stop": 1774877478794
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877478456,
+          "uuid": "61f9f74f-052e-48b4-9ff9-28bc0a2f6c10",
+          "stop": 1774877478794
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877477731,
+      "uuid": "cc2ff195-753f-40fb-a0ba-1d4c503451a3",
+      "stop": 1774877478794
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877478794,
+          "uuid": "1b73c41b-c96f-46ad-8f2c-76e4ed913577",
+          "stop": 1774877478794
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877478796,
+              "uuid": "2882e931-97b9-43e9-b8a8-753eeb7887f9",
+              "stop": 1774877478835
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877478794,
+          "uuid": "519e99ab-ff24-41b8-8de8-140883875a05",
+          "stop": 1774877478837
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877478794,
+      "uuid": "45838966-3b0c-4701-9ff1-885f528128df",
+      "stop": 1774877478843
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-13640-worker-1" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/02_marketplace_module_and_metrics.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877477729,
+  "testCaseId": "df0de74d5d09297535343cf4896d0d62",
+  "fullName": "ui/02_marketplace_module_and_metrics.spec.ts:3:5",
+  "titlePath": ["ui", "02_marketplace_module_and_metrics.spec.ts"],
+  "stop": 1774877478256
+}

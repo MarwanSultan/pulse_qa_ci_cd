@@ -1,1 +1,238 @@
-{"uuid":"c2bb322c-d3a6-4fd8-8eae-fe06f74b67fd","name":"F5: Updates & Changelog module and \"View full changelog\"","historyId":"2d02b3bd577fc047453d76380c851ae0:b444eb0fbe6390c71e68b51dd25701fc","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877158204,"uuid":"2f291420-09d1-494f-a12a-f91020397a55","stop":1774877158222}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877158204,"uuid":"ca0b22be-9758-4dd6-94f2-e397dbb90b3d","stop":1774877158222},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877158223,"uuid":"bbdedb0d-1673-46f7-bfe1-7e9987b3e3e3","stop":1774877158365}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877158223,"uuid":"6c3f8655-3ec6-4338-a431-62f62eca6004","stop":1774877158365},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774877158366,"uuid":"ff91d545-0e48-4474-a924-247f0da1f8c6","stop":1774877159165}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774877158365,"uuid":"186f7ee7-6c0e-44f0-b57b-2d9c0b06a69a","stop":1774877159166}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877158202,"uuid":"5b57ed6d-e6c0-47be-93d8-0166af8e01b5","stop":1774877159166},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877159168,"name":"Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()","uuid":"a5bdedd9-7d8f-405a-a3c3-7507cd1297d5","stop":1774877159200},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877159201,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"eed7bd8e-03a2-4fe3-bc5d-00ae23ec5e1b","stop":1774877159211},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877159212,"name":"Wait for load state \"domcontentloaded\"","uuid":"9f9ee18f-d1d6-4f38-aabd-9e8e793c39f1","stop":1774877159213},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877159212,"name":"Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"a95ea609-eb52-4d99-aec3-faa445b670dc","stop":1774877159311},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877159312,"name":"Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i, level: 3 })","uuid":"b9530e82-6d3e-4017-91fc-2dc5f4f2986a","stop":1774877159326},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774877159326,"uuid":"b7bbaa79-fd4f-42d0-a269-26984f224952","stop":1774877159326},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877159326,"uuid":"ea797d41-5dde-44b4-a231-a6b12de18f5c","stop":1774877159327},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877159352,"uuid":"7a1e5441-e35e-483f-8bcf-2e0eab42980d","stop":1774877159399}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877159327,"uuid":"4724574f-9661-4351-8f5f-70357785bba2","stop":1774877159399}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877159326,"uuid":"8d5c04b0-a1e8-4d07-bce3-03990f1f8645","stop":1774877159401}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.04_updates_and_changelog.spec.ts"},{"name":"titlePath","value":" > firefox > ui/04_updates_and_changelog.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-9957-worker-3"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/04_updates_and_changelog.spec.ts"}],"links":[],"start":1774877158201,"testCaseId":"2d02b3bd577fc047453d76380c851ae0","fullName":"ui/04_updates_and_changelog.spec.ts:3:5","titlePath":["ui","04_updates_and_changelog.spec.ts"],"stop":1774877159395}
+{
+  "uuid": "c2bb322c-d3a6-4fd8-8eae-fe06f74b67fd",
+  "name": "F5: Updates & Changelog module and \"View full changelog\"",
+  "historyId": "2d02b3bd577fc047453d76380c851ae0:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877158204,
+              "uuid": "2f291420-09d1-494f-a12a-f91020397a55",
+              "stop": 1774877158222
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877158204,
+          "uuid": "ca0b22be-9758-4dd6-94f2-e397dbb90b3d",
+          "stop": 1774877158222
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877158223,
+              "uuid": "bbdedb0d-1673-46f7-bfe1-7e9987b3e3e3",
+              "stop": 1774877158365
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877158223,
+          "uuid": "6c3f8655-3ec6-4338-a431-62f62eca6004",
+          "stop": 1774877158365
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774877158366,
+              "uuid": "ff91d545-0e48-4474-a924-247f0da1f8c6",
+              "stop": 1774877159165
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774877158365,
+          "uuid": "186f7ee7-6c0e-44f0-b57b-2d9c0b06a69a",
+          "stop": 1774877159166
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877158202,
+      "uuid": "5b57ed6d-e6c0-47be-93d8-0166af8e01b5",
+      "stop": 1774877159166
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877159168,
+      "name": "Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()",
+      "uuid": "a5bdedd9-7d8f-405a-a3c3-7507cd1297d5",
+      "stop": 1774877159200
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877159201,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "eed7bd8e-03a2-4fe3-bc5d-00ae23ec5e1b",
+      "stop": 1774877159211
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877159212,
+      "name": "Wait for load state \"domcontentloaded\"",
+      "uuid": "9f9ee18f-d1d6-4f38-aabd-9e8e793c39f1",
+      "stop": 1774877159213
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877159212,
+      "name": "Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "a95ea609-eb52-4d99-aec3-faa445b670dc",
+      "stop": 1774877159311
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877159312,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i, level: 3 })",
+      "uuid": "b9530e82-6d3e-4017-91fc-2dc5f4f2986a",
+      "stop": 1774877159326
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774877159326,
+          "uuid": "b7bbaa79-fd4f-42d0-a269-26984f224952",
+          "stop": 1774877159326
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877159326,
+          "uuid": "ea797d41-5dde-44b4-a231-a6b12de18f5c",
+          "stop": 1774877159327
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877159352,
+              "uuid": "7a1e5441-e35e-483f-8bcf-2e0eab42980d",
+              "stop": 1774877159399
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877159327,
+          "uuid": "4724574f-9661-4351-8f5f-70357785bba2",
+          "stop": 1774877159399
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877159326,
+      "uuid": "8d5c04b0-a1e8-4d07-bce3-03990f1f8645",
+      "stop": 1774877159401
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.04_updates_and_changelog.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/04_updates_and_changelog.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-9957-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/04_updates_and_changelog.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877158201,
+  "testCaseId": "2d02b3bd577fc047453d76380c851ae0",
+  "fullName": "ui/04_updates_and_changelog.spec.ts:3:5",
+  "titlePath": ["ui", "04_updates_and_changelog.spec.ts"],
+  "stop": 1774877159395
+}

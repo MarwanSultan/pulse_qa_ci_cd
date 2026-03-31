@@ -18,9 +18,7 @@ export async function expectLinkHrefReturnsOk(
       ? href
       : new URL(href, env.baseUrl).toString();
 
-
   const res = await request.get(absolute);
   expect(res.status(), `HTTP status for ${absolute}`).toBeGreaterThanOrEqual(200);
   expect(res.status(), `HTTP status for ${absolute}`).toBeLessThan(400);
 }
-

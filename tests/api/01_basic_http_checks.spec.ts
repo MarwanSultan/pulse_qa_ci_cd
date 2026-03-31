@@ -11,4 +11,3 @@ test('API: robots.txt available', async ({ api }) => {
   expect(res.status(), 'GET /robots.txt').toBeGreaterThanOrEqual(200);
   expect(res.status(), 'GET /robots.txt should not be server error').toBeLessThan(500);
 });
-

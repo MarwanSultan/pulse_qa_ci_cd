@@ -7,4 +7,3 @@ export const HttpOkSchema = z.object({
 });
 
 export type HttpOk = z.infer<typeof HttpOkSchema>;
-

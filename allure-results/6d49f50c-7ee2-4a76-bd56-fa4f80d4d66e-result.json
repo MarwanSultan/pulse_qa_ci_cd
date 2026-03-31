@@ -1,1 +1,265 @@
-{"uuid":"6d49f50c-7ee2-4a76-bd56-fa4f80d4d66e","name":"F5: Updates & Changelog module and \"View full changelog\"","historyId":"2d02b3bd577fc047453d76380c851ae0:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n","trace":"TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n\n    at UpdatesSection.expectUpdatesVisible (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/pages/home/components/UpdatesSection.ts:29:32)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:5:26"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877935381,"uuid":"01dddc9e-8fb2-42b3-9788-f47c840464a0","stop":1774877935382}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877935381,"uuid":"2364639a-8186-48b8-a5f4-d481bb4e4502","stop":1774877935383},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877935383,"uuid":"2aca3556-e56b-493c-acd8-1ec8c2fe354d","stop":1774877935406}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877935383,"uuid":"170b6a64-d8a3-49ea-a028-c907aa96381b","stop":1774877935406},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877935406,"uuid":"abf6435d-17df-4ab3-ac3f-d2bb8ae51441","stop":1774877935408},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774877935409,"uuid":"fc50e965-2255-44ac-8380-28cfc51ded21","stop":1774877935420}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774877935408,"uuid":"bb4ec65c-3d53-41a8-a9d3-1a9c460a4183","stop":1774877935421}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877935379,"uuid":"83cc5b4a-12b7-4b4b-9b25-ae73c7f54013","stop":1774877935421},{"status":"failed","statusDetails":{"message":"TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n","trace":"TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n\n    at UpdatesSection.expectUpdatesVisible (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/pages/home/components/UpdatesSection.ts:29:32)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:5:26"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877935421,"name":"Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()","uuid":"b903e5d5-338a-4845-afb7-9bb7e5cefc3a","stop":1774877950423},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"faf6d740-9805-422e-bd97-df704154903a-attachment.png","type":"image/png"}],"parameters":[],"start":1774877950857,"name":"screenshot","stop":1774877950857},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"0bf699e3-dc79-4612-b977-1453662edee3-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774877950857,"name":"video","stop":1774877950857},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1774877950444,"uuid":"e0800b8b-22cd-4ae4-b3dd-b8fb73581bee","stop":1774877950446}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774877950443,"uuid":"0d7bba54-2739-46af-90bf-149a23e0fc4d","stop":1774877950446},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877950447,"uuid":"7582eaa1-9939-4b1c-8a7f-8c863453e949","stop":1774877950447},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877950447,"uuid":"9bc98c93-7609-47f3-bf98-0eabbd525bca","stop":1774877950447},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877950451,"uuid":"635a7a7e-a88b-4b99-b549-26a59f136859","stop":1774877950826}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877950447,"uuid":"aad13a55-7e79-4f76-96ee-fc3ce43f8c51","stop":1774877950828}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877950423,"uuid":"f8419fd8-beaf-4a7b-8176-6e4234009090","stop":1774877950836}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.04_updates_and_changelog.spec.ts"},{"name":"titlePath","value":" > chromium > ui/04_updates_and_changelog.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18410-worker-3"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"ui/04_updates_and_changelog.spec.ts"}],"links":[],"start":1774877935379,"testCaseId":"2d02b3bd577fc047453d76380c851ae0","fullName":"ui/04_updates_and_changelog.spec.ts:3:5","titlePath":["ui","04_updates_and_changelog.spec.ts"],"stop":1774877950824}
+{
+  "uuid": "6d49f50c-7ee2-4a76-bd56-fa4f80d4d66e",
+  "name": "F5: Updates & Changelog module and \"View full changelog\"",
+  "historyId": "2d02b3bd577fc047453d76380c851ae0:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n",
+    "trace": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n\n    at UpdatesSection.expectUpdatesVisible (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/pages/home/components/UpdatesSection.ts:29:32)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:5:26"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877935381,
+              "uuid": "01dddc9e-8fb2-42b3-9788-f47c840464a0",
+              "stop": 1774877935382
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877935381,
+          "uuid": "2364639a-8186-48b8-a5f4-d481bb4e4502",
+          "stop": 1774877935383
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877935383,
+              "uuid": "2aca3556-e56b-493c-acd8-1ec8c2fe354d",
+              "stop": 1774877935406
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877935383,
+          "uuid": "170b6a64-d8a3-49ea-a028-c907aa96381b",
+          "stop": 1774877935406
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877935406,
+          "uuid": "abf6435d-17df-4ab3-ac3f-d2bb8ae51441",
+          "stop": 1774877935408
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774877935409,
+              "uuid": "fc50e965-2255-44ac-8380-28cfc51ded21",
+              "stop": 1774877935420
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774877935408,
+          "uuid": "bb4ec65c-3d53-41a8-a9d3-1a9c460a4183",
+          "stop": 1774877935421
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877935379,
+      "uuid": "83cc5b4a-12b7-4b4b-9b25-ae73c7f54013",
+      "stop": 1774877935421
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n",
+        "trace": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('heading', { name: /Latest Updates and Changelog/i }).first() to be visible\n\n    at UpdatesSection.expectUpdatesVisible (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/pages/home/components/UpdatesSection.ts:29:32)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:5:26"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877935421,
+      "name": "Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()",
+      "uuid": "b903e5d5-338a-4845-afb7-9bb7e5cefc3a",
+      "stop": 1774877950423
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "faf6d740-9805-422e-bd97-df704154903a-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774877950857,
+      "name": "screenshot",
+      "stop": 1774877950857
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "0bf699e3-dc79-4612-b977-1453662edee3-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774877950857,
+      "name": "video",
+      "stop": 1774877950857
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1774877950444,
+              "uuid": "e0800b8b-22cd-4ae4-b3dd-b8fb73581bee",
+              "stop": 1774877950446
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774877950443,
+          "uuid": "0d7bba54-2739-46af-90bf-149a23e0fc4d",
+          "stop": 1774877950446
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877950447,
+          "uuid": "7582eaa1-9939-4b1c-8a7f-8c863453e949",
+          "stop": 1774877950447
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877950447,
+          "uuid": "9bc98c93-7609-47f3-bf98-0eabbd525bca",
+          "stop": 1774877950447
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877950451,
+              "uuid": "635a7a7e-a88b-4b99-b549-26a59f136859",
+              "stop": 1774877950826
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877950447,
+          "uuid": "aad13a55-7e79-4f76-96ee-fc3ce43f8c51",
+          "stop": 1774877950828
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877950423,
+      "uuid": "f8419fd8-beaf-4a7b-8176-6e4234009090",
+      "stop": 1774877950836
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.04_updates_and_changelog.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > ui/04_updates_and_changelog.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18410-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "ui/04_updates_and_changelog.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877935379,
+  "testCaseId": "2d02b3bd577fc047453d76380c851ae0",
+  "fullName": "ui/04_updates_and_changelog.spec.ts:3:5",
+  "titlePath": ["ui", "04_updates_and_changelog.spec.ts"],
+  "stop": 1774877950824
+}

@@ -1,1 +1,178 @@
-{"uuid":"bb00b5f7-a671-4c27-84be-b8f34841b0f6","name":"F6: Upcoming Events list and detail navigation","historyId":"6bdf999e66bb3a03bb6d221825be1f7b:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877479553,"uuid":"6211c25b-c67b-433f-b4b3-c9c547978e99","stop":1774877480205}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877479552,"uuid":"e01e6160-3620-4153-bc35-17d4368ea041","stop":1774877480206},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877480208,"uuid":"77722755-cc43-4497-9ce1-caeccd593d6a","stop":1774877480376}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877480207,"uuid":"6e8b2836-0db5-49d1-bc3b-9c7d566c1b6a","stop":1774877480376},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877480377,"uuid":"62eb09ac-adc3-43ee-81aa-2f82dbed2229","stop":1774877480713}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877480376,"uuid":"bae7109e-a015-4e5f-be0a-73f71924aafe","stop":1774877480713}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877479543,"uuid":"ff4ed145-6f9a-4ea4-8433-12bc92896578","stop":1774877480713},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877480714,"uuid":"78f83d12-7d91-45b4-b820-52fa9dd37519","stop":1774877480714},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877480717,"uuid":"e7bfe3d5-5ba4-48bb-a073-bca8a8f05c5e","stop":1774877480752}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877480714,"uuid":"87206f1b-ed51-4e92-a011-3a0b34d8b28f","stop":1774877480753}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877480713,"uuid":"941918ba-24a7-48ed-b11c-88d89ee36d85","stop":1774877480757}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.05_upcoming_events.spec.ts"},{"name":"titlePath","value":" > firefox > ui/05_upcoming_events.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-13640-worker-3"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/05_upcoming_events.spec.ts"}],"links":[],"start":1774877479541,"testCaseId":"6bdf999e66bb3a03bb6d221825be1f7b","fullName":"ui/05_upcoming_events.spec.ts:3:5","titlePath":["ui","05_upcoming_events.spec.ts"],"stop":1774877480088}
+{
+  "uuid": "bb00b5f7-a671-4c27-84be-b8f34841b0f6",
+  "name": "F6: Upcoming Events list and detail navigation",
+  "historyId": "6bdf999e66bb3a03bb6d221825be1f7b:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877479553,
+              "uuid": "6211c25b-c67b-433f-b4b3-c9c547978e99",
+              "stop": 1774877480205
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877479552,
+          "uuid": "e01e6160-3620-4153-bc35-17d4368ea041",
+          "stop": 1774877480206
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877480208,
+              "uuid": "77722755-cc43-4497-9ce1-caeccd593d6a",
+              "stop": 1774877480376
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877480207,
+          "uuid": "6e8b2836-0db5-49d1-bc3b-9c7d566c1b6a",
+          "stop": 1774877480376
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877480377,
+              "uuid": "62eb09ac-adc3-43ee-81aa-2f82dbed2229",
+              "stop": 1774877480713
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877480376,
+          "uuid": "bae7109e-a015-4e5f-be0a-73f71924aafe",
+          "stop": 1774877480713
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877479543,
+      "uuid": "ff4ed145-6f9a-4ea4-8433-12bc92896578",
+      "stop": 1774877480713
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877480714,
+          "uuid": "78f83d12-7d91-45b4-b820-52fa9dd37519",
+          "stop": 1774877480714
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877480717,
+              "uuid": "e7bfe3d5-5ba4-48bb-a073-bca8a8f05c5e",
+              "stop": 1774877480752
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877480714,
+          "uuid": "87206f1b-ed51-4e92-a011-3a0b34d8b28f",
+          "stop": 1774877480753
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877480713,
+      "uuid": "941918ba-24a7-48ed-b11c-88d89ee36d85",
+      "stop": 1774877480757
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.05_upcoming_events.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/05_upcoming_events.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-13640-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/05_upcoming_events.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877479541,
+  "testCaseId": "6bdf999e66bb3a03bb6d221825be1f7b",
+  "fullName": "ui/05_upcoming_events.spec.ts:3:5",
+  "titlePath": ["ui", "05_upcoming_events.spec.ts"],
+  "stop": 1774877480088
+}

@@ -1,1 +1,151 @@
-{"uuid":"cfa1b41a-aa36-4880-870c-d5f8f917cad4","name":"API: homepage returns 200","historyId":"45011c3b0ea2a1012e6fa97f7aeffbbc:84e28e814b821ed013329cc8dbc467e0","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774623592583,"uuid":"d6cffcfa-1ec2-489c-ac0d-d88a4f65cf01","stop":1774623592586}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774623592582,"uuid":"c3675039-6132-482e-ba0d-01ec9cb28477","stop":1774623592586},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774623592586,"uuid":"d34045c4-4923-4ac0-ba63-f2a438d5c08c","stop":1774623592590}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774623592579,"uuid":"f854c0dc-b00e-4b6c-8150-e7cb34093198","stop":1774623592590},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623592591,"name":"GET \"/\"","uuid":"822e5e2a-cd28-42f8-919b-a5a09f5eed3a","stop":1774623592633},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623592634,"name":"GET /","uuid":"2b047959-443b-4510-8d0e-f058389581ab","stop":1774623592634},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623592634,"name":"GET / should not be server error","uuid":"de7bcf68-cb73-465a-a759-028d67c36f8c","stop":1774623592635},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774623592635,"uuid":"607661da-546f-4888-a79d-0f102c2123c8","stop":1774623592635},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774623592635,"uuid":"0a2c7e20-a3e0-4c3a-826d-8699afb99b9c","stop":1774623592636}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774623592635,"uuid":"063c79ca-6c19-475a-9a2c-7d718f3f81bc","stop":1774623592637}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"api.01_basic_http_checks.spec.ts"},{"name":"titlePath","value":" > webkit > api/01_basic_http_checks.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-12946-worker-3"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"api/01_basic_http_checks.spec.ts"}],"links":[],"start":1774623592578,"testCaseId":"45011c3b0ea2a1012e6fa97f7aeffbbc","fullName":"api/01_basic_http_checks.spec.ts:3:5","titlePath":["api","01_basic_http_checks.spec.ts"],"stop":1774623592631}
+{
+  "uuid": "cfa1b41a-aa36-4880-870c-d5f8f917cad4",
+  "name": "API: homepage returns 200",
+  "historyId": "45011c3b0ea2a1012e6fa97f7aeffbbc:84e28e814b821ed013329cc8dbc467e0",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774623592583,
+              "uuid": "d6cffcfa-1ec2-489c-ac0d-d88a4f65cf01",
+              "stop": 1774623592586
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774623592582,
+          "uuid": "c3675039-6132-482e-ba0d-01ec9cb28477",
+          "stop": 1774623592586
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774623592586,
+          "uuid": "d34045c4-4923-4ac0-ba63-f2a438d5c08c",
+          "stop": 1774623592590
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774623592579,
+      "uuid": "f854c0dc-b00e-4b6c-8150-e7cb34093198",
+      "stop": 1774623592590
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623592591,
+      "name": "GET \"/\"",
+      "uuid": "822e5e2a-cd28-42f8-919b-a5a09f5eed3a",
+      "stop": 1774623592633
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623592634,
+      "name": "GET /",
+      "uuid": "2b047959-443b-4510-8d0e-f058389581ab",
+      "stop": 1774623592634
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623592634,
+      "name": "GET / should not be server error",
+      "uuid": "de7bcf68-cb73-465a-a759-028d67c36f8c",
+      "stop": 1774623592635
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774623592635,
+          "uuid": "607661da-546f-4888-a79d-0f102c2123c8",
+          "stop": 1774623592635
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774623592635,
+          "uuid": "0a2c7e20-a3e0-4c3a-826d-8699afb99b9c",
+          "stop": 1774623592636
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774623592635,
+      "uuid": "063c79ca-6c19-475a-9a2c-7d718f3f81bc",
+      "stop": 1774623592637
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.01_basic_http_checks.spec.ts" },
+    { "name": "titlePath", "value": " > webkit > api/01_basic_http_checks.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-12946-worker-3" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "api/01_basic_http_checks.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774623592578,
+  "testCaseId": "45011c3b0ea2a1012e6fa97f7aeffbbc",
+  "fullName": "api/01_basic_http_checks.spec.ts:3:5",
+  "titlePath": ["api", "01_basic_http_checks.spec.ts"],
+  "stop": 1774623592631
+}

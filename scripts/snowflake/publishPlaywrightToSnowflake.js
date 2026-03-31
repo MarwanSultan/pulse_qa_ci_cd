@@ -142,10 +142,7 @@ async function insertRows(connection, fqtn, rows) {
   for (let i = 0; i < rows.length; i += chunkSize) {
     const chunk = rows.slice(i, i + chunkSize);
     const values = chunk
-      .map(
-        () =>
-          `(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, TO_TIMESTAMP_NTZ(?))`,
-      )
+      .map(() => `(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, TO_TIMESTAMP_NTZ(?))`)
       .join(', ');
 
     const sql = `INSERT INTO ${fqtn}
@@ -196,4 +193,3 @@ main().catch((e) => {
   console.error(e);
   process.exit(1);
 });
-

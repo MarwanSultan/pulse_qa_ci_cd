@@ -4,7 +4,7 @@
  * Provides comprehensive analytics, compliance reporting, and predictive insights
  */
 
-import type { Reporter, TestCase, TestResult } from '@playwright/test/reporter';
+import type { Reporter, TestCase, TestResult, FullResult } from '@playwright/test/reporter';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
@@ -30,7 +30,7 @@ interface TestMetrics {
 class EnterpriseReporter implements Reporter {
   private results: Array<{ test: TestCase; result: TestResult }> = [];
   private startTime = Date.now();
-  private metrics: Partial<TestMetrics> = {};
+  private metrics: Partial<TestMetrics> & { complianceScore?: number } = {};
 
   onTestEnd(test: TestCase, result: TestResult): void {
     this.results.push({ test, result });
@@ -39,15 +39,22 @@ class EnterpriseReporter implements Reporter {
     this.detectAnomalies(test, result);
 
     // Enterprise: performance monitoring
-    this.trackPerformance(result);
+    this.trackPerformance(test, result);
 
     // Security: vulnerability detection
     this.scanForSecurityIssues(test, result);
   }
 
-  onEnd(): void {
+  async onEnd(result: FullResult): Promise<void> {
+    void result;
     const endTime = Date.now();
     const duration = endTime - this.startTime;
+
+    // Ensure test-results directory exists
+    const resultsDir = path.join(process.cwd(), 'test-results');
+    if (!fs.existsSync(resultsDir)) {
+      fs.mkdirSync(resultsDir, { recursive: true });
+    }
 
     // Generate comprehensive enterprise report
     this.generateEnterpriseReport(duration);
@@ -79,7 +86,7 @@ class EnterpriseReporter implements Reporter {
     }
   }
 
-  private trackPerformance(result: TestResult): void {
+  private trackPerformance(test: TestCase, result: TestResult): void {
     // Enterprise: performance KPIs
     if (!this.metrics.slowTests) {
       this.metrics.slowTests = [];
@@ -88,7 +95,7 @@ class EnterpriseReporter implements Reporter {
     if (result.duration > 10000) {
       // 10 seconds
       this.metrics.slowTests.push({
-        name: result.title,
+        name: test.title,
         duration: result.duration,
       });
     }
@@ -114,41 +121,56 @@ class EnterpriseReporter implements Reporter {
     }
   }
 
-  private generateEnterpriseReport(duration: number): void {
+  private generateEnterpriseReport(duration: number): TestMetrics {
+    const passed = this.results.filter((r) => r.result.status === 'passed').length;
+    const failed = this.results.filter((r) => r.result.status === 'failed').length;
+    const skipped = this.results.filter((r) => r.result.status === 'skipped').length;
+
+    const complianceScore = this.calculateComplianceScore(failed, skipped);
+    this.metrics.complianceScore = complianceScore;
+
     const report: TestMetrics = {
       totalTests: this.results.length,
-      passed: this.results.filter((r) => r.result.status === 'passed').length,
-      failed: this.results.filter((r) => r.result.status === 'failed').length,
-      skipped: this.results.filter((r) => r.result.status === 'skipped').length,
+      passed,
+      failed,
+      skipped,
       duration,
-      averageDuration: duration / this.results.length,
+      averageDuration: this.results.length > 0 ? duration / this.results.length : 0,
       flakyTests: this.identifyFlakyTests(),
       slowTests: this.metrics.slowTests || [],
       errorPatterns: this.analyzeErrorPatterns(),
-      complianceScore: this.calculateComplianceScore(),
+      complianceScore,
       securityIssues: this.metrics.securityIssues || [],
       performanceMetrics: this.calculatePerformanceMetrics(),
     };
 
     // Write enterprise report
     const reportPath = path.join(process.cwd(), 'test-results', 'enterprise-report.json');
-    fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
+    try {
+      fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
+      console.log('📊 Enterprise Test Report Generated:', reportPath);
+    } catch (error) {
+      console.error('❌ Failed to write enterprise report:', error);
+    }
 
     // Intelligence community: classified summary
     this.generateClassifiedSummary(report);
 
-    console.log('📊 Enterprise Test Report Generated:', reportPath);
-    console.log(`✅ Pass Rate: ${((report.passed / report.totalTests) * 100).toFixed(1)}%`);
+    console.log(
+      `✅ Pass Rate: ${report.totalTests > 0 ? ((report.passed / report.totalTests) * 100).toFixed(1) : 0}%`,
+    );
     console.log(`🛡️  Compliance Score: ${report.complianceScore}/100`);
     console.log(`🔒 Security Issues: ${report.securityIssues.length}`);
+
+    return report;
   }
 
   private identifyFlakyTests(): string[] {
     // Enterprise: flaky test detection algorithm
     const testRuns = new Map<string, TestResult[]>();
 
-    this.results.forEach((result) => {
-      const key = result.title;
+    this.results.forEach(({ test, result }) => {
+      const key = test.title;
       if (!testRuns.has(key)) {
         testRuns.set(key, []);
       }
@@ -172,9 +194,9 @@ class EnterpriseReporter implements Reporter {
     const patterns: Record<string, number> = {};
 
     this.results
-      .filter((r) => r.error)
-      .forEach((result) => {
-        const error = result.error!.message;
+      .filter((r) => r.result.error)
+      .forEach(({ result }) => {
+        const error = result.error!.message || 'Unknown error';
         const pattern = this.categorizeError(error);
 
         patterns[pattern] = (patterns[pattern] || 0) + 1;
@@ -191,17 +213,17 @@ class EnterpriseReporter implements Reporter {
     return 'Other';
   }
 
-  private calculateComplianceScore(): number {
+  private calculateComplianceScore(failedCount: number, skippedCount: number): number {
     // Intelligence community: compliance scoring algorithm
+    if (this.results.length === 0) return 100;
+
     let score = 100;
 
     // Deduct for failures
-    score -=
-      (this.results.filter((r) => r.result.status === 'failed').length / this.results.length) * 50;
+    score -= (failedCount / this.results.length) * 50;
 
     // Deduct for skipped tests
-    score -=
-      (this.results.filter((r) => r.result.status === 'skipped').length / this.results.length) * 20;
+    score -= (skippedCount / this.results.length) * 20;
 
     // Deduct for security issues
     score -= (this.metrics.securityIssues?.length || 0) * 10;
@@ -249,14 +271,18 @@ class EnterpriseReporter implements Reporter {
         recommendations: this.generateRecommendations(report),
       },
       metrics: {
-        testCoverage: `${((report.passed / report.totalTests) * 100).toFixed(1)}%`,
+        testCoverage: `${report.totalTests > 0 ? ((report.passed / report.totalTests) * 100).toFixed(1) : 0}%`,
         performanceBaseline: `${report.performanceMetrics.averageResponseTime.toFixed(0)}ms`,
         riskLevel: report.securityIssues.length > 0 ? 'HIGH' : 'LOW',
       },
     };
 
     const classifiedPath = path.join(process.cwd(), 'test-results', 'classified-summary.json');
-    fs.writeFileSync(classifiedPath, JSON.stringify(classifiedReport, null, 2));
+    try {
+      fs.writeFileSync(classifiedPath, JSON.stringify(classifiedReport, null, 2));
+    } catch (error) {
+      console.error('❌ Failed to write classified summary:', error);
+    }
   }
 
   private generatePredictiveInsights(): void {
@@ -268,7 +294,11 @@ class EnterpriseReporter implements Reporter {
     };
 
     const insightsPath = path.join(process.cwd(), 'test-results', 'predictive-insights.json');
-    fs.writeFileSync(insightsPath, JSON.stringify(insights, null, 2));
+    try {
+      fs.writeFileSync(insightsPath, JSON.stringify(insights, null, 2));
+    } catch (error) {
+      console.error('❌ Failed to write predictive insights:', error);
+    }
   }
 
   private predictFutureFailures(): string[] {
@@ -330,7 +360,11 @@ class EnterpriseReporter implements Reporter {
     };
 
     const compliancePath = path.join(process.cwd(), 'test-results', 'compliance-report.json');
-    fs.writeFileSync(compliancePath, JSON.stringify(complianceReport, null, 2));
+    try {
+      fs.writeFileSync(compliancePath, JSON.stringify(complianceReport, null, 2));
+    } catch (error) {
+      console.error('❌ Failed to write compliance report:', error);
+    }
   }
 
   private exportToDashboard(): void {
@@ -342,7 +376,11 @@ class EnterpriseReporter implements Reporter {
     };
 
     const dashboardPath = path.join(process.cwd(), 'test-results', 'dashboard-data.json');
-    fs.writeFileSync(dashboardPath, JSON.stringify(dashboardData, null, 2));
+    try {
+      fs.writeFileSync(dashboardPath, JSON.stringify(dashboardData, null, 2));
+    } catch (error) {
+      console.error('❌ Failed to write dashboard data:', error);
+    }
   }
 
   private generateAlerts(): string[] {

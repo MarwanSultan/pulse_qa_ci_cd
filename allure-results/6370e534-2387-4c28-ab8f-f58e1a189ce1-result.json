@@ -1,1 +1,383 @@
-{"uuid":"6370e534-2387-4c28-ab8f-f58e1a189ce1","name":"F8: Footer legal/disclaimer links resolve successfully","historyId":"c46bb762446f2036b132ee24af05b410:b444eb0fbe6390c71e68b51dd25701fc","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774623585362,"uuid":"6bb3aa9a-7fa0-4ad8-92b7-d6770c8313eb","stop":1774623585365}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774623585362,"uuid":"2914e083-0a10-44c3-8052-07f2a500220e","stop":1774623585365},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774623585366,"uuid":"8fbe75e6-e376-42c0-8376-1cf879987be6","stop":1774623585471}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774623585365,"uuid":"44fea18f-5db4-429e-a06b-b07833af5c7c","stop":1774623585471},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774623585472,"uuid":"7408d2ec-96b6-4e11-9bf9-8ccc020f0608","stop":1774623586293}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774623585471,"uuid":"c1666f66-04fe-484d-80bb-1bb437ece37d","stop":1774623586293},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774623586295,"uuid":"5bd9b941-68d2-4694-9743-f31b604e199d","stop":1774623586295}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774623586294,"uuid":"b058d575-1db8-419a-860c-c3030491c86a","stop":1774623586296},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774623586296,"uuid":"2e07cffe-56ca-484a-a2fc-56a7499d53bb","stop":1774623586297}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774623585360,"uuid":"9189df72-365d-494e-b37a-5bde8e3105d4","stop":1774623586298},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586299,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /Accessibility statement/i }).first()","uuid":"97dba71c-af49-421b-b8e5-1d73ae63eb5a","stop":1774623586317},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586324,"name":"GET \"/website-information/accessibility-statement\"","uuid":"18f10f05-3df3-4208-a295-dc1dbc5541fb","stop":1774623586370},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586371,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /Privacy policy/i }).first()","uuid":"a356ff7b-0955-4488-b212-5d9f01bd89ed","stop":1774623586375},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586385,"name":"GET \"/website-information/website-policies\"","uuid":"d4390df9-fbfd-42a8-bb7c-b6865b096970","stop":1774623586400},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586400,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /FOIA/i }).first()","uuid":"1becad8a-1a85-456b-9a6b-fc47aca21bc8","stop":1774623586405},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586409,"name":"GET \"/reference/freedom-of-information-act-foia\"","uuid":"e18fe097-6911-451e-9cec-c125de0c9fde","stop":1774623586421},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586422,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /No FEAR Act data/i }).first()","uuid":"246a94cd-8aba-453d-acf6-b0ddaa4608aa","stop":1774623586426},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586432,"name":"GET \"/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002\"","uuid":"158d1d5a-2e8e-4c82-8c8b-fbf3b6c7bac9","stop":1774623586479},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586480,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /Performance reports/i }).first()","uuid":"bfe7047e-a599-4b4d-b8bb-79fabf0732a6","stop":1774623586485},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586490,"name":"GET \"/reference/reports\"","uuid":"a8d56a31-8cd0-4793-bd26-9fb116cbb1c2","stop":1774623586504},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586504,"name":"Query count getByRole('contentinfo').first().getByRole('link', { name: /Vulnerability disclosure policy/i }).first()","uuid":"226c4064-41ab-414e-a707-f288830b24ad","stop":1774623586508},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623586514,"name":"GET \"/vulnerability-disclosure-policy\"","uuid":"cde2850a-9433-4d3d-ae56-9eaa66193af3","stop":1774623586560},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774623586560,"uuid":"45ad9c0f-a9d6-46bf-ad1a-99d282ac7921","stop":1774623586560},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774623586560,"uuid":"cc6d13e1-3f06-4ca7-ab5a-c5ca39513d18","stop":1774623586561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774623586561,"uuid":"10453b9a-ec45-4072-bc2b-97cefd8822ab","stop":1774623586561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774623586561,"uuid":"a533c6ca-9afd-4c15-95bc-4857b5db8f1d","stop":1774623586561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774623586584,"uuid":"ed8162a7-71cc-4134-87aa-0280205b3067","stop":1774623586616}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774623586561,"uuid":"f4d059ce-db1a-4d17-b6f1-ef09a6e75790","stop":1774623586616}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774623586560,"uuid":"26920940-38ed-4681-9055-b266f1a426c8","stop":1774623586618}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.07_footer_links.spec.ts"},{"name":"titlePath","value":" > firefox > ui/07_footer_links.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-12946-worker-3"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/07_footer_links.spec.ts"}],"links":[],"start":1774623585360,"testCaseId":"c46bb762446f2036b132ee24af05b410","fullName":"ui/07_footer_links.spec.ts:3:5","titlePath":["ui","07_footer_links.spec.ts"],"stop":1774623586612}
+{
+  "uuid": "6370e534-2387-4c28-ab8f-f58e1a189ce1",
+  "name": "F8: Footer legal/disclaimer links resolve successfully",
+  "historyId": "c46bb762446f2036b132ee24af05b410:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774623585362,
+              "uuid": "6bb3aa9a-7fa0-4ad8-92b7-d6770c8313eb",
+              "stop": 1774623585365
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774623585362,
+          "uuid": "2914e083-0a10-44c3-8052-07f2a500220e",
+          "stop": 1774623585365
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774623585366,
+              "uuid": "8fbe75e6-e376-42c0-8376-1cf879987be6",
+              "stop": 1774623585471
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774623585365,
+          "uuid": "44fea18f-5db4-429e-a06b-b07833af5c7c",
+          "stop": 1774623585471
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774623585472,
+              "uuid": "7408d2ec-96b6-4e11-9bf9-8ccc020f0608",
+              "stop": 1774623586293
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774623585471,
+          "uuid": "c1666f66-04fe-484d-80bb-1bb437ece37d",
+          "stop": 1774623586293
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774623586295,
+              "uuid": "5bd9b941-68d2-4694-9743-f31b604e199d",
+              "stop": 1774623586295
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774623586294,
+          "uuid": "b058d575-1db8-419a-860c-c3030491c86a",
+          "stop": 1774623586296
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774623586296,
+          "uuid": "2e07cffe-56ca-484a-a2fc-56a7499d53bb",
+          "stop": 1774623586297
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774623585360,
+      "uuid": "9189df72-365d-494e-b37a-5bde8e3105d4",
+      "stop": 1774623586298
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586299,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /Accessibility statement/i }).first()",
+      "uuid": "97dba71c-af49-421b-b8e5-1d73ae63eb5a",
+      "stop": 1774623586317
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586324,
+      "name": "GET \"/website-information/accessibility-statement\"",
+      "uuid": "18f10f05-3df3-4208-a295-dc1dbc5541fb",
+      "stop": 1774623586370
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586371,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /Privacy policy/i }).first()",
+      "uuid": "a356ff7b-0955-4488-b212-5d9f01bd89ed",
+      "stop": 1774623586375
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586385,
+      "name": "GET \"/website-information/website-policies\"",
+      "uuid": "d4390df9-fbfd-42a8-bb7c-b6865b096970",
+      "stop": 1774623586400
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586400,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /FOIA/i }).first()",
+      "uuid": "1becad8a-1a85-456b-9a6b-fc47aca21bc8",
+      "stop": 1774623586405
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586409,
+      "name": "GET \"/reference/freedom-of-information-act-foia\"",
+      "uuid": "e18fe097-6911-451e-9cec-c125de0c9fde",
+      "stop": 1774623586421
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586422,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /No FEAR Act data/i }).first()",
+      "uuid": "246a94cd-8aba-453d-acf6-b0ddaa4608aa",
+      "stop": 1774623586426
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586432,
+      "name": "GET \"/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002\"",
+      "uuid": "158d1d5a-2e8e-4c82-8c8b-fbf3b6c7bac9",
+      "stop": 1774623586479
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586480,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /Performance reports/i }).first()",
+      "uuid": "bfe7047e-a599-4b4d-b8bb-79fabf0732a6",
+      "stop": 1774623586485
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586490,
+      "name": "GET \"/reference/reports\"",
+      "uuid": "a8d56a31-8cd0-4793-bd26-9fb116cbb1c2",
+      "stop": 1774623586504
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586504,
+      "name": "Query count getByRole('contentinfo').first().getByRole('link', { name: /Vulnerability disclosure policy/i }).first()",
+      "uuid": "226c4064-41ab-414e-a707-f288830b24ad",
+      "stop": 1774623586508
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623586514,
+      "name": "GET \"/vulnerability-disclosure-policy\"",
+      "uuid": "cde2850a-9433-4d3d-ae56-9eaa66193af3",
+      "stop": 1774623586560
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774623586560,
+          "uuid": "45ad9c0f-a9d6-46bf-ad1a-99d282ac7921",
+          "stop": 1774623586560
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774623586560,
+          "uuid": "cc6d13e1-3f06-4ca7-ab5a-c5ca39513d18",
+          "stop": 1774623586561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774623586561,
+          "uuid": "10453b9a-ec45-4072-bc2b-97cefd8822ab",
+          "stop": 1774623586561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774623586561,
+          "uuid": "a533c6ca-9afd-4c15-95bc-4857b5db8f1d",
+          "stop": 1774623586561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774623586584,
+              "uuid": "ed8162a7-71cc-4134-87aa-0280205b3067",
+              "stop": 1774623586616
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774623586561,
+          "uuid": "f4d059ce-db1a-4d17-b6f1-ef09a6e75790",
+          "stop": 1774623586616
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774623586560,
+      "uuid": "26920940-38ed-4681-9055-b266f1a426c8",
+      "stop": 1774623586618
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.07_footer_links.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/07_footer_links.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-12946-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/07_footer_links.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774623585360,
+  "testCaseId": "c46bb762446f2036b132ee24af05b410",
+  "fullName": "ui/07_footer_links.spec.ts:3:5",
+  "titlePath": ["ui", "07_footer_links.spec.ts"],
+  "stop": 1774623586612
+}

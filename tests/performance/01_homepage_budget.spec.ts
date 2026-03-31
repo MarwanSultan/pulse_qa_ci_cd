@@ -11,4 +11,3 @@ test('Performance: homepage navigation duration stays within budget', async ({ p
     `navigation duration ${navMs}ms exceeded budget ${env.maxPageLoadMs}ms`,
   ).toBeLessThanOrEqual(env.maxPageLoadMs);
 });
-

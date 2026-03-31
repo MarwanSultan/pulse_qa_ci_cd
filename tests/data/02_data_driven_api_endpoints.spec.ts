@@ -24,4 +24,3 @@ test('CSV-driven API endpoint checks', async ({ api }) => {
     ).toBeLessThanOrEqual(row.expectedMaxStatus);
   }
 });
-

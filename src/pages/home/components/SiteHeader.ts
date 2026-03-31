@@ -22,10 +22,7 @@ export class SiteHeader extends BasePage {
     return this.nav.getByRole('link', { name: /Updates? & Changelog|Changelog/i });
   }
 
-  private async verifyNavLinkOkInternal(
-    request: APIRequestContext,
-    link: Locator,
-  ): Promise<void> {
+  private async verifyNavLinkOkInternal(request: APIRequestContext, link: Locator): Promise<void> {
     if ((await link.count()) === 0) return;
     const href = await this.getHref(link.first());
     if (!href) return;
@@ -38,4 +35,3 @@ export class SiteHeader extends BasePage {
     await this.verifyNavLinkOkInternal(request, this.updatesLink());
   }
 }
-
