@@ -2,6 +2,8 @@
 
 This repo is an evolved, production-grade Playwright framework suitable for **UI + API + data-driven + lightweight performance** testing, with CI sharding and compliance-friendly practices (no hardcoded secrets, structured artifacts, deterministic retries).
 
+**Website Under Test:** [https://www.fedramp.gov/](https://www.fedramp.gov/) — The Federal Risk and Authorization Management Program (FedRAMP) public website.
+
 ### 1) Architecture (what lives where)
 
 - **`src/pages/`**: Page Object Model (POM)
