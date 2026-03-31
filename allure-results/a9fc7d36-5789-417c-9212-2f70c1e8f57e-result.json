@@ -1,1 +1,178 @@
-{"uuid":"a9fc7d36-5789-417c-9212-2f70c1e8f57e","name":"UI + API: clicking \"View full changelog\" resolves via HTTP","historyId":"eb1a831f255f4bc26baf827120110856:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877877512,"uuid":"4cbc6703-1958-4fd2-9191-58c958ee4784","stop":1774877879159}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877877511,"uuid":"f644480b-18b8-4f2e-8219-f863a5569bae","stop":1774877879159},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877879160,"uuid":"12eee771-4dfc-4329-9380-77f2659c79ae","stop":1774877879302}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877879160,"uuid":"78ed9b21-1f38-47b6-b676-d28a2ae6e46a","stop":1774877879302},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877879303,"uuid":"2ae12bf1-b6d7-4ab3-b39f-c6f872ea24c2","stop":1774877879616}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877879302,"uuid":"8aca4277-80d8-4077-9e54-924588d6b1e7","stop":1774877879617}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877877505,"uuid":"347dcd11-86a1-4e4d-8216-bf7efbdccd0f","stop":1774877879617},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877879618,"uuid":"45226d0d-6bbc-4b06-a812-b39a06fafb70","stop":1774877879619},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877879622,"uuid":"8882aedd-91b9-4d9d-b7b2-86f311c51fc2","stop":1774877879649}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877879619,"uuid":"81db26fa-5c72-463e-a31c-6e86932ff4e6","stop":1774877879650}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877879618,"uuid":"c394c624-f2fe-41b9-85c1-d1f4cdbb282c","stop":1774877879652}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"example.spec.ts"},{"name":"titlePath","value":" > firefox > example.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18064-worker-1"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"example.spec.ts"}],"links":[],"start":1774877877485,"testCaseId":"eb1a831f255f4bc26baf827120110856","fullName":"example.spec.ts:4:5","titlePath":["example.spec.ts"],"stop":1774877877974}
+{
+  "uuid": "a9fc7d36-5789-417c-9212-2f70c1e8f57e",
+  "name": "UI + API: clicking \"View full changelog\" resolves via HTTP",
+  "historyId": "eb1a831f255f4bc26baf827120110856:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877877512,
+              "uuid": "4cbc6703-1958-4fd2-9191-58c958ee4784",
+              "stop": 1774877879159
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877877511,
+          "uuid": "f644480b-18b8-4f2e-8219-f863a5569bae",
+          "stop": 1774877879159
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877879160,
+              "uuid": "12eee771-4dfc-4329-9380-77f2659c79ae",
+              "stop": 1774877879302
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877879160,
+          "uuid": "78ed9b21-1f38-47b6-b676-d28a2ae6e46a",
+          "stop": 1774877879302
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877879303,
+              "uuid": "2ae12bf1-b6d7-4ab3-b39f-c6f872ea24c2",
+              "stop": 1774877879616
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877879302,
+          "uuid": "8aca4277-80d8-4077-9e54-924588d6b1e7",
+          "stop": 1774877879617
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877877505,
+      "uuid": "347dcd11-86a1-4e4d-8216-bf7efbdccd0f",
+      "stop": 1774877879617
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877879618,
+          "uuid": "45226d0d-6bbc-4b06-a812-b39a06fafb70",
+          "stop": 1774877879619
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877879622,
+              "uuid": "8882aedd-91b9-4d9d-b7b2-86f311c51fc2",
+              "stop": 1774877879649
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877879619,
+          "uuid": "81db26fa-5c72-463e-a31c-6e86932ff4e6",
+          "stop": 1774877879650
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877879618,
+      "uuid": "c394c624-f2fe-41b9-85c1-d1f4cdbb282c",
+      "stop": 1774877879652
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > example.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18064-worker-1" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877877485,
+  "testCaseId": "eb1a831f255f4bc26baf827120110856",
+  "fullName": "example.spec.ts:4:5",
+  "titlePath": ["example.spec.ts"],
+  "stop": 1774877877974
+}

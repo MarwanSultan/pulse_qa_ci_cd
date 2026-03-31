@@ -51,4 +51,3 @@ export class MarketplaceSection extends BasePage {
     await this.expectHrefOk(request, href);
   }
 }
-

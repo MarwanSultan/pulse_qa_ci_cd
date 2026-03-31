@@ -1,1 +1,293 @@
-{"uuid":"78c9c437-1329-439a-bc42-b3969b471d0e","name":"F2/F3: Marketplace CTA and summary metrics render","historyId":"df0de74d5d09297535343cf4896d0d62:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/02_marketplace_module_and_metrics.spec.ts:9:63"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774623580933,"uuid":"402a6374-dd23-4d79-bec5-d565a944a912","stop":1774623581400}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774623580930,"uuid":"b8e365d6-7d8d-469f-bae1-476f520df189","stop":1774623581400},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774623581403,"uuid":"9af0c58e-26b5-4930-871f-28577e9a9da2","stop":1774623581572}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774623581401,"uuid":"fc932313-6d72-4336-84a3-5e572486d84e","stop":1774623581572},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774623581574,"uuid":"326d3cb0-6775-4fc9-9214-110d675147e9","stop":1774623582050}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774623581573,"uuid":"dd9908f6-dd84-4128-9b34-763e79cf7cb9","stop":1774623582050},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774623582055,"uuid":"1ff239c9-8e81-43c3-985c-ad9bd3886ed0","stop":1774623582942}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774623582050,"uuid":"3c938d2e-10a6-427f-9e3d-c1fcb2429a51","stop":1774623582943}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774623580920,"uuid":"1a9b1394-37e5-45f7-92e3-de8f83c3eace","stop":1774623582943},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623582945,"name":"Expect \"toBeVisible\" getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i })","uuid":"a0293233-a539-4abf-b268-3db208c6a12a","stop":1774623582989},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623582990,"name":"Expect \"toBeVisible\" getByText(/Total FedRAMP Authorized Services/i)","uuid":"bec53a0b-d395-4a07-b9fb-10692bffd14b","stop":1774623583003},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/02_marketplace_module_and_metrics.spec.ts:9:63"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774623583005,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()","uuid":"d41d89d5-dfa6-44bb-8eeb-38d000ff3610","stop":1774623598005},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"9ef3cbc0-0d3e-48cc-9788-9894ff660921-attachment.png","type":"image/png"}],"parameters":[],"start":1774623598375,"name":"screenshot","stop":1774623598375},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"f6ec9baa-5f36-4ffa-865d-4b15f16db2a8-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774623598375,"name":"video","stop":1774623598375},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"22c220a5-132b-4f69-b376-621a9c5e0ce7-attachment.md","type":"text/markdown"}],"parameters":[],"start":1774623598376,"name":"error-context","stop":1774623598376},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774623598029,"uuid":"385f4770-ad75-4898-9b62-d16bf3672f06","stop":1774623598029},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774623598029,"uuid":"8f27670f-180b-4694-83d9-a765d3248651","stop":1774623598029},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774623598071,"uuid":"48aa56a4-c620-4295-97e7-620b4118af9d","stop":1774623598096}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774623598029,"uuid":"55757823-918c-47c2-979e-bd4e1be9acd8","stop":1774623598097}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774623598005,"uuid":"586c7be7-53f5-4234-9f11-a4b0ff409dbb","stop":1774623598100}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.02_marketplace_module_and_metrics.spec.ts"},{"name":"titlePath","value":" > firefox > ui/02_marketplace_module_and_metrics.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-12946-worker-0"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/02_marketplace_module_and_metrics.spec.ts"}],"links":[],"start":1774623580919,"testCaseId":"df0de74d5d09297535343cf4896d0d62","fullName":"ui/02_marketplace_module_and_metrics.spec.ts:3:5","titlePath":["ui","02_marketplace_module_and_metrics.spec.ts"],"stop":1774623597614}
+{
+  "uuid": "78c9c437-1329-439a-bc42-b3969b471d0e",
+  "name": "F2/F3: Marketplace CTA and summary metrics render",
+  "historyId": "df0de74d5d09297535343cf4896d0d62:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/02_marketplace_module_and_metrics.spec.ts:9:63"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774623580933,
+              "uuid": "402a6374-dd23-4d79-bec5-d565a944a912",
+              "stop": 1774623581400
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774623580930,
+          "uuid": "b8e365d6-7d8d-469f-bae1-476f520df189",
+          "stop": 1774623581400
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774623581403,
+              "uuid": "9af0c58e-26b5-4930-871f-28577e9a9da2",
+              "stop": 1774623581572
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774623581401,
+          "uuid": "fc932313-6d72-4336-84a3-5e572486d84e",
+          "stop": 1774623581572
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774623581574,
+              "uuid": "326d3cb0-6775-4fc9-9214-110d675147e9",
+              "stop": 1774623582050
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774623581573,
+          "uuid": "dd9908f6-dd84-4128-9b34-763e79cf7cb9",
+          "stop": 1774623582050
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774623582055,
+              "uuid": "1ff239c9-8e81-43c3-985c-ad9bd3886ed0",
+              "stop": 1774623582942
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774623582050,
+          "uuid": "3c938d2e-10a6-427f-9e3d-c1fcb2429a51",
+          "stop": 1774623582943
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774623580920,
+      "uuid": "1a9b1394-37e5-45f7-92e3-de8f83c3eace",
+      "stop": 1774623582943
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623582945,
+      "name": "Expect \"toBeVisible\" getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i })",
+      "uuid": "a0293233-a539-4abf-b268-3db208c6a12a",
+      "stop": 1774623582989
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623582990,
+      "name": "Expect \"toBeVisible\" getByText(/Total FedRAMP Authorized Services/i)",
+      "uuid": "bec53a0b-d395-4a07-b9fb-10692bffd14b",
+      "stop": 1774623583003
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/02_marketplace_module_and_metrics.spec.ts:9:63"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774623583005,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"]').filter({ has: getByText(/Total FedRAMP Authorized Services/i) }).first().locator('text=/\\\\d[\\\\d,]*/').first()",
+      "uuid": "d41d89d5-dfa6-44bb-8eeb-38d000ff3610",
+      "stop": 1774623598005
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "9ef3cbc0-0d3e-48cc-9788-9894ff660921-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774623598375,
+      "name": "screenshot",
+      "stop": 1774623598375
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "f6ec9baa-5f36-4ffa-865d-4b15f16db2a8-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774623598375,
+      "name": "video",
+      "stop": 1774623598375
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "22c220a5-132b-4f69-b376-621a9c5e0ce7-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1774623598376,
+      "name": "error-context",
+      "stop": 1774623598376
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774623598029,
+          "uuid": "385f4770-ad75-4898-9b62-d16bf3672f06",
+          "stop": 1774623598029
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774623598029,
+          "uuid": "8f27670f-180b-4694-83d9-a765d3248651",
+          "stop": 1774623598029
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774623598071,
+              "uuid": "48aa56a4-c620-4295-97e7-620b4118af9d",
+              "stop": 1774623598096
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774623598029,
+          "uuid": "55757823-918c-47c2-979e-bd4e1be9acd8",
+          "stop": 1774623598097
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774623598005,
+      "uuid": "586c7be7-53f5-4234-9f11-a4b0ff409dbb",
+      "stop": 1774623598100
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-12946-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/02_marketplace_module_and_metrics.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774623580919,
+  "testCaseId": "df0de74d5d09297535343cf4896d0d62",
+  "fullName": "ui/02_marketplace_module_and_metrics.spec.ts:3:5",
+  "titlePath": ["ui", "02_marketplace_module_and_metrics.spec.ts"],
+  "stop": 1774623597614
+}

@@ -3,7 +3,7 @@
  * Implements intelligence community security scanning and compliance reporting
  */
 
-import type { Reporter, TestCase, TestResult } from '@playwright/test/reporter';
+import type { Reporter, TestCase, TestResult, FullResult } from '@playwright/test/reporter';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
@@ -35,7 +35,17 @@ type RiskLevel = 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
 
 class SecurityReporter implements Reporter {
   private securityIssues: SecurityIssue[] = [];
-  private complianceChecks: Partial<ComplianceStatus> = {};
+  private complianceChecks: {
+    fedramp: boolean[];
+    soc2: boolean[];
+    iso27001: boolean[];
+    pci: boolean[];
+  } = {
+    fedramp: [],
+    soc2: [],
+    iso27001: [],
+    pci: [],
+  };
 
   onTestEnd(test: TestCase, result: TestResult): void {
     // Intelligence community: comprehensive security analysis
@@ -44,7 +54,8 @@ class SecurityReporter implements Reporter {
     this.assessRisk(test, result);
   }
 
-  onEnd(): void {
+  async onEnd(result: FullResult): Promise<void> {
+    void result;
     const securityReport: SecurityScan = {
       vulnerabilities: this.securityIssues,
       compliance: this.getComplianceStatus(),
@@ -52,14 +63,24 @@ class SecurityReporter implements Reporter {
       recommendations: this.generateSecurityRecommendations(),
     };
 
+    // Ensure test-results directory exists
+    const resultsDir = path.join(process.cwd(), 'test-results');
+    if (!fs.existsSync(resultsDir)) {
+      fs.mkdirSync(resultsDir, { recursive: true });
+    }
+
     // Write security report
-    const reportPath = path.join(process.cwd(), 'test-results', 'security-scan.json');
-    fs.writeFileSync(reportPath, JSON.stringify(securityReport, null, 2));
+    const reportPath = path.join(resultsDir, 'security-scan.json');
+    try {
+      fs.writeFileSync(reportPath, JSON.stringify(securityReport, null, 2));
+      console.log('🔒 Security Scan Completed:', reportPath);
+    } catch (error) {
+      console.error('❌ Failed to write security report:', error);
+    }
 
     // Intelligence community: classified security briefing
     this.generateClassifiedSecurityBriefing(securityReport);
 
-    console.log('🔒 Security Scan Completed:', reportPath);
     console.log(`🚨 Vulnerabilities Found: ${securityReport.vulnerabilities.length}`);
     console.log(`🛡️  Risk Level: ${securityReport.riskAssessment}`);
     console.log(`📋 Compliance: ${this.getComplianceSummary(securityReport.compliance)}`);
@@ -182,25 +203,26 @@ class SecurityReporter implements Reporter {
   private checkCompliance(test: TestCase, result: TestResult): void {
     // Intelligence community: compliance validation
     const testName = test.title.toLowerCase();
+    const passed = result.status === 'passed';
 
     // FedRAMP compliance checks
     if (testName.includes('security') || testName.includes('auth')) {
-      this.complianceChecks.fedramp = result.status === 'passed';
+      this.complianceChecks.fedramp.push(passed);
     }
 
     // SOC 2 compliance
     if (testName.includes('audit') || testName.includes('log')) {
-      this.complianceChecks.soc2 = result.status === 'passed';
+      this.complianceChecks.soc2.push(passed);
     }
 
     // ISO 27001
     if (testName.includes('access') || testName.includes('control')) {
-      this.complianceChecks.iso27001 = result.status === 'passed';
+      this.complianceChecks.iso27001.push(passed);
     }
 
     // PCI compliance
     if (testName.includes('payment') || testName.includes('card')) {
-      this.complianceChecks.pci = result.status === 'passed';
+      this.complianceChecks.pci.push(passed);
     }
   }
 
@@ -225,11 +247,13 @@ class SecurityReporter implements Reporter {
   }
 
   private getComplianceStatus(): ComplianceStatus {
+    const checkStatus = (results: boolean[]) => results.length > 0 && results.every(Boolean);
+
     return {
-      fedramp: this.complianceChecks.fedramp ?? false,
-      soc2: this.complianceChecks.soc2 ?? false,
-      iso27001: this.complianceChecks.iso27001 ?? false,
-      pci: this.complianceChecks.pci ?? false,
+      fedramp: checkStatus(this.complianceChecks.fedramp),
+      soc2: checkStatus(this.complianceChecks.soc2),
+      iso27001: checkStatus(this.complianceChecks.iso27001),
+      pci: checkStatus(this.complianceChecks.pci),
       customPolicies: {
         'intelligence-community': this.securityIssues.length === 0,
         'zero-trust': !this.securityIssues.some((issue) => issue.severity === 'CRITICAL'),
@@ -272,9 +296,16 @@ class SecurityReporter implements Reporter {
   }
 
   private getComplianceSummary(compliance: ComplianceStatus): string {
-    const compliant = Object.values(compliance).filter(Boolean).length;
-    const total = Object.keys(compliance).length;
-    return `${compliant}/${total} standards met`;
+    const statusValues = [
+      compliance.fedramp,
+      compliance.soc2,
+      compliance.iso27001,
+      compliance.pci,
+      ...Object.values(compliance.customPolicies),
+    ];
+    const compliantCount = statusValues.filter(Boolean).length;
+    const totalCount = statusValues.length;
+    return `${compliantCount}/${totalCount} standards met`;
   }
 
   private generateClassifiedSecurityBriefing(report: SecurityScan): void {
@@ -301,7 +332,11 @@ class SecurityReporter implements Reporter {
       'test-results',
       'classified-security-briefing.json',
     );
-    fs.writeFileSync(briefingPath, JSON.stringify(briefing, null, 2));
+    try {
+      fs.writeFileSync(briefingPath, JSON.stringify(briefing, null, 2));
+    } catch (error) {
+      console.error('❌ Failed to write classified security briefing:', error);
+    }
   }
 
   private identifyAttackVectors(): string[] {

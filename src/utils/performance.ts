@@ -16,4 +16,3 @@ export async function getNavigationDurationMs(page: Page): Promise<number> {
 
   return typeof duration === 'number' && Number.isFinite(duration) ? duration : 0;
 }
-

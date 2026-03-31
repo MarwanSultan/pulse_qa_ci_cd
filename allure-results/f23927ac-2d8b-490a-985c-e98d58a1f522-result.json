@@ -1,1 +1,314 @@
-{"uuid":"f23927ac-2d8b-490a-985c-e98d58a1f522","name":"F6: Upcoming Events list and detail navigation","historyId":"6bdf999e66bb3a03bb6d221825be1f7b:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null","trace":"Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/05_upcoming_events.spec.ts:7:71"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774878795892,"uuid":"2a180389-0fd0-4cb1-886a-8984dc38a2e6","stop":1774878796254}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774878795891,"uuid":"40ec2a50-d927-4535-8b5c-4deb1bf36ed9","stop":1774878796255},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774878796259,"uuid":"c6e9ab18-b48e-4199-a584-f029a17fa8d8","stop":1774878796265}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774878796256,"uuid":"aa37fc1c-6ae7-4081-a340-3dd0a659dca1","stop":1774878796266},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774878796270,"uuid":"411b22b1-dc25-447c-b964-9721494640f8","stop":1774878796312}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878796266,"uuid":"dd5a8e0b-0cce-4ac5-854c-cbecb126cd35","stop":1774878796312},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878796312,"uuid":"db4622df-da7a-4f0f-b459-d9a1106799f8","stop":1774878796322},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774878796331,"uuid":"39efb9e3-f0e9-4844-a921-0d1651506510","stop":1774878796344}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774878796323,"uuid":"68295a5f-0182-4cc4-a1be-44966f326051","stop":1774878796345}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774878795887,"uuid":"2f9b3a63-d278-4cb5-b86c-bd4f3d19788a","stop":1774878796345},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878796346,"name":"Expect \"toBeVisible\" getByRole('heading', { name: /Upcoming Events/i })","uuid":"220793e1-4bba-4c6f-98b5-099d24df3929","stop":1774878796361},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878796364,"name":"Query count locator('section, [role=\"region\"]').filter({ has: getByRole('heading', { name: /Upcoming Events/i }) }).first().locator('a').filter({ hasText: /\\S/ }).first()","uuid":"51d2e3b2-f446-4efd-9d86-bc169c91c0ed","stop":1774878796366},{"status":"failed","statusDetails":{"message":"Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null","trace":"Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/05_upcoming_events.spec.ts:7:71"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878796366,"name":"Expected at least one event link with text","uuid":"ceecbd11-8f5f-428e-a66a-cee92aa7b6b3","stop":1774878796367},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"719eca25-7ce6-4ca5-9444-b6ca91e0f3b7-attachment.png","type":"image/png"}],"parameters":[],"start":1774878796572,"name":"screenshot","stop":1774878796572},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"eba04889-71bb-44aa-85af-28e3ee557b00-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774878796573,"name":"video","stop":1774878796573},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1774878796399,"uuid":"d404ed92-1203-4257-9990-a10244228337","stop":1774878796406}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774878796398,"uuid":"c25e3b5a-5e7d-4397-b2c0-297acc813b44","stop":1774878796406},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878796407,"uuid":"9493b088-96be-43bf-a379-a5b77d4fa8bb","stop":1774878796407},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878796408,"uuid":"763c5277-1d7f-43ed-bd8f-e44e1ce3571f","stop":1774878796408},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774878796413,"uuid":"462b76a7-6eac-4622-951e-c789590e827a","stop":1774878796514}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774878796408,"uuid":"34e83a8c-410c-4f9b-bf1c-8ca409cc197a","stop":1774878796517}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774878796367,"uuid":"0a423197-7177-4ea2-9517-070bb618f8e9","stop":1774878796521}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.05_upcoming_events.spec.ts"},{"name":"titlePath","value":" > chromium > ui/05_upcoming_events.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-24803-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"ui/05_upcoming_events.spec.ts"}],"links":[],"start":1774878795886,"testCaseId":"6bdf999e66bb3a03bb6d221825be1f7b","fullName":"ui/05_upcoming_events.spec.ts:3:5","titlePath":["ui","05_upcoming_events.spec.ts"],"stop":1774878796143}
+{
+  "uuid": "f23927ac-2d8b-490a-985c-e98d58a1f522",
+  "name": "F6: Upcoming Events list and detail navigation",
+  "historyId": "6bdf999e66bb3a03bb6d221825be1f7b:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null",
+    "trace": "Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/05_upcoming_events.spec.ts:7:71"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774878795892,
+              "uuid": "2a180389-0fd0-4cb1-886a-8984dc38a2e6",
+              "stop": 1774878796254
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774878795891,
+          "uuid": "40ec2a50-d927-4535-8b5c-4deb1bf36ed9",
+          "stop": 1774878796255
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774878796259,
+              "uuid": "c6e9ab18-b48e-4199-a584-f029a17fa8d8",
+              "stop": 1774878796265
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774878796256,
+          "uuid": "aa37fc1c-6ae7-4081-a340-3dd0a659dca1",
+          "stop": 1774878796266
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774878796270,
+              "uuid": "411b22b1-dc25-447c-b964-9721494640f8",
+              "stop": 1774878796312
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878796266,
+          "uuid": "dd5a8e0b-0cce-4ac5-854c-cbecb126cd35",
+          "stop": 1774878796312
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878796312,
+          "uuid": "db4622df-da7a-4f0f-b459-d9a1106799f8",
+          "stop": 1774878796322
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774878796331,
+              "uuid": "39efb9e3-f0e9-4844-a921-0d1651506510",
+              "stop": 1774878796344
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774878796323,
+          "uuid": "68295a5f-0182-4cc4-a1be-44966f326051",
+          "stop": 1774878796345
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774878795887,
+      "uuid": "2f9b3a63-d278-4cb5-b86c-bd4f3d19788a",
+      "stop": 1774878796345
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878796346,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: /Upcoming Events/i })",
+      "uuid": "220793e1-4bba-4c6f-98b5-099d24df3929",
+      "stop": 1774878796361
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878796364,
+      "name": "Query count locator('section, [role=\"region\"]').filter({ has: getByRole('heading', { name: /Upcoming Events/i }) }).first().locator('a').filter({ hasText: /\\S/ }).first()",
+      "uuid": "51d2e3b2-f446-4efd-9d86-bc169c91c0ed",
+      "stop": 1774878796366
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null",
+        "trace": "Error: Expected at least one event link with text\n\nexpect(received).not.toBeNull()\n\nReceived: null\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/05_upcoming_events.spec.ts:7:71"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878796366,
+      "name": "Expected at least one event link with text",
+      "uuid": "ceecbd11-8f5f-428e-a66a-cee92aa7b6b3",
+      "stop": 1774878796367
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "719eca25-7ce6-4ca5-9444-b6ca91e0f3b7-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774878796572,
+      "name": "screenshot",
+      "stop": 1774878796572
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "eba04889-71bb-44aa-85af-28e3ee557b00-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774878796573,
+      "name": "video",
+      "stop": 1774878796573
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1774878796399,
+              "uuid": "d404ed92-1203-4257-9990-a10244228337",
+              "stop": 1774878796406
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774878796398,
+          "uuid": "c25e3b5a-5e7d-4397-b2c0-297acc813b44",
+          "stop": 1774878796406
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878796407,
+          "uuid": "9493b088-96be-43bf-a379-a5b77d4fa8bb",
+          "stop": 1774878796407
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878796408,
+          "uuid": "763c5277-1d7f-43ed-bd8f-e44e1ce3571f",
+          "stop": 1774878796408
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774878796413,
+              "uuid": "462b76a7-6eac-4622-951e-c789590e827a",
+              "stop": 1774878796514
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774878796408,
+          "uuid": "34e83a8c-410c-4f9b-bf1c-8ca409cc197a",
+          "stop": 1774878796517
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774878796367,
+      "uuid": "0a423197-7177-4ea2-9517-070bb618f8e9",
+      "stop": 1774878796521
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.05_upcoming_events.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > ui/05_upcoming_events.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-24803-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "ui/05_upcoming_events.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774878795886,
+  "testCaseId": "6bdf999e66bb3a03bb6d221825be1f7b",
+  "fullName": "ui/05_upcoming_events.spec.ts:3:5",
+  "titlePath": ["ui", "05_upcoming_events.spec.ts"],
+  "stop": 1774878796143
+}

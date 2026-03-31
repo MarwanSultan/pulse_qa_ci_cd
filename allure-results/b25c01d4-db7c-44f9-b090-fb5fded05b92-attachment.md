@@ -2,304 +2,304 @@
 
 ```yaml
 - generic [ref=e2]:
-  - navigation "Skip links":
-    - list:
-      - listitem:
-        - link "Skip to main content" [ref=e3] [cursor=pointer]:
-          - /url: "#main-content"
-  - region "Official government website" [ref=e4]:
-    - generic [ref=e7]:
-      - img "U.S. flag" [ref=e9]
-      - paragraph [ref=e11]: An official website of the United States government
-      - button "Here's how you know" [ref=e12] [cursor=pointer]
-  - generic [ref=e13]:
-    - generic:
-      - img
-    - generic [ref=e18]:
-      - link "FedRAMP home page" [ref=e21] [cursor=pointer]:
-        - /url: /
-        - img "FedRAMP.gov logo" [ref=e22]
-      - navigation "Primary navigation" [ref=e23]:
-        - list [ref=e24]:
-          - listitem [ref=e25]:
-            - button "Updates & Priorities Expand menu" [ref=e27] [cursor=pointer]:
-              - generic [ref=e28]: Updates & Priorities
-              - img "Expand menu" [ref=e29]
-          - listitem [ref=e31]:
-            - button "FedRAMP 20x Expand menu" [ref=e33] [cursor=pointer]:
-              - generic [ref=e34]: FedRAMP 20x
-              - img "Expand menu" [ref=e35]
-          - listitem [ref=e37]:
-            - button "FedRAMP Rev 5 Expand menu" [ref=e39] [cursor=pointer]:
-              - generic [ref=e40]: FedRAMP Rev 5
-              - img "Expand menu" [ref=e41]
-          - listitem [ref=e43]:
-            - link "Docs" [ref=e45] [cursor=pointer]:
-              - /url: /docs/
-              - generic [ref=e46]: Docs
-          - listitem [ref=e47]:
-            - link "Join" [ref=e49] [cursor=pointer]:
-              - /url: /join/
-              - generic [ref=e50]: Join
-          - listitem [ref=e51]:
-            - link "Marketplace" [ref=e53] [cursor=pointer]:
-              - /url: /marketplace
-              - generic [ref=e54]: Marketplace
-        - search [ref=e56]:
-          - generic [ref=e57]: Search
-          - searchbox "Search" [ref=e58]
-          - button [ref=e59] [cursor=pointer]:
-            - img [ref=e60]
-    - generic [ref=e62]:
-      - generic:
-        - heading [level=1]
-        - paragraph
-  - generic [ref=e66]:
-    - generic [ref=e67]:
-      - link "< Prev" [ref=e69] [cursor=pointer]:
-        - /url: /notices/0008
-      - link "Notice List" [ref=e71] [cursor=pointer]:
-        - /url: /notices
-    - separator [ref=e72]
-    - generic [ref=e73]:
-      - img [ref=e75]
-      - heading "Initial Outcome from RFC-0024 Rev5 Machine-Readable Packages" [level=1] [ref=e77]
-    - paragraph [ref=e78]:
-      - generic [ref=e79]: NTC-0009 published at 3/25/2026, 5:50:00 PM
-      - text: //
-      - link "Markdown Version" [ref=e81] [cursor=pointer]:
-        - /url: /notices/markdown/NTC-0009.md
-    - separator [ref=e82]
-    - paragraph [ref=e83]:
-      - link "RFC-0024 FedRAMP Rev5 Machine-Readable Packages" [ref=e84] [cursor=pointer]:
-        - /url: https://fedramp.gov/rfcs/0024
-      - text: was closed on March 11, 2026. This notice explains the initial outcome from public comment and identifies next steps for FedRAMP related to this proposal. The official outcome from this RFC will be included in the FedRAMP Consolidated Rules for 2026 (CR26) that will be published by the end of June 2026; those rules will be valid until December 31, 2028.
-    - paragraph [ref=e85]: We are especially grateful for the considerable thoughtful public comment on this RFC and will work hard to chart a course that aligns the expectations of the government with those that provide commercial services for its use.
-    - heading "Overview" [level=2] [ref=e86]
-    - paragraph [ref=e87]: FedRAMP 20x was designed to open the federal market to thousands of new cloud services that invest in automation capabilities to demonstrate continuously validated security metrics. FedRAMP has nearly completed the first two pilot phases for FedRAMP 20x and is nearing release of formal FedRAMP 20x requirements and wide-scale adoption of this new certification type. Every single FedRAMP 20x certification package will include machine-readable authorization data across the entire scope of the authorization package, from initial security materials to ongoing authorization reports including data on significant changes and vulnerabilities. FedRAMP anticipates an explosion in adoption of automation capabilities government-wide as agencies suddenly have access to the exact automation data they have requested for many years.
-    - paragraph [ref=e88]: Cloud service providers with traditional FedRAMP Rev5 certifications will face considerable competition from those with FedRAMP 20x certifications. The difference in initial and ongoing authorization experience for agencies will be stark and difficult to overcome if FedRAMP Rev5 requirements remain focused around manual documentation. FedRAMP cannot simply abandon the 500+ cloud services that have invested in FedRAMP Rev5 certifications by allowing them to stagnate while new services with FedRAMP 20x certifications provide superior continuous assurance and higher quality integrations.
-    - paragraph [ref=e89]: FedRAMP acknowledges that a significant majority of public comments on RFC-0024 expressed deep concerns about the complexity of adopting a modern approach to managing legacy security materials after years of investment in a manual process. FedRAMP must chart a course that ensures adequate information is available to agencies even as the expectations of agencies grow and change, but commenters have nearly universally requested additional time to prepare for adopting a modern approach. Therefore, FedRAMP will update both the expected requirements and timelines to enable gradual adoption over a much longer period of time while still ensuring that all Rev5 providers have modernized their approach within two years.
-    - paragraph [ref=e90]: In the Consolidated Rules for 2026, FedRAMP will outline explicit requirements for machine-readable packages for Rev5, generally aligned with those proposed in RFC-0024. This will include providing detailed instructions of exactly what should be in machine-readable formats and options for the general structure of those formats, along with integration into FedRAMP compatible trust centers to ensure agencies can eventually consume this information via API. This data and these mechanisms will be provided by industry in alignment with FedRAMP’s mandate to set policies that enable industry innovation to provide the solutions.
-    - paragraph [ref=e91]:
-      - text: Members of the community may discuss this initial outcome and ask clarifying questions as needed in the
-      - link "General discussion / Q&A on Rev improvements and changes in 2026" [ref=e92] [cursor=pointer]:
-        - /url: https://github.com/FedRAMP/community/discussions/137
-      - text: thread in the FedRAMP Community and attend
-      - link "FedRAMP Rev5 Community Updates" [ref=e93] [cursor=pointer]:
-        - /url: https://fedramp.gov/events
-      - text: for live Q&A.
-    - heading "Initial Outcome" [level=2] [ref=e94]:
-      - strong [ref=e95]: Initial Outcome
-    - blockquote [ref=e96]:
-      - paragraph [ref=e97]:
-        - strong [ref=e98]:
-          - emphasis [ref=e99]: Detailed information, requirements, and timelines for all items below will be provided in the Consolidated Rules for 2026.
-    - paragraph [ref=e100]: All of the proposed requirements in RFC-0024 will be modified in the Consolidated Rules for 2026, though many will carry forward in the same spirit.
-    - paragraph [ref=e101]: "Broadly, the following changes will be made, based on public comment, to the rules and approach initially proposed in RFC-0024:"
-    - list [ref=e102]:
-      - listitem [ref=e103]:
-        - paragraph [ref=e104]:
-          - strong [ref=e105]: Comprehensive machine-readable authorization data will only be required for FedRAMP Rev5 Class D (High) certifications.
-        - paragraph [ref=e106]: a. Rev5 Class D (High) certified providers will be required to create and maintain per-service authorization materials as proposed.
-        - paragraph [ref=e107]: b. Rev5 Class D (High) certified providers will be required to integrate significant changes into their authorization materials twice per year (once during annual assessment, once halfway between annual assessments) instead of within 30 days of a significant change.
-        - paragraph [ref=e108]: c. This will cover all authorization materials for both initial and ongoing authorization.
-      - listitem [ref=e109]:
-        - paragraph [ref=e110]:
-          - strong [ref=e111]: Some machine-readable authorization data will be required for FedRAMP Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certifications; the bulk of authorization data will be required in a semi-structured text format similar to the current approach.
-        - paragraph [ref=e112]: a. DOCX and XLSX will be retired as an acceptable format in favor of simple text-based equivalents.
-        - paragraph [ref=e113]: b. This will cover all authorization materials for both initial and ongoing authorization. Detailed information, requirements, and timelines will be provided in the Consolidated Rules for 2026.
-      - listitem [ref=e114]:
-        - paragraph [ref=e115]:
-          - strong [ref=e116]: "The following Rev5 Balance Improvement Releases will be folded into the default FedRAMP Rev5 certification requirements (replacing existing requirements as appropriate), including the requirement to produce related materials in a machine-readable format:"
-        - paragraph [ref=e117]: a. Minimum Assessment Scope replaces the traditional authorization boundary approach and eliminates the need for excessively complex authorization boundary diagrams
-        - paragraph [ref=e118]: b. Significant Change Notifications replaces the traditional significant change request process
-        - paragraph [ref=e119]: c. Collaborative Continuous Monitoring replaces part of the traditional monthly continuous monitoring approach
-        - paragraph [ref=e120]: d. Vulnerability Detection and Response replaces the traditional vulnerability scanning and POA&M approach
-        - paragraph [ref=e121]: e. Authorization Data Sharing replaces the traditional Secure Repository approach for centralizing authorization materials
-        - paragraph [ref=e122]: f. Each of the above Balance Improvement Releases will have minor adjustments made as they are finalized for the Consolidated Rules for 2026.
-      - listitem [ref=e123]:
-        - paragraph [ref=e124]:
-          - strong [ref=e125]: FedRAMP will not require diagrams or illustrations after the transition to the Minimum Assessment Scope.
-        - paragraph [ref=e126]: a. There is no expectation in the Minimum Assessment Scope of a traditional Authorization Boundary Diagram that contains every single service and flow in a single diagram. Instead, providers have flexibility to present the structure of their information resources across multiple levels of abstraction and grouping in a way that factors for continuous change within the environment and makes the most sense for their particular service.
-      - listitem [ref=e127]:
-        - paragraph [ref=e128]:
-          - strong [ref=e129]: FedRAMP Rev5 Class C (Moderate) and Class D (High) certifications will strongly encourage the use of machine-generated deterministic telemetry in their authorization data where feasible, with a focus on the Minimum Assessment Scope, Significant Change Notifications, and Vulnerability Detection and Response processes.
-        - paragraph [ref=e130]: a. Providers will be encouraged to go beyond traditional Rev5 processes and “minimum control requirements” to find ways to demonstrate their security commitments instead of simply writing narrative text about them. This process will include flexibility for providers based on their own unique environment and the best customer experience.
-      - listitem [ref=e131]:
-        - paragraph [ref=e132]:
-          - strong [ref=e133]: All providers will still be required to ensure basic human-readable materials are available as requested by all necessary parties, and will be required to generate these materials from the relevant machine-readable materials during production.
-    - paragraph [ref=e134]: a. FedRAMP will encourage flexibility in human-readable materials to ensure cloud service providers are considering the best customer experience for conveying data about their unique environment. As long as the underlying machine-readable information is consistent, providers will not be penalized for providing an optimal customer experience in their human-readable materials.
-    - paragraph [ref=e135]: b. This will cover all authorization materials for both initial and ongoing authorization.
-    - heading "Partnering with Industry" [level=2] [ref=e136]:
-      - strong [ref=e137]: Partnering with Industry
-    - paragraph [ref=e138]: FedRAMP will not produce, manage, or operate services or software to help cloud service providers produce machine-readable materials. Government programs are not adept at providing this type of service in general due to restrictions and regulations, and attempting to do so would ensure a poor experience for cloud service providers and agencies. Furthermore, building and maintaining such services would require an increase in budget of 3-5x or more for FedRAMP and take several years, neither of which are an option.
-    - paragraph [ref=e139]: Innovative solutions for maintaining and producing security materials must be provided by industry; this is the only way to ensure a wide-ranging set of options and alternatives that can compete to provide better capabilities and improve the customer experience for all stakeholders. To enable and encourage innovative solutions from industry, FedRAMP will establish informal partnerships with non-profit organizations that seek to support open source or other public domain capabilities for enabling the adoption of automation-related capabilities.
-    - paragraph [ref=e140]:
-      - text: The
-      - link "OSCAL Foundation" [ref=e141] [cursor=pointer]:
-        - /url: https://oscalfoundation.org/
-      - text: is one such established industry partner that provides capabilities, education, and a community to help cloud service providers modernize their approach to managing security materials, including free general membership. Other organizations that are interested in establishing informal partnerships with FedRAMP should reach out to
-      - link "pete@fedramp.gov" [ref=e142] [cursor=pointer]:
-        - /url: mailto:pete@fedramp.gov
-      - text: to discuss opportunities.
-    - paragraph [ref=e143]: At a minimum, FedRAMP will expect informal partner organizations to produce, maintain, and share templates and other materials that align with FedRAMP requirements and to help providers with transitioning from legacy manual materials. FedRAMP will establish the general requirements and ensure the templates and other materials are adequate for use, but FedRAMP will not dictate the underlying structure or approach. Approved organizations, templates, and other materials will be hosted by the organization and linked to in FedRAMP’s official documentation.
-    - heading "Initial Expected Timelines" [level=2] [ref=e144]:
-      - strong [ref=e145]: Initial Expected Timelines
-    - paragraph [ref=e146]: The dates and milestones below may change in the final release of the Consolidated Rules for 2026, however none of the dates below will move forward in time.
-    - heading "Dates and Milestones for FedRAMP Certified Services" [level=3] [ref=e147]:
-      - strong [ref=e148]: Dates and Milestones for FedRAMP Certified Services
-    - paragraph [ref=e149]:
-      - text: The following timelines are expected to be published as part of the FedRAMP Consolidated Rules for 2026 related to this notice; these timelines will apply to
-      - strong [ref=e150]: cloud services that have an active FedRAMP Certification
-      - text: "on the date of each milestone:"
-    - table [ref=e151]:
-      - rowgroup [ref=e152]:
-        - row "Anticipated Deadline Milestone" [ref=e153]:
-          - columnheader "Anticipated Deadline" [ref=e154]
-          - columnheader "Milestone" [ref=e155]
-      - rowgroup [ref=e156]:
-        - row "2027-01-01 Mandatory adoption of the Significant Change Notifications process for all Rev5 cloud services." [ref=e157]:
-          - cell "2027-01-01" [ref=e158]
-          - cell "Mandatory adoption of the Significant Change Notifications process for all Rev5 cloud services." [ref=e159]:
-            - text: Mandatory adoption of the
-            - strong [ref=e160]: Significant Change Notifications
-            - text: process for all Rev5 cloud services.
-        - row "2027-01-01 Mandatory adoption of the Minimum Assessment Scope before or during the next annual assessment for a cloud service." [ref=e161]:
-          - cell "2027-01-01" [ref=e162]
-          - cell "Mandatory adoption of the Minimum Assessment Scope before or during the next annual assessment for a cloud service." [ref=e163]:
-            - text: Mandatory adoption of the
-            - strong [ref=e164]: Minimum Assessment Scope
-            - text: before or during the next annual assessment for a cloud service.
-        - row "2027-04-02 Mandatory adoption of the Collaborative Continuous Monitoring process for all Rev5 cloud services." [ref=e165]:
-          - cell "2027-04-02" [ref=e166]
-          - cell "Mandatory adoption of the Collaborative Continuous Monitoring process for all Rev5 cloud services." [ref=e167]:
-            - text: Mandatory adoption of the
-            - strong [ref=e168]: Collaborative Continuous Monitoring
-            - text: process for all Rev5 cloud services.
-        - row "2027-06-01 Mandatory adoption of the Vulnerability Detection and Response process for all Rev5 cloud services." [ref=e169]:
-          - cell "2027-06-01" [ref=e170]
-          - cell "Mandatory adoption of the Vulnerability Detection and Response process for all Rev5 cloud services." [ref=e171]:
-            - text: Mandatory adoption of the
-            - strong [ref=e172]: Vulnerability Detection and Response
-            - text: process for all Rev5 cloud services.
-        - row "2027-08-01 Mandatory adoption of the Authorization Data Sharing process for all Rev5 cloud services. The Connect.gov portal will be retired." [ref=e173]:
-          - cell "2027-08-01" [ref=e174]
-          - cell "Mandatory adoption of the Authorization Data Sharing process for all Rev5 cloud services. The Connect.gov portal will be retired." [ref=e175]:
-            - text: Mandatory adoption of the
-            - strong [ref=e176]: Authorization Data Sharing
-            - text: process for all Rev5 cloud services. The
-            - link "Connect.gov" [ref=e177] [cursor=pointer]:
-              - /url: http://Connect.gov
-            - text: portal will be retired.
-        - row "2027-11-01 Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certified cloud services must provide semi-structured text based authorization data before or during their next annual assessment." [ref=e178]:
-          - cell "2027-11-01" [ref=e179]
-          - cell "Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certified cloud services must provide semi-structured text based authorization data before or during their next annual assessment." [ref=e180]
-        - row "2027-11-01 Rev5 Class D (High) certified cloud services must provide comprehensive machine-readable authorization data before or during their next annual assessment." [ref=e181]:
-          - cell "2027-11-01" [ref=e182]
-          - cell "Rev5 Class D (High) certified cloud services must provide comprehensive machine-readable authorization data before or during their next annual assessment." [ref=e183]
-    - paragraph [ref=e184]: Progressive corrective action for failure to meet the requirements in these milestones will be applied quarterly.
-    - heading "Dates and Milestones for New FedRAMP Certifications" [level=3] [ref=e185]:
-      - strong [ref=e186]: Dates and Milestones for New FedRAMP Certifications
-    - paragraph [ref=e187]:
-      - text: The following timelines are expected to be published as part of the FedRAMP Consolidated Rules for 2026 related to this notice; these timelines will apply to
-      - strong [ref=e188]: new submissions for FedRAMP Certification
-      - text: "after the date of each milestone:"
-    - table [ref=e189]:
-      - rowgroup [ref=e190]:
-        - row "Anticipated Deadline Milestone" [ref=e191]:
-          - columnheader "Anticipated Deadline" [ref=e192]
-          - columnheader "Milestone" [ref=e193]
-      - rowgroup [ref=e194]:
-        - 'row "2027-01-01 Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) submissions for FedRAMP Certification must provide semi-structured text based authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e195]':
-          - cell "2027-01-01" [ref=e196]
-          - 'cell "Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) submissions for FedRAMP Certification must provide semi-structured text based authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e197]'
-        - 'row "2027-05-01 Rev5 Class D (High) submissions for FedRAMP Certification must provide comprehensive machine-readable authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e198]':
-          - cell "2027-05-01" [ref=e199]
-          - 'cell "Rev5 Class D (High) submissions for FedRAMP Certification must provide comprehensive machine-readable authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e200]'
-  - contentinfo [ref=e201]:
-    - generic [ref=e204]:
-      - generic [ref=e206]:
-        - paragraph [ref=e207]: To receive news and updates, join the GSA’s subscriber list.
-        - paragraph [ref=e208]: The FedRAMP name and the FedRAMP logo are the property of the General Services Administration (GSA).
-        - paragraph [ref=e209]:
-          - text: For more information, please see
-          - link "FedRAMP Disclaimers" [ref=e210] [cursor=pointer]:
-            - /url: /disclaimers
-          - text: .
-      - generic [ref=e211]:
-        - heading "Interact with FedRAMP" [level=4] [ref=e214]
-        - list [ref=e216]:
-          - listitem [ref=e217]:
-            - link "FedRAMP on LinkedIn LinkedIn" [ref=e218] [cursor=pointer]:
-              - /url: https://www.linkedin.com/showcase/gsa-fedramp/about/
-              - img "FedRAMP on LinkedIn" [ref=e219]
-              - generic [ref=e220]: LinkedIn
-          - listitem [ref=e221]:
-            - link "FedRAMP on X X" [ref=e222] [cursor=pointer]:
-              - /url: https://x.com/fedramp?lang=en
-              - img "FedRAMP on X" [ref=e223]
-              - generic [ref=e225]: X
-          - listitem [ref=e226]:
-            - link "FedRAMP on YouTube YouTube" [ref=e227] [cursor=pointer]:
-              - /url: https://www.youtube.com/c/FedRAMP?lang=en
-              - img "FedRAMP on YouTube" [ref=e228]
-              - generic [ref=e230]: YouTube
-          - listitem [ref=e231]:
-            - link "FedRAMP on GitHub GitHub" [ref=e232] [cursor=pointer]:
-              - /url: https://github.com/FedRAMP/community/discussions
-              - img "FedRAMP on GitHub" [ref=e233]
-              - generic [ref=e235]: GitHub
-          - listitem [ref=e236]:
-            - link "FedRAMP Email Address info@FedRAMP.gov" [ref=e237] [cursor=pointer]:
-              - /url: mailto:info@FedRAMP.gov
-              - img "FedRAMP Email Address" [ref=e238]
-              - generic [ref=e240]: info@FedRAMP.gov
-      - generic [ref=e241]:
-        - heading "Keep Up To Date" [level=4] [ref=e244]
-        - paragraph [ref=e246]: To receive news and updates, join the GSA's subscriber list.
-        - button "Subscribe" [ref=e250] [cursor=pointer]
-    - generic [ref=e251]:
-      - generic "Agency identifier" [ref=e252]:
-        - generic [ref=e254]:
-          - link "GSA logo" [ref=e256] [cursor=pointer]:
-            - /url: https://www.gsa.gov/
-            - img "GSA logo" [ref=e257]
-          - generic "Agency description" [ref=e258]:
-            - paragraph [ref=e259]: FedRAMP.gov
-            - paragraph [ref=e260]:
-              - text: An official website of the GSA’s
-              - link "Technology Transformation Services" [ref=e261] [cursor=pointer]:
-                - /url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services
-      - navigation "Important links," [ref=e263]:
-        - list [ref=e265]:
-          - listitem [ref=e266]:
-            - link "About GSA" [ref=e267] [cursor=pointer]:
-              - /url: https://www.gsa.gov/about-us
-          - listitem [ref=e268]:
-            - link "Accessibility statement" [ref=e269] [cursor=pointer]:
-              - /url: https://www.gsa.gov/website-information/accessibility-statement
-          - listitem [ref=e270]:
-            - link "GSA FOIA" [ref=e271] [cursor=pointer]:
-              - /url: https://www.gsa.gov/reference/freedom-of-information-act-foia
-          - listitem [ref=e272]:
-            - link "No FEAR Act data" [ref=e273] [cursor=pointer]:
-              - /url: https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002
-          - listitem [ref=e274]:
-            - link "Office of the Inspector General" [ref=e275] [cursor=pointer]:
-              - /url: https://www.gsaig.gov/
-          - listitem [ref=e276]:
-            - link "Performance reports" [ref=e277] [cursor=pointer]:
-              - /url: https://www.gsa.gov/reference/reports
-          - listitem [ref=e278]:
-            - link "GSA privacy policy" [ref=e279] [cursor=pointer]:
-              - /url: https://www.gsa.gov/website-information/website-policies#privacy
-          - listitem [ref=e280]:
-            - link "Vulnerability disclosure policy" [ref=e281] [cursor=pointer]:
-              - /url: https://www.gsa.gov/vulnerability-disclosure-policy
-      - generic "U.S. government information and services," [ref=e282]:
-        - generic [ref=e284]:
-          - generic [ref=e285]: Looking for U.S. government information and services?
-          - link "Visit USA.gov" [ref=e286] [cursor=pointer]:
-            - /url: https://www.usa.gov/
-  - generic [ref=e287]: Initial Outcome from RFC-0024 Rev5 Machine-Readable Packages
+    - navigation "Skip links":
+        - list:
+            - listitem:
+                - link "Skip to main content" [ref=e3] [cursor=pointer]:
+                    - /url: '#main-content'
+    - region "Official government website" [ref=e4]:
+        - generic [ref=e7]:
+            - img "U.S. flag" [ref=e9]
+            - paragraph [ref=e11]: An official website of the United States government
+            - button "Here's how you know" [ref=e12] [cursor=pointer]
+    - generic [ref=e13]:
+        - generic:
+            - img
+        - generic [ref=e18]:
+            - link "FedRAMP home page" [ref=e21] [cursor=pointer]:
+                - /url: /
+                - img "FedRAMP.gov logo" [ref=e22]
+            - navigation "Primary navigation" [ref=e23]:
+                - list [ref=e24]:
+                    - listitem [ref=e25]:
+                        - button "Updates & Priorities Expand menu" [ref=e27] [cursor=pointer]:
+                            - generic [ref=e28]: Updates & Priorities
+                            - img "Expand menu" [ref=e29]
+                    - listitem [ref=e31]:
+                        - button "FedRAMP 20x Expand menu" [ref=e33] [cursor=pointer]:
+                            - generic [ref=e34]: FedRAMP 20x
+                            - img "Expand menu" [ref=e35]
+                    - listitem [ref=e37]:
+                        - button "FedRAMP Rev 5 Expand menu" [ref=e39] [cursor=pointer]:
+                            - generic [ref=e40]: FedRAMP Rev 5
+                            - img "Expand menu" [ref=e41]
+                    - listitem [ref=e43]:
+                        - link "Docs" [ref=e45] [cursor=pointer]:
+                            - /url: /docs/
+                            - generic [ref=e46]: Docs
+                    - listitem [ref=e47]:
+                        - link "Join" [ref=e49] [cursor=pointer]:
+                            - /url: /join/
+                            - generic [ref=e50]: Join
+                    - listitem [ref=e51]:
+                        - link "Marketplace" [ref=e53] [cursor=pointer]:
+                            - /url: /marketplace
+                            - generic [ref=e54]: Marketplace
+                - search [ref=e56]:
+                    - generic [ref=e57]: Search
+                    - searchbox "Search" [ref=e58]
+                    - button [ref=e59] [cursor=pointer]:
+                        - img [ref=e60]
+        - generic [ref=e62]:
+            - generic:
+                - heading [level=1]
+                - paragraph
+    - generic [ref=e66]:
+        - generic [ref=e67]:
+            - link "< Prev" [ref=e69] [cursor=pointer]:
+                - /url: /notices/0008
+            - link "Notice List" [ref=e71] [cursor=pointer]:
+                - /url: /notices
+        - separator [ref=e72]
+        - generic [ref=e73]:
+            - img [ref=e75]
+            - heading "Initial Outcome from RFC-0024 Rev5 Machine-Readable Packages" [level=1] [ref=e77]
+        - paragraph [ref=e78]:
+            - generic [ref=e79]: NTC-0009 published at 3/25/2026, 5:50:00 PM
+            - text: //
+            - link "Markdown Version" [ref=e81] [cursor=pointer]:
+                - /url: /notices/markdown/NTC-0009.md
+        - separator [ref=e82]
+        - paragraph [ref=e83]:
+            - link "RFC-0024 FedRAMP Rev5 Machine-Readable Packages" [ref=e84] [cursor=pointer]:
+                - /url: https://fedramp.gov/rfcs/0024
+            - text: was closed on March 11, 2026. This notice explains the initial outcome from public comment and identifies next steps for FedRAMP related to this proposal. The official outcome from this RFC will be included in the FedRAMP Consolidated Rules for 2026 (CR26) that will be published by the end of June 2026; those rules will be valid until December 31, 2028.
+        - paragraph [ref=e85]: We are especially grateful for the considerable thoughtful public comment on this RFC and will work hard to chart a course that aligns the expectations of the government with those that provide commercial services for its use.
+        - heading "Overview" [level=2] [ref=e86]
+        - paragraph [ref=e87]: FedRAMP 20x was designed to open the federal market to thousands of new cloud services that invest in automation capabilities to demonstrate continuously validated security metrics. FedRAMP has nearly completed the first two pilot phases for FedRAMP 20x and is nearing release of formal FedRAMP 20x requirements and wide-scale adoption of this new certification type. Every single FedRAMP 20x certification package will include machine-readable authorization data across the entire scope of the authorization package, from initial security materials to ongoing authorization reports including data on significant changes and vulnerabilities. FedRAMP anticipates an explosion in adoption of automation capabilities government-wide as agencies suddenly have access to the exact automation data they have requested for many years.
+        - paragraph [ref=e88]: Cloud service providers with traditional FedRAMP Rev5 certifications will face considerable competition from those with FedRAMP 20x certifications. The difference in initial and ongoing authorization experience for agencies will be stark and difficult to overcome if FedRAMP Rev5 requirements remain focused around manual documentation. FedRAMP cannot simply abandon the 500+ cloud services that have invested in FedRAMP Rev5 certifications by allowing them to stagnate while new services with FedRAMP 20x certifications provide superior continuous assurance and higher quality integrations.
+        - paragraph [ref=e89]: FedRAMP acknowledges that a significant majority of public comments on RFC-0024 expressed deep concerns about the complexity of adopting a modern approach to managing legacy security materials after years of investment in a manual process. FedRAMP must chart a course that ensures adequate information is available to agencies even as the expectations of agencies grow and change, but commenters have nearly universally requested additional time to prepare for adopting a modern approach. Therefore, FedRAMP will update both the expected requirements and timelines to enable gradual adoption over a much longer period of time while still ensuring that all Rev5 providers have modernized their approach within two years.
+        - paragraph [ref=e90]: In the Consolidated Rules for 2026, FedRAMP will outline explicit requirements for machine-readable packages for Rev5, generally aligned with those proposed in RFC-0024. This will include providing detailed instructions of exactly what should be in machine-readable formats and options for the general structure of those formats, along with integration into FedRAMP compatible trust centers to ensure agencies can eventually consume this information via API. This data and these mechanisms will be provided by industry in alignment with FedRAMP’s mandate to set policies that enable industry innovation to provide the solutions.
+        - paragraph [ref=e91]:
+            - text: Members of the community may discuss this initial outcome and ask clarifying questions as needed in the
+            - link "General discussion / Q&A on Rev improvements and changes in 2026" [ref=e92] [cursor=pointer]:
+                - /url: https://github.com/FedRAMP/community/discussions/137
+            - text: thread in the FedRAMP Community and attend
+            - link "FedRAMP Rev5 Community Updates" [ref=e93] [cursor=pointer]:
+                - /url: https://fedramp.gov/events
+            - text: for live Q&A.
+        - heading "Initial Outcome" [level=2] [ref=e94]:
+            - strong [ref=e95]: Initial Outcome
+        - blockquote [ref=e96]:
+            - paragraph [ref=e97]:
+                - strong [ref=e98]:
+                    - emphasis [ref=e99]: Detailed information, requirements, and timelines for all items below will be provided in the Consolidated Rules for 2026.
+        - paragraph [ref=e100]: All of the proposed requirements in RFC-0024 will be modified in the Consolidated Rules for 2026, though many will carry forward in the same spirit.
+        - paragraph [ref=e101]: 'Broadly, the following changes will be made, based on public comment, to the rules and approach initially proposed in RFC-0024:'
+        - list [ref=e102]:
+            - listitem [ref=e103]:
+                - paragraph [ref=e104]:
+                    - strong [ref=e105]: Comprehensive machine-readable authorization data will only be required for FedRAMP Rev5 Class D (High) certifications.
+                - paragraph [ref=e106]: a. Rev5 Class D (High) certified providers will be required to create and maintain per-service authorization materials as proposed.
+                - paragraph [ref=e107]: b. Rev5 Class D (High) certified providers will be required to integrate significant changes into their authorization materials twice per year (once during annual assessment, once halfway between annual assessments) instead of within 30 days of a significant change.
+                - paragraph [ref=e108]: c. This will cover all authorization materials for both initial and ongoing authorization.
+            - listitem [ref=e109]:
+                - paragraph [ref=e110]:
+                    - strong [ref=e111]: Some machine-readable authorization data will be required for FedRAMP Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certifications; the bulk of authorization data will be required in a semi-structured text format similar to the current approach.
+                - paragraph [ref=e112]: a. DOCX and XLSX will be retired as an acceptable format in favor of simple text-based equivalents.
+                - paragraph [ref=e113]: b. This will cover all authorization materials for both initial and ongoing authorization. Detailed information, requirements, and timelines will be provided in the Consolidated Rules for 2026.
+            - listitem [ref=e114]:
+                - paragraph [ref=e115]:
+                    - strong [ref=e116]: 'The following Rev5 Balance Improvement Releases will be folded into the default FedRAMP Rev5 certification requirements (replacing existing requirements as appropriate), including the requirement to produce related materials in a machine-readable format:'
+                - paragraph [ref=e117]: a. Minimum Assessment Scope replaces the traditional authorization boundary approach and eliminates the need for excessively complex authorization boundary diagrams
+                - paragraph [ref=e118]: b. Significant Change Notifications replaces the traditional significant change request process
+                - paragraph [ref=e119]: c. Collaborative Continuous Monitoring replaces part of the traditional monthly continuous monitoring approach
+                - paragraph [ref=e120]: d. Vulnerability Detection and Response replaces the traditional vulnerability scanning and POA&M approach
+                - paragraph [ref=e121]: e. Authorization Data Sharing replaces the traditional Secure Repository approach for centralizing authorization materials
+                - paragraph [ref=e122]: f. Each of the above Balance Improvement Releases will have minor adjustments made as they are finalized for the Consolidated Rules for 2026.
+            - listitem [ref=e123]:
+                - paragraph [ref=e124]:
+                    - strong [ref=e125]: FedRAMP will not require diagrams or illustrations after the transition to the Minimum Assessment Scope.
+                - paragraph [ref=e126]: a. There is no expectation in the Minimum Assessment Scope of a traditional Authorization Boundary Diagram that contains every single service and flow in a single diagram. Instead, providers have flexibility to present the structure of their information resources across multiple levels of abstraction and grouping in a way that factors for continuous change within the environment and makes the most sense for their particular service.
+            - listitem [ref=e127]:
+                - paragraph [ref=e128]:
+                    - strong [ref=e129]: FedRAMP Rev5 Class C (Moderate) and Class D (High) certifications will strongly encourage the use of machine-generated deterministic telemetry in their authorization data where feasible, with a focus on the Minimum Assessment Scope, Significant Change Notifications, and Vulnerability Detection and Response processes.
+                - paragraph [ref=e130]: a. Providers will be encouraged to go beyond traditional Rev5 processes and “minimum control requirements” to find ways to demonstrate their security commitments instead of simply writing narrative text about them. This process will include flexibility for providers based on their own unique environment and the best customer experience.
+            - listitem [ref=e131]:
+                - paragraph [ref=e132]:
+                    - strong [ref=e133]: All providers will still be required to ensure basic human-readable materials are available as requested by all necessary parties, and will be required to generate these materials from the relevant machine-readable materials during production.
+        - paragraph [ref=e134]: a. FedRAMP will encourage flexibility in human-readable materials to ensure cloud service providers are considering the best customer experience for conveying data about their unique environment. As long as the underlying machine-readable information is consistent, providers will not be penalized for providing an optimal customer experience in their human-readable materials.
+        - paragraph [ref=e135]: b. This will cover all authorization materials for both initial and ongoing authorization.
+        - heading "Partnering with Industry" [level=2] [ref=e136]:
+            - strong [ref=e137]: Partnering with Industry
+        - paragraph [ref=e138]: FedRAMP will not produce, manage, or operate services or software to help cloud service providers produce machine-readable materials. Government programs are not adept at providing this type of service in general due to restrictions and regulations, and attempting to do so would ensure a poor experience for cloud service providers and agencies. Furthermore, building and maintaining such services would require an increase in budget of 3-5x or more for FedRAMP and take several years, neither of which are an option.
+        - paragraph [ref=e139]: Innovative solutions for maintaining and producing security materials must be provided by industry; this is the only way to ensure a wide-ranging set of options and alternatives that can compete to provide better capabilities and improve the customer experience for all stakeholders. To enable and encourage innovative solutions from industry, FedRAMP will establish informal partnerships with non-profit organizations that seek to support open source or other public domain capabilities for enabling the adoption of automation-related capabilities.
+        - paragraph [ref=e140]:
+            - text: The
+            - link "OSCAL Foundation" [ref=e141] [cursor=pointer]:
+                - /url: https://oscalfoundation.org/
+            - text: is one such established industry partner that provides capabilities, education, and a community to help cloud service providers modernize their approach to managing security materials, including free general membership. Other organizations that are interested in establishing informal partnerships with FedRAMP should reach out to
+            - link "pete@fedramp.gov" [ref=e142] [cursor=pointer]:
+                - /url: mailto:pete@fedramp.gov
+            - text: to discuss opportunities.
+        - paragraph [ref=e143]: At a minimum, FedRAMP will expect informal partner organizations to produce, maintain, and share templates and other materials that align with FedRAMP requirements and to help providers with transitioning from legacy manual materials. FedRAMP will establish the general requirements and ensure the templates and other materials are adequate for use, but FedRAMP will not dictate the underlying structure or approach. Approved organizations, templates, and other materials will be hosted by the organization and linked to in FedRAMP’s official documentation.
+        - heading "Initial Expected Timelines" [level=2] [ref=e144]:
+            - strong [ref=e145]: Initial Expected Timelines
+        - paragraph [ref=e146]: The dates and milestones below may change in the final release of the Consolidated Rules for 2026, however none of the dates below will move forward in time.
+        - heading "Dates and Milestones for FedRAMP Certified Services" [level=3] [ref=e147]:
+            - strong [ref=e148]: Dates and Milestones for FedRAMP Certified Services
+        - paragraph [ref=e149]:
+            - text: The following timelines are expected to be published as part of the FedRAMP Consolidated Rules for 2026 related to this notice; these timelines will apply to
+            - strong [ref=e150]: cloud services that have an active FedRAMP Certification
+            - text: 'on the date of each milestone:'
+        - table [ref=e151]:
+            - rowgroup [ref=e152]:
+                - row "Anticipated Deadline Milestone" [ref=e153]:
+                    - columnheader "Anticipated Deadline" [ref=e154]
+                    - columnheader "Milestone" [ref=e155]
+            - rowgroup [ref=e156]:
+                - row "2027-01-01 Mandatory adoption of the Significant Change Notifications process for all Rev5 cloud services." [ref=e157]:
+                    - cell "2027-01-01" [ref=e158]
+                    - cell "Mandatory adoption of the Significant Change Notifications process for all Rev5 cloud services." [ref=e159]:
+                        - text: Mandatory adoption of the
+                        - strong [ref=e160]: Significant Change Notifications
+                        - text: process for all Rev5 cloud services.
+                - row "2027-01-01 Mandatory adoption of the Minimum Assessment Scope before or during the next annual assessment for a cloud service." [ref=e161]:
+                    - cell "2027-01-01" [ref=e162]
+                    - cell "Mandatory adoption of the Minimum Assessment Scope before or during the next annual assessment for a cloud service." [ref=e163]:
+                        - text: Mandatory adoption of the
+                        - strong [ref=e164]: Minimum Assessment Scope
+                        - text: before or during the next annual assessment for a cloud service.
+                - row "2027-04-02 Mandatory adoption of the Collaborative Continuous Monitoring process for all Rev5 cloud services." [ref=e165]:
+                    - cell "2027-04-02" [ref=e166]
+                    - cell "Mandatory adoption of the Collaborative Continuous Monitoring process for all Rev5 cloud services." [ref=e167]:
+                        - text: Mandatory adoption of the
+                        - strong [ref=e168]: Collaborative Continuous Monitoring
+                        - text: process for all Rev5 cloud services.
+                - row "2027-06-01 Mandatory adoption of the Vulnerability Detection and Response process for all Rev5 cloud services." [ref=e169]:
+                    - cell "2027-06-01" [ref=e170]
+                    - cell "Mandatory adoption of the Vulnerability Detection and Response process for all Rev5 cloud services." [ref=e171]:
+                        - text: Mandatory adoption of the
+                        - strong [ref=e172]: Vulnerability Detection and Response
+                        - text: process for all Rev5 cloud services.
+                - row "2027-08-01 Mandatory adoption of the Authorization Data Sharing process for all Rev5 cloud services. The Connect.gov portal will be retired." [ref=e173]:
+                    - cell "2027-08-01" [ref=e174]
+                    - cell "Mandatory adoption of the Authorization Data Sharing process for all Rev5 cloud services. The Connect.gov portal will be retired." [ref=e175]:
+                        - text: Mandatory adoption of the
+                        - strong [ref=e176]: Authorization Data Sharing
+                        - text: process for all Rev5 cloud services. The
+                        - link "Connect.gov" [ref=e177] [cursor=pointer]:
+                            - /url: http://Connect.gov
+                        - text: portal will be retired.
+                - row "2027-11-01 Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certified cloud services must provide semi-structured text based authorization data before or during their next annual assessment." [ref=e178]:
+                    - cell "2027-11-01" [ref=e179]
+                    - cell "Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) certified cloud services must provide semi-structured text based authorization data before or during their next annual assessment." [ref=e180]
+                - row "2027-11-01 Rev5 Class D (High) certified cloud services must provide comprehensive machine-readable authorization data before or during their next annual assessment." [ref=e181]:
+                    - cell "2027-11-01" [ref=e182]
+                    - cell "Rev5 Class D (High) certified cloud services must provide comprehensive machine-readable authorization data before or during their next annual assessment." [ref=e183]
+        - paragraph [ref=e184]: Progressive corrective action for failure to meet the requirements in these milestones will be applied quarterly.
+        - heading "Dates and Milestones for New FedRAMP Certifications" [level=3] [ref=e185]:
+            - strong [ref=e186]: Dates and Milestones for New FedRAMP Certifications
+        - paragraph [ref=e187]:
+            - text: The following timelines are expected to be published as part of the FedRAMP Consolidated Rules for 2026 related to this notice; these timelines will apply to
+            - strong [ref=e188]: new submissions for FedRAMP Certification
+            - text: 'after the date of each milestone:'
+        - table [ref=e189]:
+            - rowgroup [ref=e190]:
+                - row "Anticipated Deadline Milestone" [ref=e191]:
+                    - columnheader "Anticipated Deadline" [ref=e192]
+                    - columnheader "Milestone" [ref=e193]
+            - rowgroup [ref=e194]:
+                - 'row "2027-01-01 Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) submissions for FedRAMP Certification must provide semi-structured text based authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e195]':
+                    - cell "2027-01-01" [ref=e196]
+                    - 'cell "Rev5 Class A (Pilot), Class B (Low), and Class C (Moderate) submissions for FedRAMP Certification must provide semi-structured text based authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e197]'
+                - 'row "2027-05-01 Rev5 Class D (High) submissions for FedRAMP Certification must provide comprehensive machine-readable authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e198]':
+                    - cell "2027-05-01" [ref=e199]
+                    - 'cell "Rev5 Class D (High) submissions for FedRAMP Certification must provide comprehensive machine-readable authorization data and adopt the following Rev5 Balance Improvement Releases: Minimum Assessment Scope Significant Change Notifications Collaborative Continuous Monitoring Vulnerability Detection and Response Authorization Data Sharing (this will apply to changes in the security categorization of a service) A grace period will be applied to any cloud service that was In Process with an Agency prior to 2026-10-01." [ref=e200]'
+    - contentinfo [ref=e201]:
+        - generic [ref=e204]:
+            - generic [ref=e206]:
+                - paragraph [ref=e207]: To receive news and updates, join the GSA’s subscriber list.
+                - paragraph [ref=e208]: The FedRAMP name and the FedRAMP logo are the property of the General Services Administration (GSA).
+                - paragraph [ref=e209]:
+                    - text: For more information, please see
+                    - link "FedRAMP Disclaimers" [ref=e210] [cursor=pointer]:
+                        - /url: /disclaimers
+                    - text: .
+            - generic [ref=e211]:
+                - heading "Interact with FedRAMP" [level=4] [ref=e214]
+                - list [ref=e216]:
+                    - listitem [ref=e217]:
+                        - link "FedRAMP on LinkedIn LinkedIn" [ref=e218] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/showcase/gsa-fedramp/about/
+                            - img "FedRAMP on LinkedIn" [ref=e219]
+                            - generic [ref=e220]: LinkedIn
+                    - listitem [ref=e221]:
+                        - link "FedRAMP on X X" [ref=e222] [cursor=pointer]:
+                            - /url: https://x.com/fedramp?lang=en
+                            - img "FedRAMP on X" [ref=e223]
+                            - generic [ref=e225]: X
+                    - listitem [ref=e226]:
+                        - link "FedRAMP on YouTube YouTube" [ref=e227] [cursor=pointer]:
+                            - /url: https://www.youtube.com/c/FedRAMP?lang=en
+                            - img "FedRAMP on YouTube" [ref=e228]
+                            - generic [ref=e230]: YouTube
+                    - listitem [ref=e231]:
+                        - link "FedRAMP on GitHub GitHub" [ref=e232] [cursor=pointer]:
+                            - /url: https://github.com/FedRAMP/community/discussions
+                            - img "FedRAMP on GitHub" [ref=e233]
+                            - generic [ref=e235]: GitHub
+                    - listitem [ref=e236]:
+                        - link "FedRAMP Email Address info@FedRAMP.gov" [ref=e237] [cursor=pointer]:
+                            - /url: mailto:info@FedRAMP.gov
+                            - img "FedRAMP Email Address" [ref=e238]
+                            - generic [ref=e240]: info@FedRAMP.gov
+            - generic [ref=e241]:
+                - heading "Keep Up To Date" [level=4] [ref=e244]
+                - paragraph [ref=e246]: To receive news and updates, join the GSA's subscriber list.
+                - button "Subscribe" [ref=e250] [cursor=pointer]
+        - generic [ref=e251]:
+            - generic "Agency identifier" [ref=e252]:
+                - generic [ref=e254]:
+                    - link "GSA logo" [ref=e256] [cursor=pointer]:
+                        - /url: https://www.gsa.gov/
+                        - img "GSA logo" [ref=e257]
+                    - generic "Agency description" [ref=e258]:
+                        - paragraph [ref=e259]: FedRAMP.gov
+                        - paragraph [ref=e260]:
+                            - text: An official website of the GSA’s
+                            - link "Technology Transformation Services" [ref=e261] [cursor=pointer]:
+                                - /url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services
+            - navigation "Important links," [ref=e263]:
+                - list [ref=e265]:
+                    - listitem [ref=e266]:
+                        - link "About GSA" [ref=e267] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/about-us
+                    - listitem [ref=e268]:
+                        - link "Accessibility statement" [ref=e269] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/website-information/accessibility-statement
+                    - listitem [ref=e270]:
+                        - link "GSA FOIA" [ref=e271] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/reference/freedom-of-information-act-foia
+                    - listitem [ref=e272]:
+                        - link "No FEAR Act data" [ref=e273] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002
+                    - listitem [ref=e274]:
+                        - link "Office of the Inspector General" [ref=e275] [cursor=pointer]:
+                            - /url: https://www.gsaig.gov/
+                    - listitem [ref=e276]:
+                        - link "Performance reports" [ref=e277] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/reference/reports
+                    - listitem [ref=e278]:
+                        - link "GSA privacy policy" [ref=e279] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/website-information/website-policies#privacy
+                    - listitem [ref=e280]:
+                        - link "Vulnerability disclosure policy" [ref=e281] [cursor=pointer]:
+                            - /url: https://www.gsa.gov/vulnerability-disclosure-policy
+            - generic "U.S. government information and services," [ref=e282]:
+                - generic [ref=e284]:
+                    - generic [ref=e285]: Looking for U.S. government information and services?
+                    - link "Visit USA.gov" [ref=e286] [cursor=pointer]:
+                        - /url: https://www.usa.gov/
+    - generic [ref=e287]: Initial Outcome from RFC-0024 Rev5 Machine-Readable Packages
 ```

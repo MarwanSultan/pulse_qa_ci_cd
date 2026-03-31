@@ -7,7 +7,12 @@ import { chromium } from '@playwright/test';
   await page.waitForTimeout(5000);
   const links = await page.getByRole('link').allTextContents();
   console.log('--- ALL LINKS ON EVENTS PAGE ---');
-  console.log(links.map(l => l.trim()).filter(Boolean).join(' | '));
+  console.log(
+    links
+      .map((l) => l.trim())
+      .filter(Boolean)
+      .join(' | '),
+  );
   const h1 = await page.locator('h1').allTextContents();
   console.log('--- H1s ON EVENTS PAGE ---');
   console.log(h1);

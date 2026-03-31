@@ -1,1 +1,300 @@
-{"uuid":"5284a936-9f4b-4376-83b3-d280d7757922","name":"mobile","historyId":"d0ac62d9c015c7f102040c4f621a50c0:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/08_responsive_layout_smoke.spec.ts:19:62"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877985513,"uuid":"b095f15b-9ae7-4b21-89bf-532ebd8e8319","stop":1774877985971}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877985512,"uuid":"533d09af-205f-4065-ab75-5b1cb7986768","stop":1774877985971},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877985972,"uuid":"2570fcc6-adc3-404b-9859-90cd8cc85dfb","stop":1774877986056}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877985972,"uuid":"62e14c36-4ec2-4029-b1ea-482f1ecb7cf6","stop":1774877986056},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877986057,"uuid":"49e0af6f-eb20-4d3a-b1ab-c75f972535b1","stop":1774877986484}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877986056,"uuid":"517afb97-6fb3-4113-b533-a81b44277797","stop":1774877986484},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877986484,"uuid":"041144da-6972-431e-b8da-66e700922b36","stop":1774877986497}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877985508,"uuid":"7d3c27e2-d1c9-4a74-a7e4-9bd3ee4f0a8a","stop":1774877986497},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877986498,"name":"Set viewport size","uuid":"4daf1d01-6479-41b0-80f4-2d0724bb0361","stop":1774877986576},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877986578,"name":"Navigate to \"/\"","uuid":"88348466-061c-4871-a5cf-83f7d80cba47","stop":1774877986654},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877986657,"name":"Expect \"toBeVisible\" getByRole('link', { name: /Marketplace/i }).first()","uuid":"24220556-8fb5-44bd-8d87-ca074341c339","stop":1774877986690},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/08_responsive_layout_smoke.spec.ts:19:62"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877986691,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"5ab5d70d-bd91-42fd-9a6d-e461eeca61f8","stop":1774878001694},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"a32c6c80-2e84-44d2-9d4e-70c53e475192-attachment.png","type":"image/png"}],"parameters":[],"start":1774878002067,"name":"screenshot","stop":1774878002067},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"a49610b1-1d40-43a0-8ec7-00a035fb8aff-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774878002067,"name":"video","stop":1774878002067},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"d062da02-ae99-444b-9052-de43300d0541-attachment.md","type":"text/markdown"}],"parameters":[],"start":1774878002067,"name":"error-context","stop":1774878002067},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878001719,"uuid":"5fc9a8a3-52c4-4ec7-87db-e8b88fd77f75","stop":1774878001720},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878001720,"uuid":"9e7fb14a-b3fd-413c-bbf6-10ab33484761","stop":1774878001720},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774878001732,"uuid":"1122bf8a-e5d1-4a6c-ab24-c5da8557cc95","stop":1774878001762}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774878001720,"uuid":"28ad09e8-9f81-4e8a-b3f8-f8b684299fb6","stop":1774878001763}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774878001695,"uuid":"6cd74f50-2f08-40f3-9e81-57a00b18ecf6","stop":1774878001765}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.08_responsive_layout_smoke.spec.ts"},{"name":"titlePath","value":" > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18410-worker-2"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/08_responsive_layout_smoke.spec.ts"},{"name":"subSuite","value":"F9: Responsive layout preserves critical modules"}],"links":[],"start":1774877985506,"testCaseId":"d0ac62d9c015c7f102040c4f621a50c0","fullName":"ui/08_responsive_layout_smoke.spec.ts:12:9","titlePath":["ui","08_responsive_layout_smoke.spec.ts","F9: Responsive layout preserves critical modules"],"stop":1774878001297}
+{
+  "uuid": "5284a936-9f4b-4376-83b3-d280d7757922",
+  "name": "mobile",
+  "historyId": "d0ac62d9c015c7f102040c4f621a50c0:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/08_responsive_layout_smoke.spec.ts:19:62"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877985513,
+              "uuid": "b095f15b-9ae7-4b21-89bf-532ebd8e8319",
+              "stop": 1774877985971
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877985512,
+          "uuid": "533d09af-205f-4065-ab75-5b1cb7986768",
+          "stop": 1774877985971
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877985972,
+              "uuid": "2570fcc6-adc3-404b-9859-90cd8cc85dfb",
+              "stop": 1774877986056
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877985972,
+          "uuid": "62e14c36-4ec2-4029-b1ea-482f1ecb7cf6",
+          "stop": 1774877986056
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877986057,
+              "uuid": "49e0af6f-eb20-4d3a-b1ab-c75f972535b1",
+              "stop": 1774877986484
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877986056,
+          "uuid": "517afb97-6fb3-4113-b533-a81b44277797",
+          "stop": 1774877986484
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877986484,
+          "uuid": "041144da-6972-431e-b8da-66e700922b36",
+          "stop": 1774877986497
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877985508,
+      "uuid": "7d3c27e2-d1c9-4a74-a7e4-9bd3ee4f0a8a",
+      "stop": 1774877986497
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877986498,
+      "name": "Set viewport size",
+      "uuid": "4daf1d01-6479-41b0-80f4-2d0724bb0361",
+      "stop": 1774877986576
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877986578,
+      "name": "Navigate to \"/\"",
+      "uuid": "88348466-061c-4871-a5cf-83f7d80cba47",
+      "stop": 1774877986654
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877986657,
+      "name": "Expect \"toBeVisible\" getByRole('link', { name: /Marketplace/i }).first()",
+      "uuid": "24220556-8fb5-44bd-8d87-ca074341c339",
+      "stop": 1774877986690
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/08_responsive_layout_smoke.spec.ts:19:62"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877986691,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "5ab5d70d-bd91-42fd-9a6d-e461eeca61f8",
+      "stop": 1774878001694
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "a32c6c80-2e84-44d2-9d4e-70c53e475192-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774878002067,
+      "name": "screenshot",
+      "stop": 1774878002067
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "a49610b1-1d40-43a0-8ec7-00a035fb8aff-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774878002067,
+      "name": "video",
+      "stop": 1774878002067
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "d062da02-ae99-444b-9052-de43300d0541-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1774878002067,
+      "name": "error-context",
+      "stop": 1774878002067
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878001719,
+          "uuid": "5fc9a8a3-52c4-4ec7-87db-e8b88fd77f75",
+          "stop": 1774878001720
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878001720,
+          "uuid": "9e7fb14a-b3fd-413c-bbf6-10ab33484761",
+          "stop": 1774878001720
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774878001732,
+              "uuid": "1122bf8a-e5d1-4a6c-ab24-c5da8557cc95",
+              "stop": 1774878001762
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774878001720,
+          "uuid": "28ad09e8-9f81-4e8a-b3f8-f8b684299fb6",
+          "stop": 1774878001763
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774878001695,
+      "uuid": "6cd74f50-2f08-40f3-9e81-57a00b18ecf6",
+      "stop": 1774878001765
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.08_responsive_layout_smoke.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"
+    },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18410-worker-2" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/08_responsive_layout_smoke.spec.ts" },
+    { "name": "subSuite", "value": "F9: Responsive layout preserves critical modules" }
+  ],
+  "links": [],
+  "start": 1774877985506,
+  "testCaseId": "d0ac62d9c015c7f102040c4f621a50c0",
+  "fullName": "ui/08_responsive_layout_smoke.spec.ts:12:9",
+  "titlePath": [
+    "ui",
+    "08_responsive_layout_smoke.spec.ts",
+    "F9: Responsive layout preserves critical modules"
+  ],
+  "stop": 1774878001297
+}

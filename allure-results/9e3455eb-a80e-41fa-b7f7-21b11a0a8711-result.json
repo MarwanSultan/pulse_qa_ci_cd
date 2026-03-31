@@ -1,1 +1,98 @@
-{"uuid":"9e3455eb-a80e-41fa-b7f7-21b11a0a8711","name":"desktop","historyId":"47eceb217f138789e8a0d7d1cbd90eeb:84e28e814b821ed013329cc8dbc467e0","status":"failed","statusDetails":{"message":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n","trace":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n","trace":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n","trace":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n","trace":"TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774878304653,"uuid":"1d059297-c947-4677-8d61-c88c28fe9e84","stop":1774878514704}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774878304650,"uuid":"c601cff8-411a-4be9-8cdf-5cc96559aed8","stop":1774878514705}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774878304644,"uuid":"136bb231-ee4a-4313-8454-2a4b5621b934","stop":1774878514705},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"After Hooks","start":1774878514706,"uuid":"bb9c5851-0128-42a5-b582-8e7c5aa78f6d","stop":1774878514717}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.08_responsive_layout_smoke.spec.ts"},{"name":"titlePath","value":" > webkit > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18064-worker-1"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"ui/08_responsive_layout_smoke.spec.ts"},{"name":"subSuite","value":"F9: Responsive layout preserves critical modules"}],"links":[],"start":1774878304630,"testCaseId":"47eceb217f138789e8a0d7d1cbd90eeb","fullName":"ui/08_responsive_layout_smoke.spec.ts:12:9","titlePath":["ui","08_responsive_layout_smoke.spec.ts","F9: Responsive layout preserves critical modules"],"stop":1774878304631}
+{
+  "uuid": "9e3455eb-a80e-41fa-b7f7-21b11a0a8711",
+  "name": "desktop",
+  "historyId": "47eceb217f138789e8a0d7d1cbd90eeb:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n",
+    "trace": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n",
+        "trace": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n",
+            "trace": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n",
+                "trace": "TimeoutError: browserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/marwansultan/Library/Caches/ms-playwright/webkit-2248/pw_run.sh --inspector-pipe --headless --no-startup-window\n  - <launched> pid=23063\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161387] Error received in message reply handler: Connection invalid\n  - [pid=23063][err] 2026-03-30 09:45:04.877 Playwright[23069:161389] Connection Invalid error for service com.apple.hiservices-xpcservice.\n"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774878304653,
+              "uuid": "1d059297-c947-4677-8d61-c88c28fe9e84",
+              "stop": 1774878514704
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774878304650,
+          "uuid": "c601cff8-411a-4be9-8cdf-5cc96559aed8",
+          "stop": 1774878514705
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774878304644,
+      "uuid": "136bb231-ee4a-4313-8454-2a4b5621b934",
+      "stop": 1774878514705
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774878514706,
+      "uuid": "bb9c5851-0128-42a5-b582-8e7c5aa78f6d",
+      "stop": 1774878514717
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.08_responsive_layout_smoke.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > webkit > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"
+    },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18064-worker-1" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "ui/08_responsive_layout_smoke.spec.ts" },
+    { "name": "subSuite", "value": "F9: Responsive layout preserves critical modules" }
+  ],
+  "links": [],
+  "start": 1774878304630,
+  "testCaseId": "47eceb217f138789e8a0d7d1cbd90eeb",
+  "fullName": "ui/08_responsive_layout_smoke.spec.ts:12:9",
+  "titlePath": [
+    "ui",
+    "08_responsive_layout_smoke.spec.ts",
+    "F9: Responsive layout preserves critical modules"
+  ],
+  "stop": 1774878304631
+}

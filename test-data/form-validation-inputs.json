@@ -1,0 +1,1 @@
+{"name":"Form Validation","testCases":[{"id":"valid.email","type":"email","input":"test@example.com","isValid":true,"description":"Valid email"},{"id":"invalid.email.empty","type":"email","input":"","isValid":false,"description":"Empty email"}]}

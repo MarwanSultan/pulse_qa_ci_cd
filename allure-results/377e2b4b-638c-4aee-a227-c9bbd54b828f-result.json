@@ -1,1 +1,251 @@
-{"uuid":"377e2b4b-638c-4aee-a227-c9bbd54b828f","name":"F10: Graceful 404 experience and baseline load performance","historyId":"369cad484b71b6dd27c049b6b504c922:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n","trace":"Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:16:31"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877952155,"uuid":"eb2b2ca5-7286-4120-a6f8-7d9933b07074","stop":1774877952158}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877952154,"uuid":"d4364578-41d1-4b1e-810b-ab567eaf3b2b","stop":1774877952158},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877952161,"uuid":"1f05d4f9-4414-479e-b267-1ea089ec35fd","stop":1774877952202}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877952159,"uuid":"77f6099c-774e-454f-a556-ae0245dd69a2","stop":1774877952202},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877952202,"uuid":"9a688805-2553-436b-9d2d-bd105ad3d027","stop":1774877952205}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877952150,"uuid":"931dbbec-22a8-4ca0-957c-2399abcb54e1","stop":1774877952205},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877952207,"name":"Navigate to \"/\"","uuid":"63a94552-e046-4935-bcba-50d717432b40","stop":1774877952232},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877952234,"name":"Evaluate","uuid":"47bba10c-9756-4f0a-96ce-490da19c1e03","stop":1774877952236},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877952237,"name":"Homepage navigation duration 21.299999999813735ms exceeded MAX_PAGE_LOAD_MS=10000ms","uuid":"96917d14-21d1-4a88-b0f3-805e36d858d9","stop":1774877952237},{"status":"failed","statusDetails":{"message":"Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n","trace":"Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:16:31"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877952237,"name":"Navigate to \"/__qa_non_existent_1774877952237__\"","uuid":"e9bb8054-eb31-426c-b774-aab891d84e18","stop":1774877952243},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"d01706a8-3472-47cf-b04c-d75d82ec11da-attachment.png","type":"image/png"}],"parameters":[],"start":1774877952368,"name":"screenshot","stop":1774877952368},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"717e97c2-47b1-4228-ac26-b78d89121da7-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774877952368,"name":"video","stop":1774877952368},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877952306,"uuid":"d8c5ea88-68e1-4f23-94f0-fee8089c52fc","stop":1774877952306},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877952306,"uuid":"4233eddd-cd3c-40ca-a47c-0936f0af4152","stop":1774877952306},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877952315,"uuid":"847f410a-4257-4cfa-bc4d-ffea9c98b866","stop":1774877952348}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877952306,"uuid":"8a73e6af-34c4-4c91-a7e7-1e76e1473f1c","stop":1774877952349}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877952244,"uuid":"eb7a5f10-8d18-4930-a6e9-8a63e61eb1b5","stop":1774877952350}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.09_404_and_performance_smoke.spec.ts"},{"name":"titlePath","value":" > chromium > ui/09_404_and_performance_smoke.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18410-worker-4"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"ui/09_404_and_performance_smoke.spec.ts"}],"links":[],"start":1774877952149,"testCaseId":"369cad484b71b6dd27c049b6b504c922","fullName":"ui/09_404_and_performance_smoke.spec.ts:5:5","titlePath":["ui","09_404_and_performance_smoke.spec.ts"],"stop":1774877952342}
+{
+  "uuid": "377e2b4b-638c-4aee-a227-c9bbd54b828f",
+  "name": "F10: Graceful 404 experience and baseline load performance",
+  "historyId": "369cad484b71b6dd27c049b6b504c922:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n",
+    "trace": "Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:16:31"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877952155,
+              "uuid": "eb2b2ca5-7286-4120-a6f8-7d9933b07074",
+              "stop": 1774877952158
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877952154,
+          "uuid": "d4364578-41d1-4b1e-810b-ab567eaf3b2b",
+          "stop": 1774877952158
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877952161,
+              "uuid": "1f05d4f9-4414-479e-b267-1ea089ec35fd",
+              "stop": 1774877952202
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877952159,
+          "uuid": "77f6099c-774e-454f-a556-ae0245dd69a2",
+          "stop": 1774877952202
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877952202,
+          "uuid": "9a688805-2553-436b-9d2d-bd105ad3d027",
+          "stop": 1774877952205
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877952150,
+      "uuid": "931dbbec-22a8-4ca0-957c-2399abcb54e1",
+      "stop": 1774877952205
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877952207,
+      "name": "Navigate to \"/\"",
+      "uuid": "63a94552-e046-4935-bcba-50d717432b40",
+      "stop": 1774877952232
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877952234,
+      "name": "Evaluate",
+      "uuid": "47bba10c-9756-4f0a-96ce-490da19c1e03",
+      "stop": 1774877952236
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877952237,
+      "name": "Homepage navigation duration 21.299999999813735ms exceeded MAX_PAGE_LOAD_MS=10000ms",
+      "uuid": "96917d14-21d1-4a88-b0f3-805e36d858d9",
+      "stop": 1774877952237
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n",
+        "trace": "Error: page.goto: net::ERR_FAILED at https://www.fedramp.gov/__qa_non_existent_1774877952237__\nCall log:\n  - navigating to \"https://www.fedramp.gov/__qa_non_existent_1774877952237__\", waiting until \"domcontentloaded\"\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/09_404_and_performance_smoke.spec.ts:16:31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877952237,
+      "name": "Navigate to \"/__qa_non_existent_1774877952237__\"",
+      "uuid": "e9bb8054-eb31-426c-b774-aab891d84e18",
+      "stop": 1774877952243
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "d01706a8-3472-47cf-b04c-d75d82ec11da-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774877952368,
+      "name": "screenshot",
+      "stop": 1774877952368
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "717e97c2-47b1-4228-ac26-b78d89121da7-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774877952368,
+      "name": "video",
+      "stop": 1774877952368
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877952306,
+          "uuid": "d8c5ea88-68e1-4f23-94f0-fee8089c52fc",
+          "stop": 1774877952306
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877952306,
+          "uuid": "4233eddd-cd3c-40ca-a47c-0936f0af4152",
+          "stop": 1774877952306
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877952315,
+              "uuid": "847f410a-4257-4cfa-bc4d-ffea9c98b866",
+              "stop": 1774877952348
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877952306,
+          "uuid": "8a73e6af-34c4-4c91-a7e7-1e76e1473f1c",
+          "stop": 1774877952349
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877952244,
+      "uuid": "eb7a5f10-8d18-4930-a6e9-8a63e61eb1b5",
+      "stop": 1774877952350
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.09_404_and_performance_smoke.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > ui/09_404_and_performance_smoke.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18410-worker-4" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "ui/09_404_and_performance_smoke.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877952149,
+  "testCaseId": "369cad484b71b6dd27c049b6b504c922",
+  "fullName": "ui/09_404_and_performance_smoke.spec.ts:5:5",
+  "titlePath": ["ui", "09_404_and_performance_smoke.spec.ts"],
+  "stop": 1774877952342
+}

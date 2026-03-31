@@ -29,4 +29,3 @@ export class UpdatesSection extends BasePage {
     await this.heading.first().waitFor({ state: 'visible' });
   }
 }
-

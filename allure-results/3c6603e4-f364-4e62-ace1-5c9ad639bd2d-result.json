@@ -1,1 +1,276 @@
-{"uuid":"3c6603e4-f364-4e62-ace1-5c9ad639bd2d","name":"F7: Join / Newsletter subscription form (validation + success)","historyId":"edce137c693346abcaed038758a11daa:84e28e814b821ed013329cc8dbc467e0","status":"skipped","statusDetails":{"message":"Join CTA control not found (button/link)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774878004970,"uuid":"edccf769-942c-4db1-8b18-aff77d4b25bb","stop":1774878005150}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774878004968,"uuid":"6ed2c3f3-f05e-49fa-8550-5d4df7da5bdf","stop":1774878005150},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774878005151,"uuid":"cf05eddd-7df6-49a9-8696-8bea769effb8","stop":1774878005192}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774878005150,"uuid":"28cb2e65-7fa4-407c-8853-3a5aa20d6ed4","stop":1774878005193},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774878005195,"uuid":"e7f434ec-5db1-49c9-82e0-f73ec56c96f2","stop":1774878005487}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878005193,"uuid":"4f050adf-3126-48c3-a430-047307f7c924","stop":1774878005487},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878005487,"uuid":"c0fba127-d9f1-407d-ab50-ebc277e9d592","stop":1774878005502},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774878005508,"uuid":"f8908227-a4a1-4986-a5ce-caf2931685b7","stop":1774878005529}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774878005502,"uuid":"fbe9414b-bc8e-44b6-b585-14689e42d368","stop":1774878005530}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774878004963,"uuid":"332f2d92-9309-464c-9e7d-6a5d66a8543f","stop":1774878005530},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878005535,"name":"Query count locator('input[type=\"email\"], input[name=\"email\"], input[aria-label*=\"email\" i]').first()","uuid":"6581338c-1c06-40a2-8db8-fb6d727fc865","stop":1774878005549},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878005551,"name":"Query count getByRole('button', { name: /Subscribe|Join/i }).first()","uuid":"7bbb047e-1a28-4663-8b71-d79a7c02d622","stop":1774878005553},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774878005553,"name":"Query count getByRole('link', { name: /Subscribe|Join/i }).first()","uuid":"882b4c71-4cd2-46bd-8037-26a9505e9acf","stop":1774878005556},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1774878005557,"uuid":"094924d0-596b-49f2-b77f-096dda4f7902","stop":1774878005561}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774878005557,"uuid":"dcdbbd56-1dd0-489e-9310-7d68633c7b94","stop":1774878005561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878005561,"uuid":"fef8c8df-d957-43a2-9fe3-642770190a4a","stop":1774878005561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774878005561,"uuid":"c20c6f46-9257-41b1-9a6e-ead08827b9ef","stop":1774878005561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774878005564,"uuid":"bdf85cb4-32bb-442d-8008-3f5b37ef0276","stop":1774878005603}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774878005561,"uuid":"dac24ce3-771a-4283-a6da-c61392cc52bb","stop":1774878005603}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774878005556,"uuid":"0854090b-2839-406c-8ba4-be7aafa6ad40","stop":1774878005605}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.06_join_newsletter.spec.ts"},{"name":"titlePath","value":" > webkit > ui/06_join_newsletter.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18410-worker-3"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"ui/06_join_newsletter.spec.ts"}],"links":[],"start":1774878004958,"testCaseId":"edce137c693346abcaed038758a11daa","fullName":"ui/06_join_newsletter.spec.ts:4:5","titlePath":["ui","06_join_newsletter.spec.ts"],"stop":1774878005410}
+{
+  "uuid": "3c6603e4-f364-4e62-ace1-5c9ad639bd2d",
+  "name": "F7: Join / Newsletter subscription form (validation + success)",
+  "historyId": "edce137c693346abcaed038758a11daa:84e28e814b821ed013329cc8dbc467e0",
+  "status": "skipped",
+  "statusDetails": { "message": "Join CTA control not found (button/link)" },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774878004970,
+              "uuid": "edccf769-942c-4db1-8b18-aff77d4b25bb",
+              "stop": 1774878005150
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774878004968,
+          "uuid": "6ed2c3f3-f05e-49fa-8550-5d4df7da5bdf",
+          "stop": 1774878005150
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774878005151,
+              "uuid": "cf05eddd-7df6-49a9-8696-8bea769effb8",
+              "stop": 1774878005192
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774878005150,
+          "uuid": "28cb2e65-7fa4-407c-8853-3a5aa20d6ed4",
+          "stop": 1774878005193
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774878005195,
+              "uuid": "e7f434ec-5db1-49c9-82e0-f73ec56c96f2",
+              "stop": 1774878005487
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878005193,
+          "uuid": "4f050adf-3126-48c3-a430-047307f7c924",
+          "stop": 1774878005487
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878005487,
+          "uuid": "c0fba127-d9f1-407d-ab50-ebc277e9d592",
+          "stop": 1774878005502
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774878005508,
+              "uuid": "f8908227-a4a1-4986-a5ce-caf2931685b7",
+              "stop": 1774878005529
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774878005502,
+          "uuid": "fbe9414b-bc8e-44b6-b585-14689e42d368",
+          "stop": 1774878005530
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774878004963,
+      "uuid": "332f2d92-9309-464c-9e7d-6a5d66a8543f",
+      "stop": 1774878005530
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878005535,
+      "name": "Query count locator('input[type=\"email\"], input[name=\"email\"], input[aria-label*=\"email\" i]').first()",
+      "uuid": "6581338c-1c06-40a2-8db8-fb6d727fc865",
+      "stop": 1774878005549
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878005551,
+      "name": "Query count getByRole('button', { name: /Subscribe|Join/i }).first()",
+      "uuid": "7bbb047e-1a28-4663-8b71-d79a7c02d622",
+      "stop": 1774878005553
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774878005553,
+      "name": "Query count getByRole('link', { name: /Subscribe|Join/i }).first()",
+      "uuid": "882b4c71-4cd2-46bd-8037-26a9505e9acf",
+      "stop": 1774878005556
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1774878005557,
+              "uuid": "094924d0-596b-49f2-b77f-096dda4f7902",
+              "stop": 1774878005561
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774878005557,
+          "uuid": "dcdbbd56-1dd0-489e-9310-7d68633c7b94",
+          "stop": 1774878005561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878005561,
+          "uuid": "fef8c8df-d957-43a2-9fe3-642770190a4a",
+          "stop": 1774878005561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774878005561,
+          "uuid": "c20c6f46-9257-41b1-9a6e-ead08827b9ef",
+          "stop": 1774878005561
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774878005564,
+              "uuid": "bdf85cb4-32bb-442d-8008-3f5b37ef0276",
+              "stop": 1774878005603
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774878005561,
+          "uuid": "dac24ce3-771a-4283-a6da-c61392cc52bb",
+          "stop": 1774878005603
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774878005556,
+      "uuid": "0854090b-2839-406c-8ba4-be7aafa6ad40",
+      "stop": 1774878005605
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.06_join_newsletter.spec.ts" },
+    { "name": "titlePath", "value": " > webkit > ui/06_join_newsletter.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18410-worker-3" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "ui/06_join_newsletter.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774878004958,
+  "testCaseId": "edce137c693346abcaed038758a11daa",
+  "fullName": "ui/06_join_newsletter.spec.ts:4:5",
+  "titlePath": ["ui", "06_join_newsletter.spec.ts"],
+  "stop": 1774878005410
+}

@@ -1,1 +1,163 @@
-{"uuid":"f08d3dc7-d193-42b3-9a56-e41788c98b22","name":"CSV-driven API endpoint checks","historyId":"dc775c47faeb10e30c2a3c8316694a14:b444eb0fbe6390c71e68b51dd25701fc","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774879267513,"uuid":"047dfe92-91c5-446f-8a51-bb66ecdc1e2d","stop":1774879267516}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774879267513,"uuid":"a70ab008-0f32-4e45-bed6-688f8ec37edc","stop":1774879267516},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774879267517,"uuid":"854f40e2-7b0b-48b3-a0ad-257cd47fcf84","stop":1774879267520}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774879267510,"uuid":"53838c94-605a-4581-aa90-663c253c2cfd","stop":1774879267520},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774879267524,"name":"homepage expected 200-399","uuid":"47363ce3-b743-453a-88df-abff8b760398","stop":1774879267525},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774879267525,"name":"homepage expected 200-399","uuid":"41c8185a-b8f1-4568-aae8-902d90bf10e5","stop":1774879267525},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774879267525,"name":"robots expected 200-399","uuid":"45f1cb67-5309-43e8-888f-e0e2ce63bf46","stop":1774879267525},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774879267526,"name":"robots expected 200-399","uuid":"b3422970-57a2-471e-93e9-446e3a7df152","stop":1774879267526},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774879267526,"uuid":"e1952fc0-0b6f-4fa0-92ad-600f583b4fc3","stop":1774879267526},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774879267526,"uuid":"faa78fb7-ea13-4190-a54d-2a2c75e3fcad","stop":1774879267529}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774879267526,"uuid":"b05e64e0-2147-4065-acd1-45ac1c3f3fae","stop":1774879267531}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"data.02_data_driven_api_endpoints.spec.ts"},{"name":"titlePath","value":" > firefox > data/02_data_driven_api_endpoints.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-33255-worker-0"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"data/02_data_driven_api_endpoints.spec.ts"}],"links":[],"start":1774879267509,"testCaseId":"dc775c47faeb10e30c2a3c8316694a14","fullName":"data/02_data_driven_api_endpoints.spec.ts:12:5","titlePath":["data","02_data_driven_api_endpoints.spec.ts"],"stop":1774879267525}
+{
+  "uuid": "f08d3dc7-d193-42b3-9a56-e41788c98b22",
+  "name": "CSV-driven API endpoint checks",
+  "historyId": "dc775c47faeb10e30c2a3c8316694a14:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774879267513,
+              "uuid": "047dfe92-91c5-446f-8a51-bb66ecdc1e2d",
+              "stop": 1774879267516
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774879267513,
+          "uuid": "a70ab008-0f32-4e45-bed6-688f8ec37edc",
+          "stop": 1774879267516
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774879267517,
+          "uuid": "854f40e2-7b0b-48b3-a0ad-257cd47fcf84",
+          "stop": 1774879267520
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774879267510,
+      "uuid": "53838c94-605a-4581-aa90-663c253c2cfd",
+      "stop": 1774879267520
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774879267524,
+      "name": "homepage expected 200-399",
+      "uuid": "47363ce3-b743-453a-88df-abff8b760398",
+      "stop": 1774879267525
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774879267525,
+      "name": "homepage expected 200-399",
+      "uuid": "41c8185a-b8f1-4568-aae8-902d90bf10e5",
+      "stop": 1774879267525
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774879267525,
+      "name": "robots expected 200-399",
+      "uuid": "45f1cb67-5309-43e8-888f-e0e2ce63bf46",
+      "stop": 1774879267525
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774879267526,
+      "name": "robots expected 200-399",
+      "uuid": "b3422970-57a2-471e-93e9-446e3a7df152",
+      "stop": 1774879267526
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774879267526,
+          "uuid": "e1952fc0-0b6f-4fa0-92ad-600f583b4fc3",
+          "stop": 1774879267526
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774879267526,
+          "uuid": "faa78fb7-ea13-4190-a54d-2a2c75e3fcad",
+          "stop": 1774879267529
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774879267526,
+      "uuid": "b05e64e0-2147-4065-acd1-45ac1c3f3fae",
+      "stop": 1774879267531
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "data.02_data_driven_api_endpoints.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > data/02_data_driven_api_endpoints.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-33255-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "data/02_data_driven_api_endpoints.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774879267509,
+  "testCaseId": "dc775c47faeb10e30c2a3c8316694a14",
+  "fullName": "data/02_data_driven_api_endpoints.spec.ts:12:5",
+  "titlePath": ["data", "02_data_driven_api_endpoints.spec.ts"],
+  "stop": 1774879267525
+}

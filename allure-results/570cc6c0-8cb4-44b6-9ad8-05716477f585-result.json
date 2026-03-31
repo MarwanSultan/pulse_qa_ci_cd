@@ -1,1 +1,82 @@
-{"uuid":"570cc6c0-8cb4-44b6-9ad8-05716477f585","name":"F2/F3: Marketplace CTA and summary metrics render","historyId":"df0de74d5d09297535343cf4896d0d62:84e28e814b821ed013329cc8dbc467e0","status":"failed","statusDetails":{},"stage":"finished","steps":[{"statusDetails":{},"stage":"running","steps":[{"status":"failed","statusDetails":{"message":"Fixture \"browser\" timeout of 0ms exceeded during setup.","trace":"Fixture \"browser\" timeout of 0ms exceeded during setup."},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"Fixture \"browser\" timeout of 0ms exceeded during setup.","trace":"Fixture \"browser\" timeout of 0ms exceeded during setup."},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774876212727,"uuid":"87fb2d16-6f85-4796-ba0a-8e66ef3272ed","stop":1774876323888}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774876212726,"uuid":"76fc4d84-b46d-4123-b98f-63341dd36fb9","stop":1774876323892}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774876212722,"uuid":"ecf844be-24cd-4ff9-b8db-0033cc004442"},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"After Hooks","start":1774876323888,"uuid":"fa57d0bb-1e20-4f10-9d3e-e88475ceaac8","stop":1774876323896}],"attachments":[],"parameters":[{"name":"Project","value":"webkit"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.02_marketplace_module_and_metrics.spec.ts"},{"name":"titlePath","value":" > webkit > ui/02_marketplace_module_and_metrics.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-4275-worker-4"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"ui/02_marketplace_module_and_metrics.spec.ts"}],"links":[],"start":1774876212720,"testCaseId":"df0de74d5d09297535343cf4896d0d62","fullName":"ui/02_marketplace_module_and_metrics.spec.ts:3:5","titlePath":["ui","02_marketplace_module_and_metrics.spec.ts"],"stop":1774876212721}
+{
+  "uuid": "570cc6c0-8cb4-44b6-9ad8-05716477f585",
+  "name": "F2/F3: Marketplace CTA and summary metrics render",
+  "historyId": "df0de74d5d09297535343cf4896d0d62:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Fixture \"browser\" timeout of 0ms exceeded during setup.",
+            "trace": "Fixture \"browser\" timeout of 0ms exceeded during setup."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Fixture \"browser\" timeout of 0ms exceeded during setup.",
+                "trace": "Fixture \"browser\" timeout of 0ms exceeded during setup."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774876212727,
+              "uuid": "87fb2d16-6f85-4796-ba0a-8e66ef3272ed",
+              "stop": 1774876323888
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774876212726,
+          "uuid": "76fc4d84-b46d-4123-b98f-63341dd36fb9",
+          "stop": 1774876323892
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774876212722,
+      "uuid": "ecf844be-24cd-4ff9-b8db-0033cc004442"
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774876323888,
+      "uuid": "fa57d0bb-1e20-4f10-9d3e-e88475ceaac8",
+      "stop": 1774876323896
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "titlePath", "value": " > webkit > ui/02_marketplace_module_and_metrics.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-4275-worker-4" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "ui/02_marketplace_module_and_metrics.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774876212720,
+  "testCaseId": "df0de74d5d09297535343cf4896d0d62",
+  "fullName": "ui/02_marketplace_module_and_metrics.spec.ts:3:5",
+  "titlePath": ["ui", "02_marketplace_module_and_metrics.spec.ts"],
+  "stop": 1774876212721
+}

@@ -1,1 +1,178 @@
-{"uuid":"26dc52b8-1a70-4a82-ad19-0dbe43ea02fb","name":"F4: FedRAMP 20x entry points navigate and render","historyId":"e50f2d75488bab2776de87c0469328bd:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877478995,"uuid":"6630f6c6-fb3a-4d7e-8670-1d98db025b65","stop":1774877479529}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877478994,"uuid":"d04fb6ee-d870-449f-8d63-c896b5f94939","stop":1774877479529},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877479530,"uuid":"f2341795-c789-4b41-a805-ba5e3c7531ac","stop":1774877479682}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877479529,"uuid":"b8f7195e-123d-466c-99ac-665114bbaf18","stop":1774877479682},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877479684,"uuid":"11351a89-830e-44db-99ef-cfdec995a11d","stop":1774877479987}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877479682,"uuid":"2fc8209f-a8b9-4658-954b-ff6e8104cb0d","stop":1774877479987}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877478986,"uuid":"9ac19c38-b236-4cda-898c-4c224de035e5","stop":1774877479987},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877479988,"uuid":"ed5c1948-ebe8-4c1c-8f0d-3ca319ee7474","stop":1774877479988},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877479991,"uuid":"086b407d-2d18-479a-a488-b9f457e69bb0","stop":1774877480025}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877479989,"uuid":"dbdff941-ed13-48f7-8f16-2d59265434a3","stop":1774877480027}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877479987,"uuid":"7ef47a45-bdad-4629-a4b6-2349339992e8","stop":1774877480031}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.03_fedramp_20x_entry_points.spec.ts"},{"name":"titlePath","value":" > firefox > ui/03_fedramp_20x_entry_points.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-13640-worker-4"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/03_fedramp_20x_entry_points.spec.ts"}],"links":[],"start":1774877478984,"testCaseId":"e50f2d75488bab2776de87c0469328bd","fullName":"ui/03_fedramp_20x_entry_points.spec.ts:3:5","titlePath":["ui","03_fedramp_20x_entry_points.spec.ts"],"stop":1774877479481}
+{
+  "uuid": "26dc52b8-1a70-4a82-ad19-0dbe43ea02fb",
+  "name": "F4: FedRAMP 20x entry points navigate and render",
+  "historyId": "e50f2d75488bab2776de87c0469328bd:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877478995,
+              "uuid": "6630f6c6-fb3a-4d7e-8670-1d98db025b65",
+              "stop": 1774877479529
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877478994,
+          "uuid": "d04fb6ee-d870-449f-8d63-c896b5f94939",
+          "stop": 1774877479529
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877479530,
+              "uuid": "f2341795-c789-4b41-a805-ba5e3c7531ac",
+              "stop": 1774877479682
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877479529,
+          "uuid": "b8f7195e-123d-466c-99ac-665114bbaf18",
+          "stop": 1774877479682
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877479684,
+              "uuid": "11351a89-830e-44db-99ef-cfdec995a11d",
+              "stop": 1774877479987
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877479682,
+          "uuid": "2fc8209f-a8b9-4658-954b-ff6e8104cb0d",
+          "stop": 1774877479987
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877478986,
+      "uuid": "9ac19c38-b236-4cda-898c-4c224de035e5",
+      "stop": 1774877479987
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877479988,
+          "uuid": "ed5c1948-ebe8-4c1c-8f0d-3ca319ee7474",
+          "stop": 1774877479988
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877479991,
+              "uuid": "086b407d-2d18-479a-a488-b9f457e69bb0",
+              "stop": 1774877480025
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877479989,
+          "uuid": "dbdff941-ed13-48f7-8f16-2d59265434a3",
+          "stop": 1774877480027
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877479987,
+      "uuid": "7ef47a45-bdad-4629-a4b6-2349339992e8",
+      "stop": 1774877480031
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.03_fedramp_20x_entry_points.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/03_fedramp_20x_entry_points.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-13640-worker-4" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/03_fedramp_20x_entry_points.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877478984,
+  "testCaseId": "e50f2d75488bab2776de87c0469328bd",
+  "fullName": "ui/03_fedramp_20x_entry_points.spec.ts:3:5",
+  "titlePath": ["ui", "03_fedramp_20x_entry_points.spec.ts"],
+  "stop": 1774877479481
+}

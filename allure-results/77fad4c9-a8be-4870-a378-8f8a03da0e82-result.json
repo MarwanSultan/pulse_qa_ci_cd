@@ -1,1 +1,209 @@
-{"uuid":"77fad4c9-a8be-4870-a378-8f8a03da0e82","name":"mobile","historyId":"d0ac62d9c015c7f102040c4f621a50c0:b444eb0fbe6390c71e68b51dd25701fc","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774625320731,"uuid":"86f41110-a44a-47cc-8b09-5f2260513f68","stop":1774625320733}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625320731,"uuid":"a325edfe-1c6c-4600-9339-45aba37ea2b6","stop":1774625320733},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774625320734,"uuid":"797b8259-1033-45dc-a5dd-3d60be6fd898","stop":1774625320842}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625320734,"uuid":"1117a995-834b-4b41-ab66-ef8f11da0c4e","stop":1774625320842}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774625320730,"uuid":"ae799ded-2d25-40cb-bc40-27d5b0f39e41","stop":1774625320842},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625320843,"name":"Set viewport size","uuid":"1183f743-d1d6-4969-b3a4-b707cf992023","stop":1774625320870},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625320870,"name":"Navigate to \"/\"","uuid":"a28a9d57-6efa-476a-be7c-4e6a9296b8b5","stop":1774625321631},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625321632,"name":"Expect \"toBeVisible\" getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i })","uuid":"414b6b2d-aab1-470b-b05a-180b4c0dc618","stop":1774625321657},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625321658,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"9f844893-d387-487c-81b9-4df17f3bd33e","stop":1774625321664},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774625321665,"name":"Expect \"toBeVisible\" getByRole('heading', { name: /Upcoming Events/i })","uuid":"76835d65-0927-45b3-b711-eec97d72e1d7","stop":1774625321668},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774625321668,"uuid":"27f93955-ab48-429f-b14e-dd936d4afa96","stop":1774625321668},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774625321678,"uuid":"902b46a6-6682-41e0-8bec-7656407be1e6","stop":1774625321706}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774625321669,"uuid":"f4452c6c-1d3e-41c6-96c8-4a930195115d","stop":1774625321707}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774625321668,"uuid":"da3e3f3c-7ca7-4c2e-8f9c-bab8037c03c7","stop":1774625321708}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.08_responsive_layout_smoke.spec.ts"},{"name":"titlePath","value":" > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-28648-worker-3"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/08_responsive_layout_smoke.spec.ts"},{"name":"subSuite","value":"F9: Responsive layout preserves critical modules"}],"links":[],"start":1774625320730,"testCaseId":"d0ac62d9c015c7f102040c4f621a50c0","fullName":"ui/08_responsive_layout_smoke.spec.ts:12:9","titlePath":["ui","08_responsive_layout_smoke.spec.ts","F9: Responsive layout preserves critical modules"],"stop":1774625321705}
+{
+  "uuid": "77fad4c9-a8be-4870-a378-8f8a03da0e82",
+  "name": "mobile",
+  "historyId": "d0ac62d9c015c7f102040c4f621a50c0:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774625320731,
+              "uuid": "86f41110-a44a-47cc-8b09-5f2260513f68",
+              "stop": 1774625320733
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625320731,
+          "uuid": "a325edfe-1c6c-4600-9339-45aba37ea2b6",
+          "stop": 1774625320733
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774625320734,
+              "uuid": "797b8259-1033-45dc-a5dd-3d60be6fd898",
+              "stop": 1774625320842
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625320734,
+          "uuid": "1117a995-834b-4b41-ab66-ef8f11da0c4e",
+          "stop": 1774625320842
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774625320730,
+      "uuid": "ae799ded-2d25-40cb-bc40-27d5b0f39e41",
+      "stop": 1774625320842
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625320843,
+      "name": "Set viewport size",
+      "uuid": "1183f743-d1d6-4969-b3a4-b707cf992023",
+      "stop": 1774625320870
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625320870,
+      "name": "Navigate to \"/\"",
+      "uuid": "a28a9d57-6efa-476a-be7c-4e6a9296b8b5",
+      "stop": 1774625321631
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625321632,
+      "name": "Expect \"toBeVisible\" getByRole('link', { name: /FedRAMP Marketplace|Browse Marketplace/i })",
+      "uuid": "414b6b2d-aab1-470b-b05a-180b4c0dc618",
+      "stop": 1774625321657
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625321658,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "9f844893-d387-487c-81b9-4df17f3bd33e",
+      "stop": 1774625321664
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774625321665,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: /Upcoming Events/i })",
+      "uuid": "76835d65-0927-45b3-b711-eec97d72e1d7",
+      "stop": 1774625321668
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774625321668,
+          "uuid": "27f93955-ab48-429f-b14e-dd936d4afa96",
+          "stop": 1774625321668
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774625321678,
+              "uuid": "902b46a6-6682-41e0-8bec-7656407be1e6",
+              "stop": 1774625321706
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774625321669,
+          "uuid": "f4452c6c-1d3e-41c6-96c8-4a930195115d",
+          "stop": 1774625321707
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774625321668,
+      "uuid": "da3e3f3c-7ca7-4c2e-8f9c-bab8037c03c7",
+      "stop": 1774625321708
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.08_responsive_layout_smoke.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > ui/08_responsive_layout_smoke.spec.ts > F9: Responsive layout preserves critical modules"
+    },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-28648-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/08_responsive_layout_smoke.spec.ts" },
+    { "name": "subSuite", "value": "F9: Responsive layout preserves critical modules" }
+  ],
+  "links": [],
+  "start": 1774625320730,
+  "testCaseId": "d0ac62d9c015c7f102040c4f621a50c0",
+  "fullName": "ui/08_responsive_layout_smoke.spec.ts:12:9",
+  "titlePath": [
+    "ui",
+    "08_responsive_layout_smoke.spec.ts",
+    "F9: Responsive layout preserves critical modules"
+  ],
+  "stop": 1774625321705
+}

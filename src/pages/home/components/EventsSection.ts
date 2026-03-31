@@ -29,4 +29,3 @@ export class EventsSection extends BasePage {
     return this.eventLinks().first();
   }
 }
-

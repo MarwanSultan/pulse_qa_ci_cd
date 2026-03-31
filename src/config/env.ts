@@ -3,6 +3,12 @@ import { z } from 'zod';
 // Allowed stages
 const StageSchema = z.enum(['dev', 'qa', 'staging', 'prod']);
 
+// Helper to coerce string 'true'/'false' to boolean
+const booleanString = z
+  .string()
+  .transform((val) => val.toLowerCase() === 'true')
+  .default('false');
+
 // Centralized environment configuration
 const envSchema = z.object({
   STAGE: StageSchema.default('qa'), // default if not set
@@ -15,6 +21,7 @@ const envSchema = z.object({
   MAX_PAGE_LOAD_MS: z.coerce.number().int().positive().default(10_000),
 
   API_BASE_URL: z.string().url().optional(),
+  USE_HTTP_MOCKS: booleanString,
 });
 
 // Parse environment variables
@@ -29,4 +36,5 @@ export const env = {
   expectTimeoutMs: parsed.EXPECT_TIMEOUT_MS,
   maxPageLoadMs: parsed.MAX_PAGE_LOAD_MS,
   apiBaseUrl: parsed.API_BASE_URL,
+  useHttpMocks: parsed.USE_HTTP_MOCKS,
 };

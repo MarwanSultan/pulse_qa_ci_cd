@@ -55,4 +55,3 @@ export class SiteFooter extends BasePage {
     }
   }
 }
-

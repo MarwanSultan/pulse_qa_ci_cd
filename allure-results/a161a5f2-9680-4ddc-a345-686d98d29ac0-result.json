@@ -1,1 +1,317 @@
-{"uuid":"a161a5f2-9680-4ddc-a345-686d98d29ac0","name":"F5: Updates & Changelog module and \"View full changelog\"","historyId":"2d02b3bd577fc047453d76380c851ae0:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:17:5"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774633045521,"uuid":"21a87c7c-9781-4834-9376-da8d83128b26","stop":1774633046045}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774633045519,"uuid":"9d6611a3-b08c-41ce-ab03-c66cdbaf7701","stop":1774633046045},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774633046047,"uuid":"73cb9edb-bc90-48ec-8a8d-186a7a1a910b","stop":1774633046184}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774633046046,"uuid":"eb462ae3-3e34-43a3-9d60-e3ed23a3b01e","stop":1774633046185},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774633046185,"uuid":"4bd0569d-6d4b-411f-acd6-544f7855d3f9","stop":1774633046823}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774633046185,"uuid":"b352f367-59bb-4b8d-92b7-28a27c840ea9","stop":1774633046823},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/\"","start":1774633046828,"uuid":"be94f038-f902-4ee0-ae0a-0c44bae48b6e","stop":1774633047612}],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774633046824,"uuid":"cbd48d76-ae8b-49c3-9ef9-203fe18fd35a","stop":1774633047613}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774633045515,"uuid":"8845ddc3-3855-4978-a972-2ffd67e00f7b","stop":1774633047613},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633047614,"name":"Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()","uuid":"409c3d72-fa98-4e8e-82dc-accd0c195b27","stop":1774633047640},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633047642,"name":"Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"7f4f8b04-7e28-4222-b25d-e63734b67d26","stop":1774633047650},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633047650,"name":"Wait for load state \"domcontentloaded\"","uuid":"f4ba1b1a-efb6-4f01-8a5b-21a235e851ff","stop":1774633047651},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633047651,"name":"Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()","uuid":"2075ccc6-1d52-4c17-a605-2a5a92717987","stop":1774633047739},{"status":"failed","statusDetails":{"message":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n","trace":"Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:17:5"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774633047740,"name":"Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i })","uuid":"dfd2a853-8921-43ec-b4af-e270e93a7fc9","stop":1774633047757},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"85921e02-5a5b-435c-aace-0988ffb3f890-attachment.png","type":"image/png"}],"parameters":[],"start":1774633048238,"name":"screenshot","stop":1774633048238},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"48c5dc15-770b-4cc5-bd10-bc657c404bab-attachment.webm","type":"video/webm"}],"parameters":[],"start":1774633048238,"name":"video","stop":1774633048238},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"a0836a8d-0f68-4b3f-8881-5a4dac90bc8b-attachment.md","type":"text/markdown"}],"parameters":[],"start":1774633048239,"name":"error-context","stop":1774633048239},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1774633047780,"uuid":"6214339e-0603-4eae-999a-f783777f2113","stop":1774633047780},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774633047780,"uuid":"9aaf1356-b3e1-43fb-92ef-e07e3cd819e3","stop":1774633047780},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774633047828,"uuid":"0e9e4f45-d171-4254-a439-b605a438ec9c","stop":1774633047882}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774633047780,"uuid":"31fe255a-766d-4ac0-943f-e42245ea3519","stop":1774633047883}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774633047758,"uuid":"e547b98a-7fd1-4a8a-a73e-851bb614d229","stop":1774633047887}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.04_updates_and_changelog.spec.ts"},{"name":"titlePath","value":" > firefox > ui/04_updates_and_changelog.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-97129-worker-4"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/04_updates_and_changelog.spec.ts"}],"links":[],"start":1774633045514,"testCaseId":"2d02b3bd577fc047453d76380c851ae0","fullName":"ui/04_updates_and_changelog.spec.ts:3:5","titlePath":["ui","04_updates_and_changelog.spec.ts"],"stop":1774633047351}
+{
+  "uuid": "a161a5f2-9680-4ddc-a345-686d98d29ac0",
+  "name": "F5: Updates & Changelog module and \"View full changelog\"",
+  "historyId": "2d02b3bd577fc047453d76380c851ae0:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:17:5"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774633045521,
+              "uuid": "21a87c7c-9781-4834-9376-da8d83128b26",
+              "stop": 1774633046045
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774633045519,
+          "uuid": "9d6611a3-b08c-41ce-ab03-c66cdbaf7701",
+          "stop": 1774633046045
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774633046047,
+              "uuid": "73cb9edb-bc90-48ec-8a8d-186a7a1a910b",
+              "stop": 1774633046184
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774633046046,
+          "uuid": "eb462ae3-3e34-43a3-9d60-e3ed23a3b01e",
+          "stop": 1774633046185
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774633046185,
+              "uuid": "4bd0569d-6d4b-411f-acd6-544f7855d3f9",
+              "stop": 1774633046823
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774633046185,
+          "uuid": "b352f367-59bb-4b8d-92b7-28a27c840ea9",
+          "stop": 1774633046823
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1774633046828,
+              "uuid": "be94f038-f902-4ee0-ae0a-0c44bae48b6e",
+              "stop": 1774633047612
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774633046824,
+          "uuid": "cbd48d76-ae8b-49c3-9ef9-203fe18fd35a",
+          "stop": 1774633047613
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774633045515,
+      "uuid": "8845ddc3-3855-4978-a972-2ffd67e00f7b",
+      "stop": 1774633047613
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633047614,
+      "name": "Wait for selector getByRole('heading', { name: /Latest Updates and Changelog/i }).first()",
+      "uuid": "409c3d72-fa98-4e8e-82dc-accd0c195b27",
+      "stop": 1774633047640
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633047642,
+      "name": "Expect \"toBeVisible\" locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "7f4f8b04-7e28-4222-b25d-e63734b67d26",
+      "stop": 1774633047650
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633047650,
+      "name": "Wait for load state \"domcontentloaded\"",
+      "uuid": "f4ba1b1a-efb6-4f01-8a5b-21a235e851ff",
+      "stop": 1774633047651
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633047651,
+      "name": "Click locator('section, [role=\"region\"], [data-testid]').filter({ has: getByRole('heading', { name: /Latest Updates and Changelog/i }) }).getByRole('link', { name: /View the full changelog/i }).first()",
+      "uuid": "2075ccc6-1d52-4c17-a605-2a5a92717987",
+      "stop": 1774633047739
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: /(Changelog|Updates)/i })\nExpected: visible\nError: strict mode violation: getByRole('heading', { name: /(Changelog|Updates)/i }) resolved to 2 elements:\n    1) <h3 class=\"changelog-header svelte-khabmc\">Latest Updates and Changelog</h3> aka getByRole('heading', { name: 'Latest Updates and Changelog' })\n    2) <h4 class=\"description svelte-khabmc\">Added RFCs 0026-0030 related to Rev5 updates and …</h4> aka getByRole('heading', { name: 'Added RFCs 0026-0030 related' })\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 15000ms\n  - waiting for getByRole('heading', { name: /(Changelog|Updates)/i })\n\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/ui/04_updates_and_changelog.spec.ts:17:5"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774633047740,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: /(Changelog|Updates)/i })",
+      "uuid": "dfd2a853-8921-43ec-b4af-e270e93a7fc9",
+      "stop": 1774633047757
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "85921e02-5a5b-435c-aace-0988ffb3f890-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633048238,
+      "name": "screenshot",
+      "stop": 1774633048238
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "48c5dc15-770b-4cc5-bd10-bc657c404bab-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633048238,
+      "name": "video",
+      "stop": 1774633048238
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "a0836a8d-0f68-4b3f-8881-5a4dac90bc8b-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1774633048239,
+      "name": "error-context",
+      "stop": 1774633048239
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1774633047780,
+          "uuid": "6214339e-0603-4eae-999a-f783777f2113",
+          "stop": 1774633047780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774633047780,
+          "uuid": "9aaf1356-b3e1-43fb-92ef-e07e3cd819e3",
+          "stop": 1774633047780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774633047828,
+              "uuid": "0e9e4f45-d171-4254-a439-b605a438ec9c",
+              "stop": 1774633047882
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774633047780,
+          "uuid": "31fe255a-766d-4ac0-943f-e42245ea3519",
+          "stop": 1774633047883
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774633047758,
+      "uuid": "e547b98a-7fd1-4a8a-a73e-851bb614d229",
+      "stop": 1774633047887
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.04_updates_and_changelog.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/04_updates_and_changelog.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-97129-worker-4" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/04_updates_and_changelog.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774633045514,
+  "testCaseId": "2d02b3bd577fc047453d76380c851ae0",
+  "fullName": "ui/04_updates_and_changelog.spec.ts:3:5",
+  "titlePath": ["ui", "04_updates_and_changelog.spec.ts"],
+  "stop": 1774633047351
+}

@@ -28,4 +28,3 @@ export async function readCsvFile<TSchema extends z.ZodTypeAny>(
 
   return rows.map((r) => rowSchema.parse(r));
 }
-

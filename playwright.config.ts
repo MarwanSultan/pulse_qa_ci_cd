@@ -1,5 +1,4 @@
 import { defineConfig, devices } from '@playwright/test';
-import { env } from './src/config/env';
 
 /**
  * Read environment variables from file.
@@ -13,37 +12,25 @@ import { env } from './src/config/env';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: 'tests',
+  testMatch: '**/{e2e,tests}/**/*.spec.ts',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  /* Enable parallelism in CI; tune with PW_WORKERS. */
-  workers: process.env.CI
-    ? Number.parseInt(process.env.PW_WORKERS ?? '4', 10)
-    : undefined,
+  /* Opt out of parallel tests on CI. */
+  workers: process.env.CI ? 1 : 10,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['html', { open: 'never', outputFolder: 'playwright-report' }],
-    ['json', { outputFile: 'test-results/playwright-report.json' }],
-    ['junit', { outputFile: 'test-results/junit.xml' }],
-    ['./tests/reporters/structuredReporter.ts'],
-  ],
-  outputDir: 'test-results',
-  expect: {
-    timeout: env.expectTimeoutMs,
-  },
+  reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    /* Base URL to use in actions like `await page.goto('')`. */
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'https://www.fedramp.gov/',
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    baseURL: env.baseUrl,
-    actionTimeout: env.actionTimeoutMs,
-    navigationTimeout: env.navigationTimeoutMs,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */

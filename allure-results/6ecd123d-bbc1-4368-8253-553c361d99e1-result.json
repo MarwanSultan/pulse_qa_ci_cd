@@ -1,1 +1,133 @@
-{"uuid":"6ecd123d-bbc1-4368-8253-553c361d99e1","name":"CSV-driven API endpoint checks","historyId":"dc775c47faeb10e30c2a3c8316694a14:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n","trace":"Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at Proxy.get (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/utils/mockApiContext.ts:72:27)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/02_data_driven_api_endpoints.spec.ts:16:27"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1774877877420,"uuid":"d0a6ee60-57fc-4308-b5bb-0d2bbf9806d6","stop":1774877877425}],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774877877417,"uuid":"66a1fa02-d15d-4ffa-9506-d9a326594b8a","stop":1774877877425},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774877877425,"uuid":"1d69bd61-c6cb-4ac2-b3d3-22f4fe764de3","stop":1774877877435}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877877413,"uuid":"2d0a7af4-4a73-4b06-af3f-a48d20dabe43","stop":1774877877435},{"status":"failed","statusDetails":{"message":"Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n","trace":"Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at Proxy.get (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/utils/mockApiContext.ts:72:27)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/02_data_driven_api_endpoints.spec.ts:16:27"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1774877877444,"name":"GET \"/\"","uuid":"35968272-0309-4d03-ac69-e9b50a8531c5","stop":1774877877458},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"api\"","start":1774877877459,"uuid":"beed7d5c-ad4e-459d-a801-2da30f9492b5","stop":1774877877459},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"request\"","start":1774877877459,"uuid":"a1f09e9b-ed7e-4573-a910-e0ff1ebd9b0f","stop":1774877877461}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877877459,"uuid":"6737f85d-b512-4ba9-af4b-0b91b321a5af","stop":1774877877464}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"data.02_data_driven_api_endpoints.spec.ts"},{"name":"titlePath","value":" > firefox > data/02_data_driven_api_endpoints.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18064-worker-0"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"data/02_data_driven_api_endpoints.spec.ts"}],"links":[],"start":1774877877410,"testCaseId":"dc775c47faeb10e30c2a3c8316694a14","fullName":"data/02_data_driven_api_endpoints.spec.ts:12:5","titlePath":["data","02_data_driven_api_endpoints.spec.ts"],"stop":1774877877454}
+{
+  "uuid": "6ecd123d-bbc1-4368-8253-553c361d99e1",
+  "name": "CSV-driven API endpoint checks",
+  "historyId": "dc775c47faeb10e30c2a3c8316694a14:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+    "trace": "Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at Proxy.get (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/utils/mockApiContext.ts:72:27)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/02_data_driven_api_endpoints.spec.ts:16:27"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1774877877420,
+              "uuid": "d0a6ee60-57fc-4308-b5bb-0d2bbf9806d6",
+              "stop": 1774877877425
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774877877417,
+          "uuid": "66a1fa02-d15d-4ffa-9506-d9a326594b8a",
+          "stop": 1774877877425
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774877877425,
+          "uuid": "1d69bd61-c6cb-4ac2-b3d3-22f4fe764de3",
+          "stop": 1774877877435
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877877413,
+      "uuid": "2d0a7af4-4a73-4b06-af3f-a48d20dabe43",
+      "stop": 1774877877435
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+        "trace": "Error: apiRequestContext.call: getaddrinfo ENOTFOUND www.fedramp.gov\nCall log:\n  - → GET https://www.fedramp.gov/\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0.1) Gecko/20100101 Firefox/146.0.1\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at Proxy.get (/Users/marwansultan/test_automation/pulse_qa_ci_cd/src/utils/mockApiContext.ts:72:27)\n    at /Users/marwansultan/test_automation/pulse_qa_ci_cd/tests/data/02_data_driven_api_endpoints.spec.ts:16:27"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1774877877444,
+      "name": "GET \"/\"",
+      "uuid": "35968272-0309-4d03-ac69-e9b50a8531c5",
+      "stop": 1774877877458
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1774877877459,
+          "uuid": "beed7d5c-ad4e-459d-a801-2da30f9492b5",
+          "stop": 1774877877459
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1774877877459,
+          "uuid": "a1f09e9b-ed7e-4573-a910-e0ff1ebd9b0f",
+          "stop": 1774877877461
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877877459,
+      "uuid": "6737f85d-b512-4ba9-af4b-0b91b321a5af",
+      "stop": 1774877877464
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "data.02_data_driven_api_endpoints.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > data/02_data_driven_api_endpoints.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18064-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "data/02_data_driven_api_endpoints.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877877410,
+  "testCaseId": "dc775c47faeb10e30c2a3c8316694a14",
+  "fullName": "data/02_data_driven_api_endpoints.spec.ts:12:5",
+  "titlePath": ["data", "02_data_driven_api_endpoints.spec.ts"],
+  "stop": 1774877877454
+}

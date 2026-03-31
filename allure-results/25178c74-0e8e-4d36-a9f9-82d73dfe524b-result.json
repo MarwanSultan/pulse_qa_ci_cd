@@ -1,1 +1,178 @@
-{"uuid":"25178c74-0e8e-4d36-a9f9-82d73dfe524b","name":"F8: Footer legal/disclaimer links resolve successfully","historyId":"c46bb762446f2036b132ee24af05b410:b444eb0fbe6390c71e68b51dd25701fc","status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1774877880656,"uuid":"b8240aa5-80c9-44ad-8371-89948da96505","stop":1774877881273}],"attachments":[],"parameters":[],"name":"Fixture \"browser\"","start":1774877880654,"uuid":"e65859a9-29c0-427c-b800-e36ae6195c22","stop":1774877881273},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1774877881277,"uuid":"1bc21f5c-4234-45a0-911c-37e03d8ca886","stop":1774877881448}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877881275,"uuid":"4f532027-ef20-43a8-9fc2-0194b234c673","stop":1774877881449},{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')","trace":"TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1774877881451,"uuid":"4ad6fa07-965f-4f8d-b449-864a2642c2e7","stop":1774877881760}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877881449,"uuid":"8e1edec7-62b3-4055-9077-9c0ff9bbf970","stop":1774877881760}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1774877880650,"uuid":"18c84603-456c-4000-8a2d-d2acc59a3ec8","stop":1774877881761},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1774877881761,"uuid":"8ebd58eb-520b-43aa-bfcd-b252d17674a9","stop":1774877881761},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1774877881764,"uuid":"1d459642-f3aa-422a-a46e-fc253d1bfa9a","stop":1774877881795}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1774877881761,"uuid":"ee01e04c-be6b-49e4-8d89-f1dacbdfef97","stop":1774877881796}],"attachments":[],"parameters":[],"name":"After Hooks","start":1774877881761,"uuid":"4c49a114-6ec9-421a-8f72-776918867f0d","stop":1774877881799}],"attachments":[],"parameters":[{"name":"Project","value":"firefox"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"ui.07_footer_links.spec.ts"},{"name":"titlePath","value":" > firefox > ui/07_footer_links.spec.ts"},{"name":"host","value":"Mac"},{"name":"thread","value":"pid-18064-worker-1"},{"name":"parentSuite","value":"firefox"},{"name":"suite","value":"ui/07_footer_links.spec.ts"}],"links":[],"start":1774877880641,"testCaseId":"c46bb762446f2036b132ee24af05b410","fullName":"ui/07_footer_links.spec.ts:3:5","titlePath":["ui","07_footer_links.spec.ts"],"stop":1774877881162}
+{
+  "uuid": "25178c74-0e8e-4d36-a9f9-82d73dfe524b",
+  "name": "F8: Footer legal/disclaimer links resolve successfully",
+  "historyId": "c46bb762446f2036b132ee24af05b410:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+    "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+        "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1774877880656,
+              "uuid": "b8240aa5-80c9-44ad-8371-89948da96505",
+              "stop": 1774877881273
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1774877880654,
+          "uuid": "e65859a9-29c0-427c-b800-e36ae6195c22",
+          "stop": 1774877881273
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1774877881277,
+              "uuid": "1bc21f5c-4234-45a0-911c-37e03d8ca886",
+              "stop": 1774877881448
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877881275,
+          "uuid": "4f532027-ef20-43a8-9fc2-0194b234c673",
+          "stop": 1774877881449
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+            "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')",
+                "trace": "TypeError: browserContext.newPage: Cannot read properties of undefined (reading '_page')"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1774877881451,
+              "uuid": "4ad6fa07-965f-4f8d-b449-864a2642c2e7",
+              "stop": 1774877881760
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877881449,
+          "uuid": "8e1edec7-62b3-4055-9077-9c0ff9bbf970",
+          "stop": 1774877881760
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1774877880650,
+      "uuid": "18c84603-456c-4000-8a2d-d2acc59a3ec8",
+      "stop": 1774877881761
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1774877881761,
+          "uuid": "8ebd58eb-520b-43aa-bfcd-b252d17674a9",
+          "stop": 1774877881761
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1774877881764,
+              "uuid": "1d459642-f3aa-422a-a46e-fc253d1bfa9a",
+              "stop": 1774877881795
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1774877881761,
+          "uuid": "ee01e04c-be6b-49e4-8d89-f1dacbdfef97",
+          "stop": 1774877881796
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1774877881761,
+      "uuid": "4c49a114-6ec9-421a-8f72-776918867f0d",
+      "stop": 1774877881799
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.07_footer_links.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > ui/07_footer_links.spec.ts" },
+    { "name": "host", "value": "Mac" },
+    { "name": "thread", "value": "pid-18064-worker-1" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "ui/07_footer_links.spec.ts" }
+  ],
+  "links": [],
+  "start": 1774877880641,
+  "testCaseId": "c46bb762446f2036b132ee24af05b410",
+  "fullName": "ui/07_footer_links.spec.ts:3:5",
+  "titlePath": ["ui", "07_footer_links.spec.ts"],
+  "stop": 1774877881162
+}

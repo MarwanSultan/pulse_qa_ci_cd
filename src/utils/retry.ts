@@ -7,12 +7,7 @@ export async function retryAsync<T>(
     shouldRetry?: (error: unknown) => boolean;
   },
 ): Promise<T> {
-  const {
-    retries,
-    baseDelayMs = 250,
-    factor = 2,
-    shouldRetry = () => true,
-  } = options;
+  const { retries, baseDelayMs = 250, factor = 2, shouldRetry = () => true } = options;
 
   for (let attempt = 1; attempt <= retries + 1; attempt += 1) {
     try {
@@ -28,4 +23,3 @@ export async function retryAsync<T>(
   // Unreachable, but keeps TypeScript happy.
   throw new Error('retryAsync: exhausted retries');
 }
-

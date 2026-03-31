@@ -5,4 +5,3 @@ export function makeUniqueEmail(prefix = 'qa'): string {
   const domain = faker.internet.domainName().replace(/\./g, '-');
   return `${prefix}.${timestamp}@${domain}.example`;
 }
-
